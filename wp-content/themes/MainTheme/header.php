@@ -54,9 +54,10 @@
             </a>
           </li>
           <li>
-            <a href="<?php echo esc_url(home_url('contact')); ?>" class="bold">
-              お問い合わせ
-            </a>
+            <div class="c-btn">
+              <div class="l-header-contact bold">お問い合わせ</div>
+              <div class="l-header-contact-blue c-btn-blue bold"><a href="">CONTACT</a></div>
+            </div>
           </li>
         </ul>
       </nav>

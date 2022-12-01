@@ -1,25 +1,11 @@
 @use "../../global" as global;
 
 .c-btn {
+    display: block;
 }
 
-.c-btn__black {
-
-    a{
-        display: inline-block;
-        background-color: #232323;
-        color: global.$c--white;
-        height: 45px;
-        line-height: 45px;
-        font-size: 18px;
-        width: 150px;
-    }
-}
-
-.c-btn__blue {
-
-    a{
-
+.c-btn-blue {
+    a {
         position: relative;
         display: inline-block;
         background-color: global.$c--accent;
@@ -27,10 +13,9 @@
         height: 45px;
         line-height: 45px;
         font-size: 22px;
-        width: 150px;
         letter-spacing: 0;
 
-        &::before{
+        &::before {
             content: "";
             position: absolute;
             background-image: url(#{global.$path_img}/svg/arrow-white.svg);

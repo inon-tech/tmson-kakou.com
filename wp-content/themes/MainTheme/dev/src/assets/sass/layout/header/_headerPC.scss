@@ -35,7 +35,7 @@
 
   li {
     display: block;
-    font-size: 18px;
+    font-size: 17px;
     color: #545454;
 
     &:not(:first-child) {
@@ -45,21 +45,36 @@
       }
     }
 
+    a {
+      padding-right: 20px;
+      letter-spacing: 0;
+    }
+
     &:last-child {
-      a {
+      position: relative;
+      .l-header-contact {
         background-color: #232323;
         border-left: none;
         color: global.$c--white;
         padding-top: 13.5px;
         padding-bottom: 13.5px;
-        padding-left: 32px;
-        padding-right: 40px;
+        padding-left: 30px;
+        padding-right: 36px;
+        line-height: 1;
+        letter-spacing: 0;
+      }
+
+      .l-header-contact-blue {
+        position: absolute;
+        bottom: -45px;
+        right: 0;
+        width: 100%;
+        a {
+          padding-left: 20px;
+          padding-right: 40px;
+          border-left: none !important;
+        }
       }
     }
-  }
-
-  a {
-    letter-spacing: 0em;
-    padding-right: 20px;
   }
 }
