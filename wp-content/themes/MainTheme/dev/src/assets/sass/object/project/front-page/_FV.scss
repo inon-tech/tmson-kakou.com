@@ -31,8 +31,34 @@
     z-index: 5;
     top: 0;
     right: 0;
+
     a {
-      display: block;
+      display: inline-block;
+      position: relative;
+      background-color: global.$c--accent;
+      color: global.$c--white;
+      font-size: 24px;
+      padding-right: 40px;
+      padding-left: 22px;
+      line-height: 1;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      letter-spacing: 0em;
+
+      &::before {
+        content: "";
+        position: absolute;
+        background-image: url(#{global.$path_img}/svg/arrow-white.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+        z-index: 15;
+        height: 32px;
+        width: 20px;
+      }
     }
   }
 
@@ -74,10 +100,34 @@
   }
 
   .p-frontFVNews__btnBlue {
+    position: relative;
     a {
       display: block;
+      position: relative;
+      background-color: global.$c--accent;
+      color: global.$c--white;
+      font-size: 24px;
+      padding-right: 40px;
+      padding-left: 22px;
+      line-height: 1;
+      letter-spacing: 0em;
       padding-top: 31.25px;
       padding-bottom: 31.25px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        background-image: url(#{global.$path_img}/svg/arrow-white.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+        z-index: 15;
+        height: 32px;
+        width: 20px;
+      }
     }
   }
 }
@@ -89,9 +139,9 @@
   padding-top: 30px;
   padding-bottom: 30px;
 
-  a{
+  a {
     display: inline-block;
-    &:not(:nth-child(1)){
+    &:not(:nth-child(1)) {
       padding-top: 10px;
     }
   }
@@ -109,7 +159,6 @@
   height: 31px;
   line-height: 31px;
   align-items: center;
-
 }
 
 .p-frontFVNews__time {
@@ -124,17 +173,17 @@
   letter-spacing: 0.15em;
   padding-right: 120px;
 
-    &::before {
-      content: "";
-      position: absolute;
-      background-image: url(#{global.$path_img}/svg/arrow-black.svg);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      top: 50%;
-      transform: translateY(-50%);
-      right: 0px;
-      height: 31px;
-      width: 19px;
-    }
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(#{global.$path_img}/svg/arrow-black.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    height: 31px;
+    width: 19px;
+  }
 }

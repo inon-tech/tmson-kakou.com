@@ -19,16 +19,16 @@
 .c-btn__blue {
 
     a{
+
         position: relative;
+        display: inline-block;
         background-color: global.$c--accent;
         color: global.$c--white;
-        font-size: 24px;
-        padding-right: 40px;
-        padding-left: 22px;
-        line-height: 1;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        letter-spacing: 0em;
+        height: 45px;
+        line-height: 45px;
+        font-size: 22px;
+        width: 150px;
+        letter-spacing: 0;
 
         &::before{
             content: "";
