@@ -1,1 +1,48 @@
 @use "../../global" as global;
+
+.l-footer {
+}
+
+.l-footer__wrap {
+  background-color: #3f4145;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 0px;
+  h1 {
+    font-size: 25px;
+  }
+
+  a {
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+    padding-left: 40px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(#{global.$path_img}normal/1x/common/tel.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0px;
+      z-index: 15;
+      height: 30px;
+      width: 30px;
+    }
+  }
+}
+
+.l-footer__access {
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 2;
+}
+
+.l-footer__time {
+  font-size: 10px;
+}
