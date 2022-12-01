@@ -24,5 +24,44 @@
 
 <body>
   <header class="l-header">
-    
+    <div class="l-headerPC">
+      <div class="l-headerPC__logo"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/public/img/normal/1x/common/rectangle.png" alt=""></div>
+      <nav class="l-headerPC__nav">
+        <ul>
+          <li>
+            <a href="<?php echo esc_url(home_url('company')); ?>" class="bold">
+              会社概要
+            </a>
+          </li>
+          <li>
+            <a href="<?php echo esc_url(home_url('one-stop')); ?>" class="bold">
+              テムソンの強み
+            </a>
+          </li>
+          <li>
+            <a href="<?php echo esc_url(home_url('facility')); ?>" class="bold">
+              主要設備紹介
+            </a>
+          </li>
+          <li>
+            <a href="" class="bold">
+              お知らせ
+            </a>
+          </li>
+          <li>
+            <a href="" class="bold">
+              採用情報
+            </a>
+          </li>
+          <li>
+            <a href="<?php echo esc_url(home_url('contact')); ?>" class="bold">
+              お問い合わせ
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="l-headerSP">
+
+    </div>
   </header>

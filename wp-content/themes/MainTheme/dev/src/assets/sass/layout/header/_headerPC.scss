@@ -1,1 +1,60 @@
 @use "../../global" as global;
+
+.l-header {
+}
+
+.l-headerPC {
+  display: flex;
+  height: 45px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: global.$c--white;
+  position: fixed;
+}
+
+.l-headerPC__logo {
+  width: 300px;
+  height: 45px;
+  img {
+    width: 300px;
+    height: 45px;
+  }
+}
+
+.l-headerPC__nav {
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 45px;
+  }
+
+  li {
+    display: block;
+    font-size: 18px;
+    color: #545454;
+
+    &:not(:first-child) {
+      a {
+        padding-left: 20px;
+        border-left: 1px solid #545454;
+      }
+    }
+
+    &:last-child {
+      a {
+        background-color: #232323;
+        border-left: none;
+        color: global.$c--white;
+        padding-top: 13.5px;
+        padding-bottom: 13.5px;
+      }
+    }
+  }
+
+  a {
+    letter-spacing: 0em;
+    padding-right: 20px;
+  }
+}
