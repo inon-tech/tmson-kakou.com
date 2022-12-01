@@ -11,19 +11,8 @@ html {
 body {
 	font-family: global.$f--gothic;
 	letter-spacing: 0em;
-	margin-top: 110px;
 	background-color: global.$c--white;
 	color: global.$c--text;
-
-	@include global.min-screen(1600px) {
-		max-width: 1600px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	@include global.max-screen(global.$breakpoint_tb) {
-		margin-top: 55px;
-	 }
 }
 
 main {
@@ -40,12 +29,26 @@ main {
 
 @include global.max-screen(global.$breakpoint_tb) {
 	.Tab-none {
-			display: none;
+		display: none;
 	}
 }
 
 @include global.min-screen(global.$breakpoint_tb) {
 	.PC-none {
-			display: none;
+		display: none;
 	}
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	list-style: none;
 }
