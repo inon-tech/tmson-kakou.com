@@ -124,8 +124,8 @@ Template Name:front-page
     <div class="l-inner">
       <div class="p-frontRecruit__topWrap">
         <h2 class="p-frontRecruit__title"><img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-Recruit-title.png" alt=""></h2>
-        <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。<br>
-          文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、<br>
+        <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
+          文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
           行間等を確認するために入れています。
         </p>
         <div class="p-frontRecruit__btn c-btn">
