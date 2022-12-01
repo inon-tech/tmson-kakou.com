@@ -18,7 +18,7 @@ Template Name:front-page
     </div>
 
     <div class="p-frontFV__right">
-      <div class="p-frontFV__btn c-btn__blue bold">
+      <div class="p-frontFV__btn bold">
         <a href="">CONTACT</a>
       </div>
       <h2>CUT and CREATE</h2>
@@ -38,7 +38,7 @@ Template Name:front-page
     <div class="p-frontFV__bottom">
       <div class="p-frontFVNews__btn c-btn">
         <div class="p-frontFVNews__btnBlack c-btn__black bold"><a href="">お知らせ</a></div>
-        <div class="p-frontFVNews__btnBlue c-btn__blue bold"><a href="">MORE</a></div>
+        <div class="p-frontFVNews__btnBlue bold"><a href="">MORE</a></div>
       </div>
 
       <div class="p-frontFV__news">
@@ -67,6 +67,29 @@ Template Name:front-page
         wp_reset_query(); ?>
       </div>
 
+  </section>
+
+  <section class="p-frontStrength">
+    <div class="p-frontStrength__wrap">
+      <div class="p-frontStrength__top">
+        <div class="p-frontStrength__topItem">
+          <span class="bold">紙図面、2D・3DCAD データから<br>
+            制作、加工、組立、納品まで一貫生産</span>
+        </div>
+      </div>
+      <div class="p-frontStrength__bottom">
+        <div class="p-frontStrength__bottomItem">
+          <span>テムソンの製品は、妻子ネイ設備と効率的な一貫システム、そして精密な加工技術と万全の品質管理のもとで<br>
+            生産されており、多くのお客様から高い評価をいただいております。凡用加工においては、フレキシブルな対応<br>
+            でニーズにお応えします。</span>
+
+          <div class="p-frontStrength__btn c-btn">
+            <div class="p-frontStrength__btnBlack c-btn__black bold"><a href="">テムソンの強み</a></div>
+            <div class="p-frontStrength__btnBlue c-btn__blue bold"><a href="">MORE</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </main>
 <?php get_footer(); ?>
