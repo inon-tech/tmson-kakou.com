@@ -119,5 +119,26 @@ Template Name:front-page
       </div>
     </div>
   </section>
+
+  <section class="p-frontRecruit">
+    <div class="l-inner">
+      <div class="p-frontRecruit__topWrap">
+        <h2 class="p-frontRecruit__title"><img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-Recruit-title.png" alt=""></h2>
+        <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。<br>
+          文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、<br>
+          行間等を確認するために入れています。
+        </p>
+        <div class="p-frontRecruit__btn c-btn">
+          <div class="p-frontRecruit__btnBlack c-btn-black bold">採用情報はこちら</div>
+          <div class="p-frontRecruit__btnBlue c-btn-blue bold"><a href="">MORE</a></div>
+        </div>
+      </div>
+      <div class="p-frontRecruit__imgWrap">
+        <div class="p-frontRecruit__item"></div>
+        <div class="p-frontRecruit__item"></div>
+        <div class="p-frontRecruit__item"></div>
+      </div>
+    </div>
+  </section>
 </main>
 <?php get_footer(); ?>
