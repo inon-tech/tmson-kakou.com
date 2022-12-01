@@ -34,7 +34,7 @@ jQuery(function () {
     scrollPosition = jQuery(window).height() + jQuery(window).scrollTop();
     footHeight = jQuery("footer").innerHeight();
     btnHeight = jQuery("#topBtn").innerHeight();
-    if (scrollHeight - scrollPosition <= footHeight) {
+    if (scrollHeight - scrollPosition <= footHeight - (btnHeight / 2)) {
       jQuery("#topBtn").css({
         position: "absolute",
         "bottom": footHeight - (btnHeight / 2) //下からfooterの高さ + 20px上げた位置に配置

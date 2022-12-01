@@ -2,7 +2,6 @@
 
 .l-footer {
   position: relative;
-  cursor: pointer;
 }
 
 .l-footer__wrap {
@@ -53,6 +52,7 @@
   position: fixed; /*固定*/
   z-index: 100;
   right: 100px;
+  cursor: pointer;
 }
 
 .l-footerTotop__arrow {
