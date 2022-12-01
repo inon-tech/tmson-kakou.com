@@ -1,0 +1,50 @@
+@use "../../../global" as global;
+
+.p-frontRecruit {
+  margin-top: 65px;
+}
+
+.p-frontRecruit__title {
+  img {
+    width: 355px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.p-frontRecruit__topWrap {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  p {
+    margin-top: 50px;
+    font-size: 16px;
+  }
+}
+
+.p-frontRecruit__btn {
+  text-align: right;
+}
+
+.p-frontRecruit__btnBlack {
+  text-align: center;
+}
+
+.p-frontRecruit__btnBlue {
+}
+
+.p-frontRecruit__imgWrap {
+  margin-top: 50px;
+  display: flex;
+  width: 1040px;
+}
+
+.p-frontRecruit__item {
+  width: 33.333333333%;
+  background-size: cover;
+  background-position: center;
+  height: 230px;
+  background-repeat: no-repeat;
+  background-image: url(#{global.$path_img}/normal/1x/common/rectangle.png);
+  position: relative;
+}
