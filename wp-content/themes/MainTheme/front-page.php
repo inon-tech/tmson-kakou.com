@@ -18,9 +18,6 @@ Template Name:front-page
     </div>
 
     <div class="p-frontFV__right">
-      <div class="p-frontFV__btn bold">
-        <a href="">CONTACT</a>
-      </div>
       <h2>CUT and CREATE</h2>
       <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-title.png" alt="">
       <p>「切る」「削る」という切削加工の本質で<br>
@@ -36,8 +33,8 @@ Template Name:front-page
     </div>
 
     <div class="p-frontFV__bottom">
-      <div class="p-frontFVNews__btn c-btn">
-        <div class="p-frontFVNews__btnBlack c-btn__black bold"><a href="">お知らせ</a></div>
+      <div class="p-frontFVNews__btn">
+        <div class="p-frontFVNews__btnBlack bold">お知らせ</div>
         <div class="p-frontFVNews__btnBlue bold"><a href="">MORE</a></div>
       </div>
 
@@ -84,8 +81,39 @@ Template Name:front-page
             でニーズにお応えします。</span>
 
           <div class="p-frontStrength__btn c-btn">
-            <div class="p-frontStrength__btnBlack c-btn__black bold"><a href="">テムソンの強み</a></div>
-            <div class="p-frontStrength__btnBlue c-btn__blue bold"><a href="">MORE</a></div>
+              <div class="p-frontStrength__btnBlack c-btn-black bold">テムソンの強み</div>
+              <div class="p-frontStrength__btnBlue c-btn-blue bold"><a href="">MORE</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-frontMenu">
+    <div class="p-frontMenu__wrap">
+      <div class="p-frontMenu__item">
+        <div class="p-frontMenu__btn">
+          <a class="c-btn" href="">
+            <div class="p-frontMenu__btnBlack c-btn__black bold">会社概要</div>
+            <div class="p-frontMenu__btnBlue c-btn__blue bold">MORE</div>
+          </a>
+        </div>
+      </div>
+      <div class="p-frontMenu__item">
+        <div class="p-frontMenu__itemTop">
+          <div class="p-frontMenu__btn c-btn">
+            <a class="c-btn" href="">
+              <div class="p-frontMenu__btnBlack c-btn__black bold">事業内容</div>
+              <div class="p-frontMenu__btnBlue c-btn__blue bold">MORE</div>
+            </a>
+          </div>
+        </div>
+        <div class="p-frontMenu__itemBottom">
+          <div class="p-frontMenu__btn">
+            <a class="c-btn" href="">
+              <div class="p-frontMenu__btnBlack c-btn__black bold">主要設備一覧</div>
+              <div class="p-frontMenu__btnBlue c-btn__blue bold">MORE</div>
+            </a>
           </div>
         </div>
       </div>
