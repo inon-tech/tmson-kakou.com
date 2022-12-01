@@ -1,23 +1,116 @@
 @use "../../../global" as global;
 
 .p-frontMenu {
+  margin-top: 65px;
 }
 
 .p-frontMenu__wrap {
+  display: flex;
 }
 
 .p-frontMenu__item {
-}
+  display: block;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 355px;
 
-.p-frontMenu__btn {
-}
+  &:nth-child(1) {
+    background-image: url(#{global.$path_img}/normal/1x/common/rectangle.png);
+    position: relative;
+    
+    .p-frontMenu__dark {
+      background: rgba(0, 0, 0, 0.5);
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      transition: 0.3s ease-in-out;
+      width: 100%;
 
-.p-frontMenu__btnBlack {
-  a {
+      &:hover {
+        background: rgba(0, 0, 255, 0);
+      }
+    }
+  }
+
+  .p-frontMenu__itemTop,
+  .p-frontMenu__itemBottom {
+    display: block;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50%;
+
+    .p-frontMenu__dark {
+      background: rgba(0, 0, 0, 0.5);
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      transition: 0.3s ease-in-out;
+      width: 100%;
+
+      &:hover {
+        background: rgba(0, 0, 255, 0);
+      }
+    }
+  }
+
+  .p-frontMenu__itemTop {
+    background-image: url(#{global.$path_img}/normal/1x/common/rectangle.png);
+  }
+
+  .p-frontMenu__itemBottom {
+    background-image: url(#{global.$path_img}/normal/1x/common/rectangle.png);
   }
 }
 
+.p-frontMenu__btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-frontMenu__btnBlack {
+  background-color: #232323;
+  border-left: none;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 40px;
+  font-size: 16px;
+  width: 150px;
+  display: inline-block;
+  height: 40px;
+  text-align: right;
+  padding-right: 20px;
+}
+
 .p-frontMenu__btnBlue {
-  a {
+  width: 150px;
+  position: relative;
+  display: inline-block;
+  background-color: global.$c--accent;
+  color: global.$c--white;
+  height: 40px;
+  line-height: 40px;
+  font-size: 22px;
+  letter-spacing: 0;
+  text-align: center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(#{global.$path_img}/svg/arrow-white.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    z-index: 15;
+    height: 32px;
+    width: 20px;
   }
 }

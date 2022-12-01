@@ -81,8 +81,8 @@ Template Name:front-page
             でニーズにお応えします。</span>
 
           <div class="p-frontStrength__btn c-btn">
-              <div class="p-frontStrength__btnBlack c-btn-black bold">テムソンの強み</div>
-              <div class="p-frontStrength__btnBlue c-btn-blue bold"><a href="">MORE</a></div>
+            <div class="p-frontStrength__btnBlack c-btn-black bold">テムソンの強み</div>
+            <div class="p-frontStrength__btnBlue c-btn-blue bold"><a href="">MORE</a></div>
           </div>
         </div>
       </div>
@@ -91,31 +91,31 @@ Template Name:front-page
 
   <section class="p-frontMenu">
     <div class="p-frontMenu__wrap">
-      <div class="p-frontMenu__item">
-        <div class="p-frontMenu__btn">
-          <a class="c-btn" href="">
-            <div class="p-frontMenu__btnBlack c-btn__black bold">会社概要</div>
-            <div class="p-frontMenu__btnBlue c-btn__blue bold">MORE</div>
-          </a>
-        </div>
-      </div>
-      <div class="p-frontMenu__item">
-        <div class="p-frontMenu__itemTop">
-          <div class="p-frontMenu__btn c-btn">
-            <a class="c-btn" href="">
-              <div class="p-frontMenu__btnBlack c-btn__black bold">事業内容</div>
-              <div class="p-frontMenu__btnBlue c-btn__blue bold">MORE</div>
-            </a>
-          </div>
-        </div>
-        <div class="p-frontMenu__itemBottom">
+      <a href="" class="p-frontMenu__item">
+        <div class="p-frontMenu__dark">
           <div class="p-frontMenu__btn">
-            <a class="c-btn" href="">
-              <div class="p-frontMenu__btnBlack c-btn__black bold">主要設備一覧</div>
-              <div class="p-frontMenu__btnBlue c-btn__blue bold">MORE</div>
-            </a>
+            <div class="p-frontMenu__btnBlack bold">会社概要</div>
+            <div class="p-frontMenu__btnBlue bold">MORE</div>
           </div>
         </div>
+      </a>
+      <div class="p-frontMenu__item">
+        <a href="" class="p-frontMenu__itemTop">
+          <div class="p-frontMenu__dark">
+            <div class="p-frontMenu__btn">
+              <div class="p-frontMenu__btnBlack bold">事業内容</div>
+              <div class="p-frontMenu__btnBlue bold">MORE</div>
+            </div>
+          </div>
+        </a>
+        <a href="" class="p-frontMenu__itemBottom">
+          <div class="p-frontMenu__dark">
+            <div class="p-frontMenu__btn">
+              <div class="p-frontMenu__btnBlack bold">主要設備一覧</div>
+              <div class="p-frontMenu__btnBlue bold">MORE</div>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </section>
