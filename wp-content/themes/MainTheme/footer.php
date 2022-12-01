@@ -10,6 +10,13 @@
       <p class="l-footer__time">平日 8:00〜17:00</p>
     </div>
   </div>
+
+  <div id="topBtn" class="l-footerTotop">
+    <div class="l-footerTotop__btn">
+      <div class="l-footerTotop__arrow"></div>
+      <div class="l-footerTotop__font bold">TOP</div>
+    </div>
+  </div>
 </footer>
 
 <?php wp_footer(); ?>
