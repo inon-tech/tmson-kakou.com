@@ -49,6 +49,17 @@ ul {
 	margin: 0;
 }
 
-li{
+li {
 	list-style: none;
+}
+
+main {
+	margin-top: 45px;
+}
+
+.line-clamp {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
 }

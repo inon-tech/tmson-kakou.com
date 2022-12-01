@@ -1,15 +1,48 @@
 @use "../../global" as global;
 
-.c-btn{
-    a {
+.c-btn {
+}
+
+.c-btn__black {
+
+    a{
         display: inline-block;
-        text-align: center;
-        background: global.$c--accent;
+        background-color: #232323;
         color: global.$c--white;
-        width: 300px;
-        height: 50px;
-        line-height: 50px;
-        text-decoration: none;
-        font-size: 20px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 18px;
+        width: 150px;
+    }
+}
+
+.c-btn__blue {
+
+    a{
+        position: relative;
+        background-color: global.$c--accent;
+        color: global.$c--white;
+        font-size: 24px;
+        padding-right: 40px;
+        padding-left: 22px;
+        line-height: 1;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        letter-spacing: 0em;
+
+        &::before{
+            content: "";
+            position: absolute;
+            background-image: url(#{global.$path_img}/svg/arrow-white.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 10px;
+            z-index: 15;
+            height: 32px;
+            width: 20px;
+        }
     }
 }

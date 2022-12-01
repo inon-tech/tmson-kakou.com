@@ -1,1 +1,140 @@
 @use "../../../global" as global;
+
+.p-frontFV {
+}
+
+.p-FV__wrap {
+  height: calc(100vh - 45px);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 3;
+}
+
+.p-frontFV__right {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  color: global.$c--white;
+  background: rgba(0, 0, 0, 0.5);
+  height: calc(100% - 45px);
+  width: 38.5715286%;
+  z-index: 4;
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 10px;
+
+  .p-frontFV__btn {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    a {
+      display: block;
+    }
+  }
+
+  h2 {
+    line-height: 1;
+    font-size: 40px;
+  }
+
+  img {
+    height: 160px;
+    margin-top: 10px;
+  }
+
+  p {
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 2;
+  }
+}
+
+.p-frontFV__bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  z-index: 5;
+  display: flex;
+}
+
+.p-frontFVNews__btn {
+  .p-frontFVNews__btnBlack {
+    text-align: center;
+
+    a {
+      height: 86.5px !important;
+      line-height: 86.5px !important;
+    }
+  }
+
+  .p-frontFVNews__btnBlue {
+    a {
+      display: block;
+      padding-top: 31.25px;
+      padding-bottom: 31.25px;
+    }
+  }
+}
+
+.p-frontFV__news {
+  width: 100%;
+  line-height: 1;
+  padding-left: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  a{
+    display: inline-block;
+    &:not(:nth-child(1)){
+      padding-top: 10px;
+    }
+  }
+}
+
+.p-frontFV__left {
+  width: 173px;
+  display: flex;
+  padding-right: 20px;
+}
+
+.p-frontFVNews__item {
+  display: flex;
+  font-size: 14px;
+  height: 31px;
+  line-height: 31px;
+  align-items: center;
+
+}
+
+.p-frontFVNews__time {
+}
+
+.p-frontFVNews__type {
+  padding-left: 20px;
+}
+
+.p-frontFVNews__name {
+  position: relative;
+  letter-spacing: 0.15em;
+  padding-right: 120px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(#{global.$path_img}/svg/arrow-black.svg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0px;
+      height: 31px;
+      width: 19px;
+    }
+}
