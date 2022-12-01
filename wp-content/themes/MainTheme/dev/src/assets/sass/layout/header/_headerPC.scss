@@ -52,19 +52,19 @@
 
     &:last-child {
       position: relative;
-      .l-header-contact {
+      .l-headerContact {
         background-color: #232323;
         border-left: none;
         color: global.$c--white;
-        padding-top: 13.5px;
-        padding-bottom: 13.5px;
+        padding-top: 14px;
+        padding-bottom: 14px;
         padding-left: 30px;
         padding-right: 36px;
         line-height: 1;
         letter-spacing: 0;
       }
 
-      .l-header-contact-blue {
+      .l-headerContact__blue {
         position: absolute;
         bottom: -45px;
         right: 0;
@@ -73,6 +73,29 @@
           padding-left: 20px;
           padding-right: 40px;
           border-left: none !important;
+          position: relative;
+          display: inline-block;
+          background-color: global.$c--accent;
+          color: global.$c--white;
+          height: 45px;
+          line-height: 45px;
+          font-size: 22px;
+          letter-spacing: 0;
+
+          &::before {
+            content: "";
+            position: absolute;
+            background-image: url(#{global.$path_img}/svg/arrow-white.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 10px;
+            z-index: 15;
+            height: 32px;
+            width: 20px;
+          }
         }
       }
     }

@@ -54,9 +54,9 @@
             </a>
           </li>
           <li>
-            <div class="c-btn">
-              <div class="l-header-contact bold">お問い合わせ</div>
-              <div class="l-header-contact-blue c-btn-blue bold"><a href="">CONTACT</a></div>
+            <div class="l-headerContact__btn">
+              <div class="l-headerContact bold">お問い合わせ</div>
+              <div class="l-headerContact__blue bold"><a href="<?php echo esc_url(home_url('contact')); ?>">CONTACT</a></div>
             </div>
           </li>
         </ul>
