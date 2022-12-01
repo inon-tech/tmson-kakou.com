@@ -15,12 +15,6 @@ body {
 	color: global.$c--text;
 }
 
-main {
-	@include global.min-screen(1600px) {
-		position: relative;
-	}
-}
-
 .bold {
 	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
 	font-weight: bold;

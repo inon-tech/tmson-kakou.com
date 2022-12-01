@@ -92,11 +92,13 @@
 .p-frontFVNews__btn {
   .p-frontFVNews__btnBlack {
     text-align: center;
-
-    a {
-      height: 86.5px !important;
-      line-height: 86.5px !important;
-    }
+    display: inline-block;
+    background-color: #232323;
+    color: global.$c--white;
+    font-size: 18px;
+    width: 150px;
+    height: 86.5px !important;
+    line-height: 86.5px !important;
   }
 
   .p-frontFVNews__btnBlue {
