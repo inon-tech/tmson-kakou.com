@@ -50,7 +50,39 @@ function add_article_post_rewrite_rules($post_rewrite)
 }
 add_filter('post_rewrite_rules', 'add_article_post_rewrite_rules');
 
+// カスタム投稿タイプ採用情報
 
+add_action('init', 'create_post_type');
+function create_post_type()
+{
+  register_post_type(
+    'recruit',
+    array(
+      'label' => '採用情報',
+      'public' => true,
+      'has_archive' => true,
+      'show_in_rest' => true,
+      'menu_position' => 5,
+      'supports' => array(
+        'title',
+        'editor',
+        'thumbnail',
+        'revisions',
+      ),
+    )
+  );
+}
+
+
+// 画像パス変数
+function IHY_img_path()
+{
+  global $IHY_img_1;
+  $IHY_img_1 = "/public/img/normal/1x/";
+  global $IHY_img_2;
+  $IHY_img_2 = "/public/img/normal/2x/";
+}
+add_action('after_setup_theme', 'IHY_img_path');
 
 remove_action('wp_head', 'wp_generator'); // バージョン
 remove_action('wp_head', 'wp_shortlink_wp_head'); // 短縮URLのlink
