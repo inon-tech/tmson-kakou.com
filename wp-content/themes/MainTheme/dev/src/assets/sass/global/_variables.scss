@@ -1,0 +1,36 @@
+// ==============================================================
+//  break points
+// ==============================================================
+// 1000px前後〜1280pxのブレイクポイント間で綺麗に見えるように(1140px)に合わせる
+$breakpoint_pc: 1280px;
+// 600px〜834px (768px)
+$breakpoint_tb: 834px;
+// 360px〜414px (375px)
+$breakpoint_sp: 414px;
+// 320px (320px)
+$breakpoint_sp_small: 350px;
+
+
+// ==============================================================
+//  path
+// ==============================================================
+
+// ステージング環境パス
+$path_img: "/www.vill.iheya.okinawa.jp/wp-content/themes/iheya-okinawa/public/img/";
+
+// ローカル環境パス
+// $path_img: "/wp-content/themes/iheya-okinawa/public/img/";
+
+// ==============================================================
+//  color
+// ==============================================================
+
+$c--white: #ffffff;
+
+$c--text: #303030;
+
+$c--accent: #0091BA;
+
+$c--primary: #0F2731;
+
+$f--gothic: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
