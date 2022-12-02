@@ -54,10 +54,20 @@
             </a>
           </li>
           <li>
-            <div class="l-headerContact__btn">
-              <div class="l-headerContact bold">お問い合わせ</div>
-              <div class="l-headerContact__blue bold"><a href="<?php echo esc_url(home_url('contact')); ?>">CONTACT</a></div>
-            </div>
+            <a href="" class="stage__wrap">
+              <div class="stage">
+                <div class="cube">
+                  <div class="side_right bold">お問い合わせ</div>
+                  <div class="side_front bold">お問い合わせ</div>
+                </div>
+              </div>
+              <div class="stage">
+                <div class="cube">
+                  <div class="side_left bold">CONTACT</div>
+                  <div class="side_front2 bold">CONTACT</div>
+                </div>
+              </div>
+            </a>
           </li>
         </ul>
       </nav>
