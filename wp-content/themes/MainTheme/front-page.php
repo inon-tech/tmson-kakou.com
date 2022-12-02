@@ -88,14 +88,23 @@ Template Name:front-page
           <span>テムソンの製品は、妻子ネイ設備と効率的な一貫システム、そして精密な加工技術と万全の品質管理のもとで<br>
             生産されており、多くのお客様から高い評価をいただいております。凡用加工においては、フレキシブルな対応<br>
             でニーズにお応えします。</span>
-
-          <div class="p-frontStrength__btn c-btn">
-            <div class="p-frontStrength__btnBlack c-btn-black bold">テムソンの強み</div>
-            <div class="p-frontStrength__btnBlue c-btn-blue bold"><a href="">MORE</a></div>
+          <div class="c-btn">
+            <a href="" class="stage__wrap">
+              <div class="stage">
+                <div class="cube">
+                  <div class="side_right bold">テムソンの強み</div>
+                  <div class="side_front bold">テムソンの強み</div>
+                </div>
+              </div>
+              <div class="stage">
+                <div class="cube">
+                  <div class="side_left bold">MORE</div>
+                  <div class="side_front2 bold">MORE</div>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
-      </div>
-    </div>
   </section>
 
   <section class="p-frontMenu">
