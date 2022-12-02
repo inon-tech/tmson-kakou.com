@@ -112,25 +112,61 @@ Template Name:front-page
       <a href="" class="p-frontMenu__item">
         <div class="p-frontMenu__dark">
           <div class="p-frontMenu__btn">
-            <div class="p-frontMenu__btnBlack bold">会社概要</div>
-            <div class="p-frontMenu__btnBlue bold">MORE</div>
+            <div class="stage__wrap">
+              <div class="stage">
+                <div class="cube">
+                  <div class="side_right bold">会社概要</div>
+                  <div class="side_front bold">会社概要</div>
+                </div>
+              </div>
+              <div class="stage">
+                <div class="cube">
+                  <div class="side_left bold">MORE</div>
+                  <div class="side_front2 bold">MORE</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </a>
       <div class="p-frontMenu__item">
-        <a href="" class="p-frontMenu__itemTop">
+        <a href="" class="p-frontMenu__itemBottom">
           <div class="p-frontMenu__dark">
             <div class="p-frontMenu__btn">
-              <div class="p-frontMenu__btnBlack bold">事業内容</div>
-              <div class="p-frontMenu__btnBlue bold">MORE</div>
+              <divc class="stage__wrap">
+                <div class="stage">
+                  <div class="cube">
+                    <div class="side_right bold">事業内容</div>
+                    <div class="side_front bold">事業内容</div>
+                  </div>
+                </div>
+                <div class="stage">
+                  <div class="cube">
+                    <div class="side_left bold">MORE</div>
+                    <div class="side_front2 bold">MORE</div>
+                  </div>
+                </div>
+              </divc>
             </div>
           </div>
         </a>
         <a href="" class="p-frontMenu__itemBottom">
           <div class="p-frontMenu__dark">
             <div class="p-frontMenu__btn">
-              <div class="p-frontMenu__btnBlack bold">主要設備一覧</div>
-              <div class="p-frontMenu__btnBlue bold">MORE</div>
+              <divc class="stage__wrap">
+                <div class="stage">
+                  <div class="cube">
+                    <div class="side_right bold">主要設備一覧</div>
+                    <div class="side_front bold">主要設備一覧</div>
+                  </div>
+                </div>
+                <div class="stage">
+                  <div class="cube">
+                    <div class="side_left bold">MORE</div>
+                    <div class="side_front2 bold">MORE</div>
+                  </div>
+                </div>
+              </divc>
             </div>
           </div>
         </a>

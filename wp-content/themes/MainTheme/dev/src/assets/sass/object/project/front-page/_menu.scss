@@ -12,14 +12,14 @@
   display: block;
   width: 50%;
   background-size: cover;
-  background-position: center;
+  background-position:  top -10px;
   background-repeat: no-repeat;
   height: 355px;
 
   &:nth-child(1) {
-    background-image: url(#{global.$path_img}/normal/1x/common/rectangle.png);
+    background-image: url(#{global.$path_img}/normal/1x/front/front-company-factory-01.jpg);
     position: relative;
-    
+
     .p-frontMenu__dark {
       background: rgba(0, 0, 0, 0.5);
       height: 100%;
@@ -31,6 +31,19 @@
 
       &:hover {
         background: rgba(0, 0, 255, 0);
+
+        .stage {
+          &:nth-child(2) {
+            .cube {
+              transform: rotateY(90deg) !important;
+            }
+          }
+          &:nth-child(1) {
+            .cube {
+              transform: rotateY(-90deg) !important;
+            }
+          }
+        }
       }
     }
   }
@@ -55,62 +68,134 @@
 
       &:hover {
         background: rgba(0, 0, 255, 0);
+
+        .stage {
+          &:nth-child(2) {
+            .cube {
+              transform: rotateY(90deg) !important;
+            }
+          }
+          &:nth-child(1) {
+            .cube {
+              transform: rotateY(-90deg) !important;
+            }
+          }
+        }
       }
     }
   }
 
   .p-frontMenu__itemTop {
-    background-image: url(#{global.$path_img}/normal/1x/common/rectangle.png);
+    background-image: url(#{global.$path_img}/normal/1x/front/front-menu-02.png);
   }
 
   .p-frontMenu__itemBottom {
-    background-image: url(#{global.$path_img}/normal/1x/common/rectangle.png);
+    background-image: url(#{global.$path_img}/normal/1x/front/front-menu-02.png);
   }
 }
 
 .p-frontMenu__btn {
-  display: flex;
-  flex-direction: column;
-}
+  text-align: left;
+  .cube {
+    height: 45px;
+    width: 150px;
+    position: relative;
+    margin: 0 auto;
+  }
 
-.p-frontMenu__btnBlack {
-  background-color: #232323;
-  border-left: none;
-  color: #fff;
-  letter-spacing: 0;
-  line-height: 40px;
-  font-size: 16px;
-  width: 150px;
-  display: inline-block;
-  height: 40px;
-  text-align: right;
-  padding-right: 20px;
-}
-
-.p-frontMenu__btnBlue {
-  width: 150px;
-  position: relative;
-  display: inline-block;
-  background-color: global.$c--accent;
-  color: global.$c--white;
-  height: 40px;
-  line-height: 40px;
-  font-size: 22px;
-  letter-spacing: 0;
-  text-align: center;
-
-  &::before {
-    content: "";
+  .cube div {
+    height: 45px;
+    width: 150px;
     position: absolute;
-    background-image: url(#{global.$path_img}/svg/arrow-white.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 10px;
-    z-index: 15;
-    height: 32px;
-    width: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+  }
+
+  .side_front {
+    background: #282828;
+    top: 0px;
+    left: 0px;
+    transform: translateZ(75px);
+    letter-spacing: 0em;
+    font-size: 17px;
+    line-height: 45px;
+  }
+
+  .side_front2 {
+    background: #4190b7;
+    top: 0px;
+    left: 0px;
+    transform: translateZ(75px);
+    letter-spacing: 0em;
+    font-size: 25px;
+    line-height: 45px;
+    padding-right: 20px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(#{global.$path_img}/svg/arrow-white.svg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 10px;
+      z-index: 15;
+      height: 32px;
+      width: 20px;
+    }
+  }
+
+  .side_right {
+    background: #6b6b6b;
+    top: 0px;
+    right: -75px;
+    transform: rotateY(90deg);
+    letter-spacing: 0em;
+    font-size: 17px;
+    line-height: 86px;
+  }
+
+  .side_left {
+    background: #b5af41;
+    top: 0px;
+    left: -75px;
+    transform: rotateY(-90deg);
+    letter-spacing: 0em;
+    font-size: 25px;
+    line-height: 86px;
+    padding-right: 20px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(#{global.$path_img}/svg/arrow-white.svg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 10px;
+      z-index: 15;
+      height: 32px;
+      width: 20px;
+    }
+  }
+
+  .cube {
+    height: 45px;
+    width: 150px;
+    position: relative;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    transition: all 0.3s;
+  }
+
+  .stage__wrap {
+    display: inline-block;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
