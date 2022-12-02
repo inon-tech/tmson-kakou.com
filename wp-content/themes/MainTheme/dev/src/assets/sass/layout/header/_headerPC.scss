@@ -76,6 +76,7 @@
         left: 0px;
         transform: translateZ(90px);
         letter-spacing: 0em;
+        font-size: 17px;
       }
 
       .side_front2 {
@@ -84,6 +85,23 @@
         left: 0px;
         transform: translateZ(90px);
         letter-spacing: 0em;
+        font-size: 20px;
+        line-height: 20px;
+
+        &::before {
+          content: "";
+          position: absolute;
+          background-image: url(#{global.$path_img}/svg/arrow-white.svg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 10px;
+          z-index: 15;
+          height: 32px;
+          width: 20px;
+        }
       }
 
       .side_right {
@@ -92,6 +110,7 @@
         right: -90px;
         transform: rotateY(90deg);
         letter-spacing: 0em;
+        font-size: 17px;
       }
 
       .side_left {
@@ -100,6 +119,22 @@
         left: -90px;
         transform: rotateY(-90deg);
         letter-spacing: 0em;
+        font-size: 20px;
+
+        &::before {
+          content: "";
+          position: absolute;
+          background-image: url(#{global.$path_img}/svg/arrow-white.svg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 10px;
+          z-index: 15;
+          height: 32px;
+          width: 20px;
+        }
       }
 
       .cube {
