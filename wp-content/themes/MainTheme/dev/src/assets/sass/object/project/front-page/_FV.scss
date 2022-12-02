@@ -5,6 +5,7 @@
 
 .p-FV__wrap {
   height: calc(100vh - 45px);
+  min-height: 650px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -20,11 +21,11 @@
   color: global.$c--white;
   background: rgba(0, 0, 0, 0.5);
   height: calc(100% - 45px);
-  width: 38.5715286%;
   z-index: 4;
-  padding-top: 80px;
-  padding-left: 100px;
-  padding-right: 10px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 500px;
 
   .p-frontFV__btn {
     position: absolute;
@@ -68,13 +69,13 @@
   }
 
   img {
-    height: 160px;
-    margin-top: 10px;
+    height: 185px;
+    margin-top: 15px;
   }
 
   p {
-    font-size: 14px;
-    margin-top: 20px;
+    font-size: 16px;
+    margin-top: 15px;
     line-height: 2;
   }
 }
@@ -172,7 +173,7 @@
 
 .p-frontFVNews__name {
   position: relative;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.135em;
   padding-right: 40px;
 
   &::before {

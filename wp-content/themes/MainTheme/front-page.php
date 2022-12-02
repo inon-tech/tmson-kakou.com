@@ -12,22 +12,20 @@ Template Name:front-page
 <main class="p-front">
   <section class="p-frontFV">
     <div class="js-FVSlide">
+      <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-01.jpg);"></div>
       <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/rectangle.png);"></div>
-      <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/rectangle.png);"></div>
-      <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/rectangle.png);"></div>
+      <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-01.jpg);"></div>
     </div>
 
     <div class="p-frontFV__right">
       <h2>CUT and CREATE</h2>
       <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-title.png" alt="">
-      <p>「切る」「削る」という切削加工の本質で<br>
-        ある「引く」概念にとらわれず、つねに<br>
-        新しい何かをプラスすること。
-      </p>
-      <p>
-        最新の設備と高度な技術に、経験とセン<br>
-        ス、そして持てる限りのアイデアを駆使す<br>
-        ることで、輝きを放つ優れた製品を生み<br>
+      <p>「切る」「削る」という切削加工の本質で
+        ある「引く」概念にとらわれず、つねに
+        新しい何かをプラスすること。<br>
+        最新の設備と高度な技術に、経験とセン
+        ス、そして持てる限りのアイデアを駆使す
+        ることで、輝きを放つ優れた製品を生み
         出すことができると信じています。
       </p>
     </div>
