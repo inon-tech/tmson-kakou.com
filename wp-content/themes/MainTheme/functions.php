@@ -73,6 +73,15 @@ function create_post_type()
   );
 }
 
+// コンタクトフォーム セレクトボックスプレースホルダー
+function my_wpcf7_form_elements($html) {
+  $text = '選択してください';
+  $html = str_replace('<option value="">---</option>', '<option class="placeholder" value="" disabled selected>' . $text . '</option>', $html);
+  return $html;
+}
+
+add_filter('wpcf7_form_elements', 'my_wpcf7_form_elements');
+
 
 // 画像パス変数
 function IHY_img_path()

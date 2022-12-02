@@ -182,15 +182,37 @@ Template Name:front-page
           文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
           行間等を確認するために入れています。
         </p>
-        <div class="p-frontRecruit__btn c-btn">
-          <div class="p-frontRecruit__btnBlack c-btn-black bold">採用情報はこちら</div>
-          <div class="p-frontRecruit__btnBlue c-btn-blue bold"><a href="">MORE</a></div>
+        <div class="c-btn p-frontStrength__btn">
+          <a href="" class="stage__wrap">
+            <div class="stage">
+              <div class="cube">
+                <div class="side_right bold">採用情報はこちら</div>
+                <div class="side_front bold">採用情報はこちら</div>
+              </div>
+            </div>
+            <div class="stage">
+              <div class="cube">
+                <div class="side_left bold">MORE</div>
+                <div class="side_front2 bold">MORE</div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
       <div class="p-frontRecruit__imgWrap">
         <div class="p-frontRecruit__item"></div>
         <div class="p-frontRecruit__item"></div>
         <div class="p-frontRecruit__item"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-frontContact">
+    <div class="l-inner">
+      <h2><span>CONTACT</span>お問い合わせ</h2>
+
+      <div class="p-frontContact__wrap">
+        <?php echo apply_shortcodes('[contact-form-7 id="34" title="コンタクトフォーム"]'); ?>
       </div>
     </div>
   </section>
