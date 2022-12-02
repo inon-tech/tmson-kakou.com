@@ -134,6 +134,7 @@
           z-index: 15;
           height: 32px;
           width: 20px;
+          pointer-events: none;
         }
       }
 
@@ -150,6 +151,7 @@
         display: block;
         padding-left: 0 !important;
         padding-right: 0 !important;
+        border: none !important;
         &:hover {
           .stage {
             &:nth-child(2) {
