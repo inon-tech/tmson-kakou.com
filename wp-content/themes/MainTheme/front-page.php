@@ -31,10 +31,20 @@ Template Name:front-page
     </div>
 
     <div class="p-frontFV__bottom">
-      <div class="p-frontFVNews__btn">
-        <div class="p-frontFVNews__btnBlack bold">お知らせ</div>
-        <div class="p-frontFVNews__btnBlue bold"><a href="">MORE</a></div>
-      </div>
+      <a href="" class="stage__wrap">
+        <div class="stage">
+          <div class="cube">
+            <div class="side_right bold">お知らせ</div>
+            <div class="side_front bold">お知らせ</div>
+          </div>
+        </div>
+        <div class="stage">
+          <div class="cube">
+            <div class="side_left bold">MORE</div>
+            <div class="side_front2 bold">MORE</div>
+          </div>
+        </div>
+      </a>
 
       <div class="p-frontFV__news">
 
@@ -61,6 +71,7 @@ Template Name:front-page
         endif;
         wp_reset_query(); ?>
       </div>
+    </div>
 
   </section>
 
