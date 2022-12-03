@@ -1,6 +1,9 @@
 @use "../../../global" as global;
 
 .p-frontFV {
+  position: relative;
+  height: calc(100vh - 45px);
+  min-height: 650px;
 }
 
 .p-FV__wrap {
@@ -16,11 +19,11 @@
 
 .p-frontFV__right {
   position: absolute;
-  top: 45px;
+  top: 0;
   right: 0;
   color: global.$c--white;
   background: rgba(0, 0, 0, 0.5);
-  height: calc(100% - 45px);
+  height: 100%;
   z-index: 4;
   padding-top: 64px;
   padding-left: 64px;
@@ -129,7 +132,8 @@
 .p-frontFVNews__name {
   position: relative;
   letter-spacing: 0.1em;
-  padding-right: 56px;
+  padding-right: 76px;
+  transition: .3s all;
 
   &::before {
     content: "";
@@ -140,9 +144,19 @@
     background-repeat: no-repeat;
     top: 50%;
     transform: translateY(-50%);
-    right: 0px;
+    right: 20px;
     height: 31px;
     width: 19px;
+    transition: .3s all;
+  }
+
+  &:hover{
+    color: #b5af41;
+
+    &::before {
+      right: 0px;
+      background-image: url(#{global.$path_img}/svg/arrow-yellow.svg);
+    }
   }
 }
 
