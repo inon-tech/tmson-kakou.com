@@ -80,8 +80,8 @@
         <div class="l-headerSP__CL bold">CLOSE</div>
         <div class="stage">
           <div class="cube">
-            <div class="side_left"></div>
             <div class="side_front2"></div>
+            <div class="side_right"></div>
           </div>
         </div>
       </div>

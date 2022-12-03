@@ -21,6 +21,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  cursor: pointer;
 
   .l-headerSP__ME {
     color: #ffffff;
@@ -65,10 +66,10 @@
     text-align: center;
   }
 
-  .side_left {
+  .side_right {
     top: 0px;
-    left: -22.5px;
-    transform: rotateY(-90deg);
+    right: -22.5px;
+    transform: rotateY(90deg);
     background: #b5af41;
 
     &::before {
@@ -78,12 +79,11 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      top: 6px;
-      right: 15px;
+      top: 8px;
+      right: 10px;
       z-index: 15;
       height: 32px;
       width: 20px;
-      rotate: 180deg;
     }
   }
 
@@ -100,12 +100,12 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      top: 50%;
-      transform: translateY(-50%);
-      right: 10px;
+      top: 6px;
+      right: 15px;
       z-index: 15;
       height: 32px;
       width: 20px;
+      rotate: 180deg;
     }
   }
 }
@@ -118,6 +118,7 @@
   width: 100%;
   top: 45px;
   height: calc(100vh - 45px);
+  min-height: 900px;
   background: rgba(30, 43, 53, 0.75);
   ul {
   }
@@ -205,6 +206,6 @@
   }
 
   .cube {
-    transform: rotateY(90deg);
+    transform: rotateY(-90deg);
   }
 }
