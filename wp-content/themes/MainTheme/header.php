@@ -73,6 +73,37 @@
       </nav>
     </div>
     <div class="l-headerSP">
+      <div class="l-headerPC__logo"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/public/img/normal/1x/common/rectangle.png" alt=""></div>
 
+      <div class="l-headerSP__wrap">
+        <div class="l-headerSP__ME bold">MENU</div>
+        <div class="l-headerSP__CL bold">CLOSE</div>
+        <div class="stage">
+          <div class="cube">
+            <div class="side_left"></div>
+            <div class="side_front2"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="l-headerSP__content">
+        <ul>
+          <li><a class="bold" href="">HOME</a></li>
+          <li><a class="bold" href="">会社概要</a></li>
+          <li><a class="bold" href="">テムソンの強み</a></li>
+          <li><a class="bold" href="">主要設備紹介</a></li>
+          <li><a class="bold" href="">お知らせ</a></li>
+          <li><a class="bold" href="">採用情報</a></li>
+          <li><a class="bold" href="">お問い合わせ</a></li>
+        </ul>
+
+        <div class="l-headerSP__contentBt">
+          <h1>TMSON</h1>
+          <p class="">〒399-4511　長野県上伊那郡南箕輪村田畑 6160-14<br>
+            FAX 0265-73-7080
+          </p>
+          <a href="tel:02657375555">0265-73-7555</a>
+        </div>
+      </div>
     </div>
   </header>

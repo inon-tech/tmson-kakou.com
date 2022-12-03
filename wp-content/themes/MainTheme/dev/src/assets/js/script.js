@@ -62,3 +62,8 @@ jQuery('.btn__wrap').on('click', function () {
   jQuery('.item').toggleClass('active');
   jQuery('.item-r').toggleClass('active');
 });
+
+jQuery('.l-headerSP__wrap').on('click', function () {
+  jQuery('.l-headerSP__wrap').toggleClass('active');
+  jQuery('.l-headerSP__content').toggleClass('active');
+});
