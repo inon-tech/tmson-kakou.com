@@ -1,0 +1,193 @@
+@use "../../../global" as global;
+
+.p-frontPrivacy {
+  margin-top: 85px;
+}
+
+.p-frontPrivacy__wrap {
+  position: relative;
+  width: 1039px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &::before {
+    content: "";
+    height: 1px;
+    background: #567894;
+    display: block;
+    width: 800px;
+    max-width: 100%;
+    position: absolute;
+    top: 110px;
+    left: -800px;
+  }
+}
+
+.p-frontPrivacy__top {
+}
+
+.p-frontPrivacy__topWrap {
+  border-left: 1px solid #567894;
+  display: flex;
+  border-bottom: 1px solid #567894;
+  h2 {
+    color: #6b6b6b;
+    display: inline-block;
+    font-size: 31px;
+    letter-spacing: 0;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    padding-top: 32px;
+  }
+}
+
+.p-frontPrivacy__bottom {
+}
+
+.p-frontPrivacy__text {
+  border-left: 1px solid #567894;
+  padding-top: 32px;
+  padding-left: 32px;
+  font-size: 12px;
+}
+
+.p-frontPrivacy__btn {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  text-align: right;
+  cursor: pointer;
+
+  .btn__wrap {
+    width: 120px;
+    height: 45px;
+    display: inline-block;
+  }
+
+  .item {
+    /* 高さ = 100% */
+    height: 100%;
+    /* 子要素の3Dの位置関係を保持 */
+    transform-style: preserve-3d;
+    /* アニメーションの時間 */
+    transition-duration: 0.3s;
+
+    /* articleの高さの1/2だけ奥側(Z軸方向マイナス)に移動 */
+    transform: translateZ(-22.5px);
+  }
+
+  .item-img,
+  .item-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* 背景画像用の設定 */
+    background-size: cover;
+    background-position: 50%;
+    backface-visibility: hidden;
+  }
+
+  .item-img {
+    transform: translateZ(22.5px);
+    background: #6b6b6b;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 25px;
+    letter-spacing: 0em;
+  }
+
+  .item-img {
+    transform: translateY(-22.5px) rotateX(90deg);
+  }
+
+  .active.item {
+    transform: rotateX(-90deg) translateY(22.5px);
+  }
+
+  .item-content {
+    background: #282828;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 25px;
+    letter-spacing: 0em;
+  }
+
+  .item-r {
+    /* 高さ = 100% */
+    height: 100%;
+    /* 子要素の3Dの位置関係を保持 */
+    transform-style: preserve-3d;
+    /* アニメーションの時間 */
+    transition-duration: 0.3s;
+
+    /* articleの高さの1/2だけ奥側(Z軸方向マイナス)に移動 */
+    transform: translateZ(22.5px);
+  }
+
+  .item-img-r,
+  .item-content-r {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* 背景画像用の設定 */
+    background-size: cover;
+    background-position: 50%;
+    backface-visibility: hidden;
+  }
+
+  .item-img-r {
+    transform: translateZ(-22.5px);
+    background: #b5af41;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background-image: url(#{global.$path_img}/svg/arrow-white.svg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      top: 10px;
+      right: 50px;
+      z-index: 15;
+      height: 32px;
+      width: 20px;
+      pointer-events: none;
+      rotate: -90deg;
+    }
+  }
+
+  .item-img-r {
+    transform: translateY(22.5px) rotateX(-90deg);
+  }
+
+  .active.item-r {
+    transform: rotateX(90deg) translateY(-22.5px);
+  }
+
+  .item-content-r {
+    background: #4190b7;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background-image: url(#{global.$path_img}/svg/arrow-white.svg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      top: 8px;
+      right: 50px;
+      z-index: 15;
+      height: 32px;
+      width: 20px;
+      pointer-events: none;
+      rotate: 90deg;
+    }
+  }
+}

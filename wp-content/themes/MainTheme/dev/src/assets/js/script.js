@@ -50,3 +50,15 @@ jQuery(function () {
     }
   });
 });
+
+jQuery(function () {
+  jQuery('.p-frontPrivacy__bottom').css("display", "none");
+  jQuery('.p-frontPrivacy__btn').on('click', function () {
+    jQuery(this).next().slideToggle();
+  })
+});
+
+jQuery('.btn__wrap').on('click', function () {
+  jQuery('.item').toggleClass('active');
+  jQuery('.item-r').toggleClass('active');
+});
