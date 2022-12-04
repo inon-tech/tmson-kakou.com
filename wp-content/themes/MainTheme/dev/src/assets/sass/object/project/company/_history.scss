@@ -33,7 +33,7 @@
     margin-top: 45px;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      margin-top: 40px;
+      margin-top: 30px;
     }
   }
 
@@ -88,7 +88,7 @@
         @include global.max-screen(global.$breakpoint_pc) {
           top: 51px;
           width: 60px;
-          right: -40px;
+          right: -20px;
         }
       }
 
@@ -208,7 +208,7 @@
         @include global.max-screen(global.$breakpoint_pc) {
           top: 51px;
           width: 60px;
-          left: -40px;
+          left: -20px;
         }
       }
 
@@ -227,7 +227,7 @@
 
         @include global.max-screen(global.$breakpoint_pc) {
           top: 51px;
-          right: -40px;
+          right: -20px;
           width: 40px;
         }
       }
