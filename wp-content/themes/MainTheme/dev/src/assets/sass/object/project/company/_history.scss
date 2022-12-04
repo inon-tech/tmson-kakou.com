@@ -2,29 +2,58 @@
 
 .p-companyHistory {
   margin-top: 65px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
+  }
 }
 
 .p-companyHistory__list {
   margin-top: 40px;
   padding-left: 100px;
   padding-right: 100px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .p-companyHistory__item {
   display: flex;
   height: 313px;
 
+  @include global.max-screen(global.$breakpoint_pc) {
+    height: 100%;
+    flex-direction: column !important;
+    gap: 20px;
+  }
+
   &:not(:first-child) {
     margin-top: 45px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      margin-top: 40px;
+    }
   }
 
   &:nth-child(2n) {
     flex-direction: row-reverse;
 
+    @include global.max-screen(global.$breakpoint_pc) {
+    }
+
     .p-companyHistory__left {
       width: 420px;
       height: 100%;
       padding-bottom: 32px;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+        height: 140px;
+        width: 210px;
+        padding-bottom: 0;
+        margin-left: auto;
+      }
     }
 
     .p-companyHistory__leftImg {
@@ -39,6 +68,11 @@
       width: calc(100% - 420px);
       padding-right: 65px;
       position: relative;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+        width: 100%;
+        padding-right: 20px;
+      }
       &::before {
         content: "";
         height: 1px;
@@ -50,6 +84,12 @@
         top: 106px;
         right: -1px;
         z-index: 2;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          top: 51px;
+          width: 60px;
+          right: -40px;
+        }
       }
 
       &::after {
@@ -64,6 +104,12 @@
         left: -100px;
         z-index: 2;
         max-width: 100%;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          top: 51px;
+         left: -20px;
+          width: 20px;
+        }
       }
     }
 
@@ -75,12 +121,23 @@
         border-left: 1px solid #567894;
         font-size: 25px;
         line-height: 1;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          padding-left: 20px;
+          padding-bottom: 20px;
+          padding-top: 0px;
+          font-size: 16px;
+        }
       }
 
       span {
         font-size: 12px;
         display: block;
         padding-bottom: 5px;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          font-size: 10px;
+        }
       }
     }
 
@@ -91,6 +148,13 @@
       border-left: 1px solid #567894;
       border-top: 1px solid #567894;
       font-size: 16px;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 12px;
+      }
       p {
       }
     }
@@ -102,6 +166,12 @@
       height: 100%;
       padding-bottom: 32px;
       z-index: 2;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+        height: 140px;
+        width: 210px;
+        padding-bottom: 0;
+      }
     }
 
     .p-companyHistory__leftImg {
@@ -118,6 +188,11 @@
       padding-left: 66px;
       position: relative;
 
+      @include global.max-screen(global.$breakpoint_pc) {
+        width: 100%;
+        padding-left: 20px;
+      }
+
       &::before {
         content: "";
         height: 1px;
@@ -129,6 +204,12 @@
         top: 106px;
         left: -1px;
         z-index: 2;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          top: 51px;
+          width: 60px;
+          left: -40px;
+        }
       }
 
       &::after {
@@ -143,6 +224,12 @@
         right: -100px;
         z-index: 2;
         max-width: 100%;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          top: 51px;
+          right: -40px;
+          width: 40px;
+        }
       }
     }
 
@@ -154,12 +241,23 @@
         border-left: 1px solid #567894;
         font-size: 25px;
         line-height: 1;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          padding-left: 20px;
+          padding-bottom: 20px;
+          padding-top: 0px;
+          font-size: 16px;
+        }
       }
 
       span {
         font-size: 12px;
         display: block;
         padding-bottom: 5px;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          font-size: 10px;
+        }
       }
     }
 
@@ -170,6 +268,13 @@
       border-left: 1px solid #567894;
       border-top: 1px solid #567894;
       font-size: 16px;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 12px;
+      }
       p {
       }
     }
