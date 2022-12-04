@@ -9,7 +9,7 @@ Template Name:テムソンの強み
 */
 ?>
 
-<main class="">
+<main class="p-strength">
 
 </main>
 <?php get_footer(); ?>
