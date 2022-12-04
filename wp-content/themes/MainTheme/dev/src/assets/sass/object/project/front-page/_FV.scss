@@ -91,18 +91,33 @@
 
   h2 {
     line-height: 1;
-    font-size: 23px;
+    font-size: 40px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 23px;
+    }
   }
 
   img {
-    height: 110px;
-    margin-top: 7.5px;
+    height: 190px;
+    margin-top: 15px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      height: 110px;
+      margin-top: 7.5px;
+    }
   }
 
   p {
-    font-size: 9px;
-    margin-top: 7.5px;
-    line-height: 1.8;
+    font-size: 15px;
+    margin-top: 16px;
+    line-height: 2;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 9px;
+      margin-top: 7.5px;
+      line-height: 1.8;
+    }
   }
 }
 
@@ -142,8 +157,8 @@
       padding-top: 11px;
 
       @include global.max-screen(global.$breakpoint_pc) {
-       padding-top: 5.5px;
-       }
+        padding-top: 5.5px;
+      }
     }
   }
 }
@@ -169,7 +184,6 @@
 }
 
 .p-frontFVNews__time {
-
   @include global.max-screen(global.$breakpoint_pc) {
     line-height: 1;
   }
@@ -209,11 +223,10 @@
     width: 19px;
     transition: 0.3s all;
     @include global.max-screen(global.$breakpoint_pc) {
-     right: 10px;
-     height: 15.5px;
-     width: 8px;
+      right: 10px;
+      height: 15.5px;
+      width: 8px;
     }
-  
   }
 
   &:hover {
