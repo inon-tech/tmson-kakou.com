@@ -52,7 +52,7 @@ Template Name:会社概要
           <div class="p-companyOverview__right">0265-73-7555</div>
         </div>
         <div class="p-companyOverview__item">
-          <div class="p-companyOverview__left">FAX</div>
+          <div class="p-companyOverview__left">F A X</div>
           <div class="p-companyOverview__right">0265-73-7080</div>
         </div>
         <div class="p-companyOverview__item">
