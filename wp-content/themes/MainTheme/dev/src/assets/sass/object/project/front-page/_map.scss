@@ -2,18 +2,21 @@
 
 .p-frontMap {
   margin-top: 65px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
+  }
 }
 
-.gmap {
-  height: 0;
-  overflow: hidden;
-  padding-bottom: 25%;
-  position: relative;
-}
 .gmap iframe {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 355px;
   width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  position: relative;
+  bottom: -5px;
+  max-height: 350px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    max-height: 175px;
+  }
 }
