@@ -6,6 +6,11 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 64px;
+  max-width: 100%;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
+  }
 
   h2 {
     text-align: center;
@@ -14,23 +19,43 @@
     color: #2f3449;
     font-size: 31px;
     letter-spacing: 0;
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 20px;
+    }
 
     span {
       margin-bottom: 5px;
       font-size: 16px;
       font-weight: normal;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+        font-size: 10px;
+        margin-bottom: 0px;
+      }
     }
   }
 }
 
 .p-frontContact__wrap {
   margin-top: 64px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
+  }
 }
 
 .contactForm__control {
   display: flex;
   height: 31px;
   margin-top: 15px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    display: block;
+
+    &:not(:first-child) {
+      margin-top: 55px;
+    }
+  }
 }
 
 .contactForm__left {
@@ -45,6 +70,11 @@
   color: #6b6b6b;
   text-align: right;
   font-size: 16px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    width: auto;
+    padding-right: 10px;
+  }
 }
 
 .contactForm__required {
@@ -145,9 +175,8 @@ select::-ms-expand {
   margin-top: 170px;
   text-align: center;
 
-  input:active .cube{
+  input:active .cube {
     transform: rotateY(0deg);
-    
   }
 
   .stage {
@@ -174,83 +203,83 @@ select::-ms-expand {
     height: 45px;
     cursor: pointer;
   }
-}
 
-// 送信ボタンの設置
-.cube {
-  height: 45px;
-  width: 150px;
-  position: relative;
-  margin: 0 auto;
-}
-
-.cube div {
-  height: 45px;
-  width: 150px;
-  position: absolute;
-  color: #fff;
-  text-align: center;
-  line-height: 45px;
-}
-
-.side_front2 {
-  background: #4190b7;
-  top: 0px;
-  left: 0px;
-  transform: translateZ(75px);
-  letter-spacing: 0em;
-  font-size: 25px;
-  line-height: 45px;
-  padding-right: 20px;
-
-  &::before {
-    content: "";
-    position: absolute;
-    background-image: url(#{global.$path_img}/svg/arrow-white.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 10px;
-    z-index: 15;
-    height: 32px;
-    width: 20px;
+  // 送信ボタンの設置
+  .cube {
+    height: 45px;
+    width: 150px;
+    position: relative;
+    margin: 0 auto;
   }
-}
 
-.side_left {
-  background: #b5af41;
-  top: 0px;
-  left: -75px;
-  transform: rotateY(-90deg);
-  letter-spacing: 0em;
-  font-size: 25px;
-  line-height: 86px;
-  padding-right: 20px;
-
-  &::before {
-    content: "";
+  .cube div {
+    height: 45px;
+    width: 150px;
     position: absolute;
-    background-image: url(#{global.$path_img}/svg/arrow-white.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 10px;
-    z-index: 15;
-    height: 32px;
-    width: 20px;
-    pointer-events: none;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
   }
-}
 
-.cube {
-  height: 45px;
-  width: 150px;
-  position: relative;
-  margin: 0 auto;
-  transform-style: preserve-3d;
-  transition: all 1s;
+  .side_front2 {
+    background: #4190b7;
+    top: 0px;
+    left: 0px;
+    transform: translateZ(75px);
+    letter-spacing: 0em;
+    font-size: 25px;
+    line-height: 45px;
+    padding-right: 20px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(#{global.$path_img}/svg/arrow-white.svg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 10px;
+      z-index: 15;
+      height: 32px;
+      width: 20px;
+    }
+  }
+
+  .side_left {
+    background: #b5af41;
+    top: 0px;
+    left: -75px;
+    transform: rotateY(-90deg);
+    letter-spacing: 0em;
+    font-size: 25px;
+    line-height: 86px;
+    padding-right: 20px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(#{global.$path_img}/svg/arrow-white.svg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 10px;
+      z-index: 15;
+      height: 32px;
+      width: 20px;
+      pointer-events: none;
+    }
+  }
+
+  .cube {
+    height: 45px;
+    width: 150px;
+    position: relative;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    transition: all 1s;
+  }
 }

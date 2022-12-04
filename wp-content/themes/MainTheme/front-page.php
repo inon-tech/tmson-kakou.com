@@ -212,7 +212,7 @@ Template Name:front-page
       <h2><span>CONTACT</span>お問い合わせ</h2>
 
       <div class="p-frontContact__wrap">
-        <?php do_shortcode('[contact-form-7 id="34" title="コンタクトフォーム"]'); ?>
+      <?php echo apply_shortcodes( '[contact-form-7 id="38" title="コンタクトフォーム"]' ); ?>
       </div>
     </div>
   </section>
