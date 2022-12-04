@@ -119,6 +119,7 @@
     position: relative;
     top: -5px;
     bottom: initial;
+    background: none;
   }
 }
 
@@ -130,9 +131,9 @@
   padding-bottom: 28px;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    padding-left: 14px;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-left: 4vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
   }
 
   a {
