@@ -7,6 +7,7 @@ jQuery(function () {
     fade: true,    // fedeオン
     speed: 1500,   // 画像切り替えにかかる時間（ミリ秒）
     autoplaySpeed: 2000,   // 自動スライド切り替え速度
+    autoplay	: true,
   });
 });
 

@@ -4,6 +4,11 @@
   position: relative;
   height: calc(100vh - 45px);
   min-height: 650px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    max-height: 979px;
+    min-height: initial;
+  }
 }
 
 .p-FV__wrap {
@@ -15,6 +20,11 @@
   background-repeat: no-repeat;
   position: relative;
   z-index: 3;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    max-height: 979px;
+    min-height: initial;
+  }
 }
 
 .p-frontFV__right {
@@ -22,13 +32,26 @@
   top: 0;
   right: 0;
   color: global.$c--white;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.75);
   height: 100%;
   z-index: 4;
   padding-top: 64px;
   padding-left: 64px;
   padding-right: 64px;
   width: 520px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    height: 260px;
+    top: initial;
+    bottom: 20px;
+    width: calc(100vw - 32px);
+    max-width: 100%;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    right: 50%;
+    transform: translateX(50%);
+  }
 
   .p-frontFV__btn {
     position: absolute;
@@ -68,18 +91,18 @@
 
   h2 {
     line-height: 1;
-    font-size: 37px;
+    font-size: 23px;
   }
 
   img {
-    height: 175px;
-    margin-top: 15px;
+    height: 110px;
+    margin-top: 7.5px;
   }
 
   p {
-    font-size: 15px;
-    margin-top: 15px;
-    line-height: 2;
+    font-size: 9px;
+    margin-top: 7.5px;
+    line-height: 1.8;
   }
 }
 
@@ -91,6 +114,12 @@
   width: 100%;
   z-index: 5;
   display: flex;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    position: relative;
+    top: -5px;
+    bottom: initial;
+  }
 }
 
 .p-frontFV__news {
@@ -100,10 +129,20 @@
   padding-top: 28px;
   padding-bottom: 28px;
 
+  @include global.max-screen(global.$breakpoint_pc) {
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
   a {
     display: inline-block;
     &:not(:nth-child(1)) {
       padding-top: 11px;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+       padding-top: 5.5px;
+       }
     }
   }
 }
@@ -112,6 +151,7 @@
   width: 180px;
   display: flex;
   padding-right: 10px;
+  white-space: nowrap;
 }
 
 .p-frontFVNews__item {
@@ -120,20 +160,39 @@
   height: 31px;
   line-height: 31px;
   align-items: center;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    display: block;
+    font-size: 12px;
+  }
 }
 
 .p-frontFVNews__time {
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    line-height: 1;
+  }
 }
 
 .p-frontFVNews__type {
   padding-left: 10px;
+  @include global.max-screen(global.$breakpoint_pc) {
+    padding-left: 5px;
+    line-height: 1;
+  }
 }
 
 .p-frontFVNews__name {
   position: relative;
   letter-spacing: 0.1em;
   padding-right: 76px;
-  transition: .3s all;
+  transition: 0.3s all;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    padding-right: 39px;
+    line-height: 15.5px;
+    padding-top: 2px;
+  }
 
   &::before {
     content: "";
@@ -147,10 +206,16 @@
     right: 20px;
     height: 31px;
     width: 19px;
-    transition: .3s all;
+    transition: 0.3s all;
+    @include global.max-screen(global.$breakpoint_pc) {
+     right: 10px;
+     height: 15.5px;
+     width: 8px;
+    }
+  
   }
 
-  &:hover{
+  &:hover {
     color: #b5af41;
 
     &::before {
@@ -167,6 +232,11 @@
     width: 150px;
     position: relative;
     margin: 0 auto;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      height: 43px;
+      width: 75px;
+    }
   }
 
   .cube div {
@@ -176,6 +246,12 @@
     color: #fff;
     text-align: center;
     line-height: 86px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      height: 43px;
+      width: 75px;
+      line-height: 43px;
+    }
   }
 
   .side_front {
@@ -186,6 +262,12 @@
     letter-spacing: 0em;
     font-size: 17px;
     line-height: 86px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      transform: translateZ(37.5px);
+      font-size: 10px;
+      line-height: 43px;
+    }
   }
 
   .side_front2 {
@@ -198,6 +280,13 @@
     line-height: 86px;
     padding-right: 20px;
 
+    @include global.max-screen(global.$breakpoint_pc) {
+      transform: translateZ(37.5px);
+      font-size: 14px;
+      line-height: 14px;
+      padding-right: 10px;
+    }
+
     &::before {
       content: "";
       position: absolute;
@@ -211,6 +300,12 @@
       z-index: 15;
       height: 32px;
       width: 20px;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+        right: 5px;
+        height: 16px;
+        width: 10px;
+      }
     }
   }
 
@@ -222,6 +317,12 @@
     letter-spacing: 0em;
     font-size: 17px;
     line-height: 86px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      right: -37.5px;
+      font-size: 10px;
+      line-height: 43px;
+    }
   }
 
   .side_left {
@@ -234,6 +335,13 @@
     line-height: 86px;
     padding-right: 20px;
 
+    @include global.max-screen(global.$breakpoint_pc) {
+      left: -37.5px;
+      font-size: 14px;
+      line-height: 43px;
+      padding-right: 10px;
+    }
+
     &::before {
       content: "";
       position: absolute;
@@ -247,6 +355,12 @@
       z-index: 15;
       height: 32px;
       width: 20px;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+        right: 5px;
+        height: 16px;
+        width: 10px;
+      }
     }
   }
 
@@ -257,6 +371,11 @@
     margin: 0 auto;
     transform-style: preserve-3d;
     transition: all 0.3s;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      height: 43px;
+      width: 75px;
+    }
   }
 
   .stage__wrap {
