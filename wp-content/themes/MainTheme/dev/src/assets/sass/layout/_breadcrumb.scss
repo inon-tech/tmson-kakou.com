@@ -1,1 +1,13 @@
 @use "../global" as global;
+
+.l-breadcrumb {
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  top: 95px;
+  right: 120px;
+  font-size: 12px;
+  span {
+    display: block;
+  }
+}
