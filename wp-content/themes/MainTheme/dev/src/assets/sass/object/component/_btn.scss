@@ -6,6 +6,11 @@
     width: 150px;
     position: relative;
     margin: 0 auto;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      height: 22.5px;
+      width: 75px;
+    }
   }
 
   .cube div {
@@ -15,6 +20,12 @@
     color: #fff;
     text-align: center;
     line-height: 45px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      height: 22.5px;
+      width: 75px;
+      line-height: 22.5px;
+    }
   }
 
   .side_front {
@@ -25,6 +36,12 @@
     letter-spacing: 0em;
     font-size: 17px;
     line-height: 45px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 10px;
+      line-height: 22.5px;
+      transform: translateZ(37.5px);
+    }
   }
 
   .side_front2 {
@@ -37,6 +54,13 @@
     line-height: 45px;
     padding-right: 20px;
 
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 14px;
+      line-height: 22.5px;
+      padding-right: 10px;
+      transform: translateZ(37.5px);
+    }
+
     &::before {
       content: "";
       position: absolute;
@@ -50,6 +74,12 @@
       z-index: 15;
       height: 32px;
       width: 20px;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+        right: 5px;
+        height: 16px;
+        width: 10px;
+      }
     }
   }
 
@@ -61,6 +91,12 @@
     letter-spacing: 0em;
     font-size: 17px;
     line-height: 86px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 10px;
+      line-height: 43px;
+      right: -37.5px;
+    }
   }
 
   .side_left {
@@ -73,6 +109,12 @@
     line-height: 86px;
     padding-right: 20px;
 
+    @include global.max-screen(global.$breakpoint_pc) {
+     left: -37.5px;
+     font-size: 14px;
+     padding-right: 10px;
+    }
+
     &::before {
       content: "";
       position: absolute;
@@ -86,6 +128,13 @@
       z-index: 15;
       height: 32px;
       width: 20px;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+        right: 5px;
+        height: 16px;
+        width: 10px;
+       }
+   
     }
   }
 
@@ -96,6 +145,12 @@
     margin: 0 auto;
     transform-style: preserve-3d;
     transition: all 0.3s;
+
+
+    @include global.max-screen(global.$breakpoint_pc) {
+     height: 22.5px;
+     width: 75px;
+     }
   }
 
   .stage__wrap {

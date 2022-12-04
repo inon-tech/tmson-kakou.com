@@ -33,6 +33,12 @@ body {
 	}
 }
 
+@include global.max-screen(global.$breakpoint_pc) {
+	.SP-none {
+		display: none;
+	}
+}
+
 a {
 	text-decoration: none;
 	color: inherit;

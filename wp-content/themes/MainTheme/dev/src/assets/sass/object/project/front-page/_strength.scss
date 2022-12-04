@@ -2,6 +2,10 @@
 
 .p-frontStrength {
   margin-top: 64px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 156px;
+  }
 }
 
 .p-frontStrength__wrap {
@@ -16,6 +20,11 @@
   margin-left: auto;
   margin-right: auto;
   border-left: 1px solid #567894;
+  max-width: 100%;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    width: 75%;
+  }
 
   span {
     display: block;
@@ -24,6 +33,12 @@
     font-size: 31px;
     letter-spacing: 0;
     color: #2f3449;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 16px;
+      padding-left: 4vw;
+      padding-bottom: 4vw;
+    }
   }
 }
 
@@ -35,6 +50,11 @@
   margin-left: auto;
   margin-right: auto;
   border-left: 1px solid #567894;
+  max-width: 100%;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    width: 75%;
+  }
 
   span {
     display: block;
@@ -42,9 +62,18 @@
     padding-top: 32px;
     font-size: 16px;
     line-height: 2;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 10px;
+      padding-left: 4vw;
+      padding-top: 4vw;
+    }
   }
 }
 
 .p-frontStrength__btn {
   text-align: right;
+  @include global.max-screen(global.$breakpoint_pc) {
+    padding-top: 20px;
+  }
 }

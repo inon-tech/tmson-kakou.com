@@ -25,7 +25,7 @@
 <body>
   <header class="l-header">
     <div class="l-headerPC">
-      <div class="l-headerPC__logo"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/public/img/normal/1x/common/rectangle.png" alt=""></div>
+      <div class="l-headerPC__logo"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/public/img/normal/1x/common/header-logo.png" alt=""></div>
       <nav class="l-headerPC__nav">
         <ul>
           <li>
@@ -73,7 +73,7 @@
       </nav>
     </div>
     <div class="l-headerSP">
-      <div class="l-headerPC__logo"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/public/img/normal/1x/common/rectangle.png" alt=""></div>
+      <div class="l-headerSP__logo"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/public/img/normal/1x/common/header-logo.png" alt=""></div>
 
       <div class="l-headerSP__wrap">
         <div class="l-headerSP__ME bold">MENU</div>
