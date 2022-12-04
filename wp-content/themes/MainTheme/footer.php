@@ -11,7 +11,7 @@
     </div>
   </div>
 
-  <div id="topBtn" class="l-footerTotop">
+  <div id="js-topBtn" class="l-footerTotop">
     <div class="l-footerTotop__btn">
       <div class="l-footerTotop__arrow"></div>
       <div class="l-footerTotop__font bold">TOP</div>

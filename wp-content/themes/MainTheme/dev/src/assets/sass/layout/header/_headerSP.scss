@@ -202,12 +202,12 @@
   }
 }
 
-.l-headerSP__content.active {
+.l-headerSP__content.js-active {
   right: 0px;
   z-index: 10;
 }
 
-.l-headerSP__wrap.active {
+.l-headerSP__wrap.js-active {
   .l-headerSP__ME {
     opacity: 0;
   }

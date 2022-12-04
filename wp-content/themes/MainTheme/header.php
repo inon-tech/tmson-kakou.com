@@ -75,7 +75,7 @@
     <div class="l-headerSP">
       <div class="l-headerSP__logo"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/public/img/normal/1x/common/header-logo-sp.png" alt=""></div>
 
-      <div class="l-headerSP__wrap">
+      <div class="l-headerSP__wrap js-headerSP__wrap">
         <div class="l-headerSP__ME bold">MENU</div>
         <div class="l-headerSP__CL bold">CLOSE</div>
         <div class="stage">
@@ -86,7 +86,7 @@
         </div>
       </div>
 
-      <div class="l-headerSP__content">
+      <div class="l-headerSP__content js-headerSP__content">
         <ul>
           <li><a class="bold" href="">HOME</a></li>
           <li><a class="bold" href="">会社概要</a></li>

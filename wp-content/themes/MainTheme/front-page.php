@@ -224,15 +224,15 @@ Template Name:front-page
           <h2>個人情報保護方針について</h2>
         </div>
       </div>
-      <div class="p-frontPrivacy__btn">
-        <div class="btn__wrap">
-          <div class="item-r">
+      <div class="p-frontPrivacy__btn js-privacyBtn">
+        <div class="btn__wrap js-btn__wrap">
+          <div class="item-r js-item-r">
             <!-- 正面ここから -->
             <div class="item-img-r"></div>
             <!-- 上面ここから -->
             <div class="item-content-r"></div>
           </div>
-          <div class="item">
+          <div class="item js-item">
             <!-- 正面ここから -->
             <div class="item-img bold">CLOSE</div>
 
@@ -242,7 +242,7 @@ Template Name:front-page
           </div>
         </div>
       </div>
-      <div class="p-frontPrivacy__bottom">
+      <div class="p-frontPrivacy__bottom js-privacyBottom">
         <div class="p-frontPrivacy__text">
           当社は、当社が取得した個人情報の取扱いに関し、個人情報の保護に関する法律、個人情報保護に関するガイドライン等の指針、その他個人情報保護に関する関係法令を遵守します。<br>
           <br>
