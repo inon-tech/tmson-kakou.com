@@ -85,8 +85,8 @@ Template Name:front-page
       </div>
       <div class="p-frontStrength__bottom">
         <div class="p-frontStrength__bottomItem">
-          <span>テムソンの製品は、妻子ネイ設備と効率的な一貫システム、そして精密な加工技術と万全の品質管理のもとで<br>
-            生産されており、多くのお客様から高い評価をいただいております。凡用加工においては、フレキシブルな対応<br>
+          <span>テムソンの製品は、妻子ネイ設備と効率的な一貫システム、そして精密な加工技術と万全の品質管理のもとで<br class="SP-none">
+            生産されており、多くのお客様から高い評価をいただいております。凡用加工においては、フレキシブルな対応<br class="SP-none">
             でニーズにお応えします。</span>
           <div class="c-btn p-frontStrength__btn">
             <a href="" class="stage__wrap">
@@ -109,7 +109,7 @@ Template Name:front-page
 
   <section class="p-frontMenu">
     <div class="p-frontMenu__wrap">
-      <a href="" class="p-frontMenu__item">
+      <a href="" class="p-frontMenu__itemTop">
         <div class="p-frontMenu__dark">
           <div class="p-frontMenu__btn">
             <div class="stage__wrap">
@@ -129,8 +129,8 @@ Template Name:front-page
           </div>
         </div>
       </a>
-      <div class="p-frontMenu__item">
-        <a href="" class="p-frontMenu__itemBottom">
+      <div class="p-frontMenu__itemBottom">
+        <a href="" class="p-frontMenu__item">
           <div class="p-frontMenu__dark">
             <div class="p-frontMenu__btn">
               <divc class="stage__wrap">
@@ -150,7 +150,7 @@ Template Name:front-page
             </div>
           </div>
         </a>
-        <a href="" class="p-frontMenu__itemBottom">
+        <a href="" class="p-frontMenu__item">
           <div class="p-frontMenu__dark">
             <div class="p-frontMenu__btn">
               <divc class="stage__wrap">
@@ -212,7 +212,7 @@ Template Name:front-page
       <h2><span>CONTACT</span>お問い合わせ</h2>
 
       <div class="p-frontContact__wrap">
-        <?php echo apply_shortcodes('[contact-form-7 id="34" title="コンタクトフォーム"]'); ?>
+        <?php do_shortcode('[contact-form-7 id="34" title="コンタクトフォーム"]'); ?>
       </div>
     </div>
   </section>
