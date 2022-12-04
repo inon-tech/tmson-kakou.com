@@ -66,6 +66,10 @@
   z-index: 30;
   right: 100px;
   cursor: pointer;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    right: 20px;
+  }
 }
 
 .l-footerTotop__arrow {
