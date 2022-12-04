@@ -1,0 +1,44 @@
+@use "../../../global" as global;
+
+.p-companyOverview {
+  margin-top: 65px;
+}
+
+.p-companyOverview__list {
+  margin-top: 40px;
+  width: 795px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-companyOverview__item {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  &:not(:last-child) {
+    border-bottom: 1px dotted #262120;
+  }
+
+  &:last-child {
+    align-items: baseline;
+  }
+}
+
+.p-companyOverview__left {
+  width: 170px;
+  text-align: center;
+  line-height: 1;
+}
+
+.p-companyOverview__right {
+  width: calc(100% - 170px);
+  line-height: 1;
+  p {
+    &:not(:first-child) {
+      margin-top: 15px;
+    }
+  }
+}
