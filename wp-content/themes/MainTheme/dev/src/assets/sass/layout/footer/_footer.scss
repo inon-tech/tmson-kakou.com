@@ -9,8 +9,17 @@
   color: #ffffff;
   text-align: center;
   padding: 50px 0px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    padding: 25px;
+  }
+
   h1 {
     font-size: 25px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 18px;
+    }
   }
 
   a {
@@ -42,6 +51,10 @@
   font-size: 16px;
   margin-top: 20px;
   line-height: 2;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    font-size: 12px;
+  }
 }
 
 .l-footer__time {
