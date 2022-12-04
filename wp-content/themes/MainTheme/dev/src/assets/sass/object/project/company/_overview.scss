@@ -2,6 +2,10 @@
 
 .p-companyOverview {
   margin-top: 65px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
+  }
 }
 
 .p-companyOverview__list {

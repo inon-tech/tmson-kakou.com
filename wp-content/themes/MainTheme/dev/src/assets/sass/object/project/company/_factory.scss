@@ -4,6 +4,11 @@
   margin-top: 65px;
   padding-left: 100px;
   padding-right: 100px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
+  }
+
 }
 
 .p-companyFactory__list {
