@@ -5,21 +5,46 @@
 }
 
 .l-page-FV__title {
-  width: 440px;
+  width: 32%;
   height: 100%;
+  max-width: 440px;
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    &:nth-child(1){
+      @include global.max-screen(global.$breakpoint_pc) {
+        display: none;
+      }
+    }
+    &:nth-child(2){
+      @include global.min-screen(global.$breakpoint_pc + 1) {
+        display: none;
+      }
+    }
+  }
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    width: 32%;
   }
 }
 
 .l-page-FV__desc {
-  width: calc(100% - 440px);
+  width: calc(68% - 163px - 64px);
   max-width: 1040px;
   margin-top: 85px;
   margin-left: 64px;
   line-height: 2;
   font-size: 16px;
   margin-right: 163px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    width: calc(68% - 15px - 15px);
+    font-size: 12px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 50px;
+    line-height: 1.2;
+  }
 }
