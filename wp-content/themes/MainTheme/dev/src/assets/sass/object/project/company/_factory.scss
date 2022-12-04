@@ -1,1 +1,66 @@
 @use "../../../global" as global;
+
+.p-companyFactory {
+  margin-top: 65px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.p-companyFactory__list {
+}
+
+.p-companyFactory__item {
+  display: flex;
+  height: 350px;
+
+  &:nth-child(1) {
+    .p-companyFactory__left {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: calc(100% - 200px);
+      z-index: 1;
+      background-image: url(#{global.$path_img}/normal/1x/company/company-factory-01.png);
+    }
+
+    .p-companyFactory__right {
+      width: 200px;
+      height: 100%;
+      background: #1e2b35;
+
+
+      p{
+        color: #ffffff;
+        text-align: center;
+        font-size: 38px;
+        padding-top: 20px;
+      }
+    }
+  }
+
+  &:nth-child(2) {
+    .p-companyFactory__left {
+      width: 200px;
+      height: 100%;
+      background: #1e2b35;
+
+      p{
+        color: #ffffff;
+        text-align: center;
+        font-size: 38px;
+        padding-top: 20px;
+      }
+    }
+
+    .p-companyFactory__right {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: calc(100% - 200px);
+      z-index: 1;
+      background-image: url(#{global.$path_img}/normal/1x/company/company-factory-02.png);
+    }
+  }
+}
