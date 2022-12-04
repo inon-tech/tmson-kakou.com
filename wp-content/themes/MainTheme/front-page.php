@@ -199,11 +199,11 @@ Template Name:front-page
           </a>
         </div>
       </div>
-      <div class="p-frontRecruit__imgWrap">
-        <div class="p-frontRecruit__item"></div>
-        <div class="p-frontRecruit__item"></div>
-        <div class="p-frontRecruit__item"></div>
-      </div>
+    </div>
+    <div class="p-frontRecruit__imgWrap">
+      <div class="p-frontRecruit__item"></div>
+      <div class="p-frontRecruit__item"></div>
+      <div class="p-frontRecruit__item"></div>
     </div>
   </section>
 

@@ -2,13 +2,26 @@
 
 .p-frontRecruit {
   margin-top: 64px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
+  }
 }
 
 .p-frontRecruit__title {
+  @include global.max-screen(global.$breakpoint_pc) {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
   img {
     width: 355px;
     margin-left: auto;
     margin-right: auto;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      width: 200px;
+    }
   }
 }
 
@@ -16,9 +29,20 @@
   width: 800px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
   p {
     margin-top: 64px;
     font-size: 16px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      margin-top: 8vw;
+      font-size: 14px;
+    }
   }
 }
 
@@ -40,6 +64,10 @@
   width: 1040px;
   margin-left: auto;
   margin-right: auto;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
+  }
 }
 
 .p-frontRecruit__item {
@@ -49,6 +77,10 @@
   height: 230px;
   background-repeat: no-repeat;
   position: relative;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    height: 23vw;
+  }
 
   &:nth-child(1) {
     background-image: url(#{global.$path_img}/normal/1x/common/rectangle.png);
