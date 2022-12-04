@@ -130,28 +130,28 @@ Template Name:テムソンの強み
       <div class="p-strengthContent__wrap">
         <a href="" class="p-strengthContent__item">
           <div class="p-strengthContent__dark">
-            <div class="p-strengthContent__img">
+            <div class="p-strengthContent__text">
               <h3>ロボット産業</h3>
             </div>
           </div>
         </a>
         <a href="" class="p-strengthContent__item">
           <div class="p-strengthContent__dark">
-            <div class="p-strengthContent__img">
+            <div class="p-strengthContent__text">
               <h3>機械工具</h3>
             </div>
           </div>
         </a>
         <a href="" class="p-strengthContent__item">
           <div class="p-strengthContent__dark">
-            <div class="p-strengthContent__img">
+            <div class="p-strengthContent__text">
               <h3>工作機械</h3>
             </div>
           </div>
         </a>
         <a href="" class="p-strengthContent__item">
           <div class="p-strengthContent__dark">
-            <div class="p-strengthContent__img">
+            <div class="p-strengthContent__text">
               <h3>半導体</h3>
             </div>
           </div>
@@ -163,7 +163,7 @@ Template Name:テムソンの強み
   <section class="p-strengthFacility">
     <h2 class="c-section-title">主要設備一覧</h2>
     <div class="l-inner">
-      <table>
+      <table border="1" class="p-strength__table">
         <tr>
           <th>マシン</th>
           <td>メーカー</td>
