@@ -1,0 +1,166 @@
+@use "../../../global" as global;
+
+.p-strengthMenu {
+}
+
+.p-strengthMenu__wrap {
+  display: flex;
+  flex-wrap: wrap;
+
+  .p-strengthMenu__item {
+    position: relative;
+    display: block;
+    width: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 175px;
+
+    &:nth-child(1) {
+      background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-01.png);
+    }
+    &:nth-child(2) {
+      background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-02.png);
+    }
+    &:nth-child(3) {
+      background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-03.png);
+    }
+    &:nth-child(4) {
+      background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-04.png);
+    }
+  }
+
+  .p-strengthMenu__dark {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+
+    &:hover {
+      background: rgba(0, 0, 255, 0);
+    }
+  }
+
+  .p-strengthMenu__text {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 50px;
+    h3 {
+      font-size: 30px;
+      color: #ffffff;
+    }
+
+    p {
+      color: #ffffff;
+      font-size: 16px;
+      padding-top: 10px;
+    }
+  }
+}
+
+.p-strengthMenu__BottomWrap {
+  display: flex;
+}
+
+.p-strengthMenu__BLWrap {
+  display: flex;
+  width: 50%;
+  .p-strengthMenu__item {
+    position: relative;
+    display: block;
+    width: 33.3333333%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 175px;
+
+    &:nth-child(1) {
+      background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-05.png);
+    }
+    &:nth-child(2) {
+      background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-06.png);
+    }
+    &:nth-child(3) {
+      background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-07.png);
+    }
+  }
+
+  .p-strengthMenu__dark {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+
+    &:hover {
+      background: rgba(0, 0, 255, 0);
+    }
+  }
+
+  .p-strengthMenu__text {
+    padding-top: 50px;
+    h3 {
+      font-size: 30px;
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+}
+
+.p-strengthMenu__BRWrap {
+  display: flex;
+  width: 50%;
+  .p-strengthMenu__item {
+    position: relative;
+    display: block;
+    width: 33.3333333%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 175px;
+
+    &:nth-child(1) {
+      background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-08.png);
+    }
+    &:nth-child(2) {
+      background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-09.png);
+    }
+    &:nth-child(3) {
+      background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-10.png);
+
+      .p-strengthMenu__text {
+        h3 {
+          padding-top: 70px;
+        }
+      }
+    }
+  }
+
+  .p-strengthMenu__dark {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+
+    &:hover {
+      background: rgba(0, 0, 255, 0);
+    }
+  }
+
+  .p-strengthMenu__text {
+    h3 {
+      font-size: 30px;
+      color: #ffffff;
+      text-align: center;
+      padding-top: 50px;
+    }
+  }
+}
