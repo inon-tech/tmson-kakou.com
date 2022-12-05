@@ -52,6 +52,25 @@ function add_article_post_rewrite_rules($post_rewrite)
 }
 add_filter('post_rewrite_rules', 'add_article_post_rewrite_rules');
 
+function my_static_breadcrumb_adder( $breadcrumb_trail ) {
+
+  if (is_post_type_archive('post')) { // デフォルトの投稿一覧ページの場合
+
+    $item = new bcn_breadcrumb('お知らせ', null, array('post'));
+
+  } elseif (get_post_type() === 'post') { // デフォルトの投稿ページの場合
+
+    $item = new bcn_breadcrumb('お知らせ', null, array('post'), home_url('archives.news/'), null, true);
+
+  }
+
+  $stuck = array_pop( $breadcrumb_trail->breadcrumbs ); // HOME 一時退避
+  $breadcrumb_trail->breadcrumbs[] = $item; // 任意の名前 追加
+  $breadcrumb_trail->breadcrumbs[] = $stuck; // HOME 戻す
+
+}
+add_action('bcn_after_fill', 'my_static_breadcrumb_adder');
+
 // カスタム投稿タイプ採用情報
 
 add_action('init', 'create_post_type');
@@ -94,6 +113,69 @@ function IHY_img_path()
   $IHY_img_2 = "/public/img/normal/2x/";
 }
 add_action('after_setup_theme', 'IHY_img_path');
+
+// ファーストビューカスタムフィールド
+function add_scf_fv($settings, $type, $id, $meta_type)
+{
+
+  if ($type == "recruit") {
+
+    // SCF::add_setting( 'ユニークなID', 'メタボックスのタイトル' );
+    $Setting = SCF::add_setting('recruit', '採用情報詳細');
+
+    // $Setting->add_group( 'ユニークなID', 繰り返し可能か, カスタムフィールドの配列 );
+    $Setting->add_group('recruit_field', false, array(
+      array(
+        'type'  => 'text',
+        'name'  => 'recruit-1',
+        'label' => '職種',
+      ),
+      array(
+        'type'  => 'text',
+        'name'  => 'recruit-2',
+        'label' => '対象',
+      ),
+      array(
+        'type'  => 'text',
+        'name'  => 'recruit-3',
+        'label' => '勤務地',
+      ),
+      array(
+        'type'  => 'text',
+        'name'  => 'recruit-4',
+        'label' => '給与',
+      ),
+      array(
+        'type'  => 'text',
+        'name'  => 'recruit-5',
+        'label' => '諸手当',
+      ),
+      array(
+        'type'  => 'text',
+        'name'  => 'recruit-6',
+        'label' => '勤務時間',
+      ),
+      array(
+        'type'  => 'text',
+        'name'  => 'recruit-7',
+        'label' => '休日休暇',
+      ),
+      array(
+        'type'  => 'text',
+        'name'  => 'recruit-8',
+        'label' => '福利厚生',
+      ),
+      array(
+        'type'  => 'text',
+        'name'  => 'recruit-9',
+        'label' => '備考',
+      ),
+    ));
+    $settings[] = $Setting;
+  }
+  return $settings;
+}
+add_filter('smart-cf-register-fields', 'add_scf_fv', 10, 4);
 
 remove_action('wp_head', 'wp_generator'); // バージョン
 remove_action('wp_head', 'wp_shortlink_wp_head'); // 短縮URLのlink

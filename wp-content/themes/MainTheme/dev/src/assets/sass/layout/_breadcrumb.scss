@@ -4,13 +4,13 @@
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
-  top: 95px;
+  top: 55px;
   right: 120px;
   font-size: 12px;
 
   @include global.max-screen(global.$breakpoint_pc) {
     right: 15px;
-    top: 65px;
+    top: 20px;
     font-size: 10px;
   }
   span {

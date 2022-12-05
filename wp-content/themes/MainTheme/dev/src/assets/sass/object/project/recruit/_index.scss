@@ -1,0 +1,46 @@
+@use "../../../global" as global;
+
+.p-singleRecruit {
+}
+
+.p-singleRecruit__wrap {
+  margin-left: 120px;
+  padding-left: 40px;
+  padding-right: 80px;
+  border-left: 1px solid #262120;
+  width: 1160px;
+  max-width: 100%;
+}
+
+.p-singleRecruit__item {
+  display: flex;
+  align-items: center;
+
+  &:nth-child(2n) {
+    background-color: #d9e2e8;
+  }
+
+  &:first-child{
+    padding-top: 65px;
+  }
+}
+
+.p-single__left {
+  font-size: 16px;
+  text-align: right;
+  width: 200px;
+  line-height: 1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+}
+
+.p-single__right {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-left: 1px solid #567894;
+  font-size: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: calc(100% - 200px);
+}
