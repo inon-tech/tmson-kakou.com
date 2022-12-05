@@ -2,11 +2,19 @@
 
 .p-strengthMenu {
   margin-top: 65px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
+  }
 }
 
 .p-strengthMenu__wrap {
   display: flex;
   flex-wrap: wrap;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    display: block;
+  }
 
   .p-strengthMenu__item {
     position: relative;
@@ -16,6 +24,10 @@
     background-position: center center;
     background-repeat: no-repeat;
     height: 175px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      width: 100%;
+    }
 
     &:nth-child(1) {
       background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-01.png);
@@ -49,26 +61,49 @@
     display: inline-block;
     padding-top: 30px;
     padding-left: 50px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      padding-top: 40px;
+      padding-left: 20px;
+    }
     h3 {
       font-size: 30px;
       color: #ffffff;
+      font-weight: normal;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+        font-size: 25px;
+      }
     }
 
     p {
       color: #ffffff;
       font-size: 16px;
       padding-top: 10px;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+        font-size: 12px;
+        line-height: 2;
+      }
     }
   }
 }
 
 .p-strengthMenu__BottomWrap {
   display: flex;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    display: block;
+  }
 }
 
 .p-strengthMenu__BLWrap {
   display: flex;
   width: 50%;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    width: 100%;
+  }
   .p-strengthMenu__item {
     position: relative;
     display: block;
@@ -109,6 +144,10 @@
       font-size: 30px;
       color: #ffffff;
       text-align: center;
+      font-weight: normal;
+      @include global.max-screen(global.$breakpoint_pc) {
+        font-size: 25px;
+      }
     }
   }
 }
@@ -116,6 +155,10 @@
 .p-strengthMenu__BRWrap {
   display: flex;
   width: 50%;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    width: 100%;
+  }
   .p-strengthMenu__item {
     position: relative;
     display: block;
@@ -162,6 +205,10 @@
       color: #ffffff;
       text-align: center;
       padding-top: 50px;
+
+      @include global.max-screen(global.$breakpoint_pc) {
+        font-size: 25px;
+      }
     }
   }
 }

@@ -62,7 +62,7 @@ Template Name:テムソンの強み
         <div class="p-strengthMenu__dark">
           <div class="p-strengthMenu__text">
             <h3>汎用加工</h3>
-            <p>単品1個から小ロット量産まで大小さまざまな加工に対応いたします。<br>
+            <p>単品1個から小ロット量産まで大小さまざまな加工に対応いたします。<br class="SP-none">
               また市販部品の追加工など、ニーズにあわせて受難に対応いたします。</p>
           </div>
         </div>
