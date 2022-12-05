@@ -162,7 +162,7 @@ Template Name:テムソンの強み
 
   <section class="p-strengthFacility">
     <h2 class="c-section-title">主要設備一覧</h2>
-    <div class="l-inner">
+    <div class="l-inner js-scrollable">
       <table border="1" class="p-strength__table">
         <tr>
           <th>マシン</th>

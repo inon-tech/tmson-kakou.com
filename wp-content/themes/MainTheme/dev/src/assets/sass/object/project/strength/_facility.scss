@@ -2,13 +2,21 @@
 
 .p-strengthFacility {
   margin-top: 65px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
+  }
   p {
     text-align: right;
     margin-top: 20px;
     margin-right: 80px;
     font-size: 16px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 12px;
+      margin-right: 0px;
+    }
   }
-  display: none;
 }
 
 .p-strength__table {
@@ -21,12 +29,19 @@
   border-color: #262120;
   border: 0;
   max-width: 100%;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
+    font-size: 14px;
+    white-space: nowrap;
+  }
 }
 tr {
   &:last-child {
     border-bottom: none !important;
 
-    td,th{
+    td,
+    th {
       border-bottom: none !important;
     }
   }
@@ -48,7 +63,8 @@ tr {
   }
 }
 
-td,th{
+td,
+th {
   padding-top: 8px;
   padding-bottom: 8px;
 }
@@ -58,4 +74,7 @@ td,
 th {
   border: none;
   border-bottom: 1px dashed #262120;
+}
+
+.js-scrollable {
 }

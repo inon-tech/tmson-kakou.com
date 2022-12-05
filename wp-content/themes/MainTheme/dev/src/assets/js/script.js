@@ -68,3 +68,5 @@ jQuery('.js-headerSP__wrap').on('click', function () {
   jQuery('.js-headerSP__wrap').toggleClass('js-active');
   jQuery('.js-headerSP__content').toggleClass('js-active');
 });
+
+new ScrollHint('.js-scrollable');
