@@ -31,7 +31,7 @@ Template Name:front-page
     </div>
 
     <div class="p-frontFV__bottom">
-      <a href="" class="stage__wrap">
+      <a href="<?php echo esc_url(get_post_type_archive_link('post')); ?>" class="stage__wrap">
         <div class="stage">
           <div class="cube">
             <div class="side_right bold">お知らせ</div>
@@ -89,7 +89,7 @@ Template Name:front-page
             生産されており、多くのお客様から高い評価をいただいております。凡用加工においては、フレキシブルな対応<br class="SP-none">
             でニーズにお応えします。</span>
           <div class="c-btn p-frontStrength__btn">
-            <a href="" class="stage__wrap">
+            <a href="<?php echo esc_url(home_url('strength')); ?>" class="stage__wrap">
               <div class="stage">
                 <div class="cube">
                   <div class="side_right bold">テムソンの強み</div>
@@ -109,7 +109,7 @@ Template Name:front-page
 
   <section class="p-frontMenu">
     <div class="p-frontMenu__wrap">
-      <a href="" class="p-frontMenu__itemTop">
+      <a href="<?php echo esc_url(home_url('company')); ?>" class="p-frontMenu__itemTop">
         <div class="p-frontMenu__dark">
           <div class="p-frontMenu__btn">
             <div class="stage__wrap">
@@ -130,7 +130,7 @@ Template Name:front-page
         </div>
       </a>
       <div class="p-frontMenu__itemBottom">
-        <a href="" class="p-frontMenu__item">
+        <a href="<?php echo esc_url(home_url('strength')); ?>" class="p-frontMenu__item">
           <div class="p-frontMenu__dark">
             <div class="p-frontMenu__btn">
               <divc class="stage__wrap">
@@ -150,7 +150,7 @@ Template Name:front-page
             </div>
           </div>
         </a>
-        <a href="" class="p-frontMenu__item">
+        <a href="<?php echo esc_url(home_url('strength')); ?>" class="p-frontMenu__item">
           <div class="p-frontMenu__dark">
             <div class="p-frontMenu__btn">
               <divc class="stage__wrap">
@@ -183,7 +183,7 @@ Template Name:front-page
           行間等を確認するために入れています。
         </p>
         <div class="c-btn p-frontStrength__btn">
-          <a href="" class="stage__wrap">
+          <a href="<?php echo esc_url(get_post_type_archive_link('recruit')); ?>" class="stage__wrap">
             <div class="stage">
               <div class="cube">
                 <div class="side_right bold">採用情報はこちら</div>

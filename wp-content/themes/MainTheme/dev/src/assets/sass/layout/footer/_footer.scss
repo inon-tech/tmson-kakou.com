@@ -1,7 +1,9 @@
 @use "../../global" as global;
 
 .l-footer {
-  position: relative;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 
 .l-footer__wrap {
@@ -100,4 +102,18 @@
   height: 40px;
   text-align: center;
   line-height: 40px;
+}
+
+.footerFixed {
+  padding-bottom: 283px;
+  position: relative;
+	min-height: calc(100vh - 45px);
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    padding-bottom: 207px;
+  }
+
+  @include global.max-screen(370px) {
+    padding-bottom: 231px;
+  }
 }

@@ -13,6 +13,7 @@ body {
 	letter-spacing: 0em;
 	background-color: global.$c--white;
 	color: global.$c--text;
+	min-height: calc(100vh - 45px);
 }
 
 .bold {
