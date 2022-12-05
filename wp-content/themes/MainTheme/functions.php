@@ -6,11 +6,13 @@ function my_script_init()
   wp_enqueue_style('reset', get_template_directory_uri() . '/public/css/reset.css', array(), '1.0.0', 'all');
   wp_enqueue_style('slick', get_template_directory_uri() . '/public/css/slick.css', array(), '1.0.0', 'all');
   wp_enqueue_style('slick-theme', get_template_directory_uri() . '/public/css/slick-theme.css', array(), '1.0.0', 'all');
+  wp_enqueue_style('scroll-hint', get_template_directory_uri() . '/public/css/scroll-hint.css', array(), '1.0.0', 'all');
   wp_enqueue_style('stylesheet', get_template_directory_uri() . '/public/css/style.min.css', array(), '1.0.0', 'all');
   // JS
   wp_enqueue_script('slick', get_template_directory_uri() . '/public/js/slick.min.js', array('jquery'), '1.0.0', true);
   wp_enqueue_script('wow', get_template_directory_uri() . '/public/js/wow.min.js', array('jquery'), '1.0.0', true);
   wp_enqueue_script('modernizr-custom', get_template_directory_uri() . '/public/js/modernizr-custom.min.js', array('jquery'), '1.0.0', true);
+  wp_enqueue_script('scroll-hint', get_template_directory_uri() . '/public/js/scroll-hint.min.js', array('jquery'), '1.0.0', true);
   wp_enqueue_script('my-script', get_template_directory_uri() . '/public/js/script.min.js', array('jquery'), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'my_script_init');
