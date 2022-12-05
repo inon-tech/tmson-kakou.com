@@ -60,60 +60,6 @@
   }
 }
 
-.nav-links {
-  display: flex;
-  margin-top: 65px;
-  justify-content: center;
-  align-items: center;
-
-  a {
-    margin-top: 0 !important;
-  }
-
-  .page-numbers {
-    font-size: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-
-    &::after{
-      position: absolute;
-      content:"・";
-      font-size: 40px;
-      top: 50%;
-      transform: translateY(-50%);
-      left: 35px;
-    }
-
-   
-
-    &:nth-last-of-type(2){
-      &::after{
-        display: none;
-      }
-    }
-  }
-
-  .dots{
-    &::after{
-      display: none;
-    }
-  }
-
-
-  .prev{
-    &::after{
-      display: none;
-    }
-  }
-
-  .next{
-    &::after{
-      display: none;
-    }
-  }
-}
-
 .p-singleNews {
 }
 
@@ -158,10 +104,155 @@
   text-align: center;
 }
 
-.p-newsBreadcrumb{
+.p-newsBreadcrumb {
   top: 60px !important;
 
   @include global.max-screen(global.$breakpoint_pc) {
     top: 20px !important;
+  }
+}
+
+.Pagenation {
+  margin-top: 100px;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -20px;
+  }
+
+  li {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 0.1rem;
+    color: #666666;
+    font-weight: bold;
+    max-width: 100%;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 40px;
+    }
+
+    &:first-child {
+      & span {
+        &::before {
+          display: none;
+        }
+      }
+    }
+
+    &:last-child {
+      & span {
+        &::after {
+          display: none;
+        }
+      }
+    }
+
+    a {
+      display: block;
+      font-weight: normal;
+      &.page-numbers {
+        margin-left: 40px;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          margin-left: 20px;
+        }
+      }
+    }
+
+    span {
+      font-weight: normal;
+      &.prev {
+        width: 19px;
+        height: 30px;
+        display: inline-block;
+        background-image: url(#{global.$path_img}/svg/arrow-page.svg);
+        transition: 0.3s ease-out;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 3px;
+        &:hover {
+          background-image: url(#{global.$path_img}/svg/arrow-page.svg);
+        }
+      }
+
+      &.next {
+        width: 19px;
+        height: 30px;
+        display: inline-block;
+        background-image: url(#{global.$path_img}/svg/arrow-page.svg);
+        transition: 0.3s ease-out;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        rotate: 180deg;
+        margin-bottom: 3px;
+
+        &:hover {
+          background-image: url(#{global.$path_img}/svg/arrow-page.svg);
+        }
+      }
+
+      &.dots {
+        color: #666666;
+        margin-left: 20px;
+        font-size: 70px;
+        letter-spacing: 30px;
+        margin-right: -37px;
+      }
+
+      &.current {
+        background-color: #4190b7;
+        border-radius: 100px;
+        margin-left: 40px;
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        position: relative;
+        padding-left: 3px;
+        color: #ffffff;
+        position: relative;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          margin-left: 20px;
+        }
+
+        &::after {
+          position: absolute;
+          width:  10px;
+          height: 10px;
+          border-radius: 50%;
+          content: "";
+          background: #666666;
+          top: 50%;
+          right: -24px;
+          transform: translateY(-50%);
+
+          @include global.max-screen(global.$breakpoint_pc) {
+            right: -16px;
+          }
+        }
+
+        &::before {
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          content: "";
+          background: #666666;
+          top: 50%;
+          left: -27px;
+          transform: translateY(-50%);
+
+          @include global.max-screen(global.$breakpoint_pc) {
+            left: -18px;
+          }
+        }
+      }
+    }
   }
 }

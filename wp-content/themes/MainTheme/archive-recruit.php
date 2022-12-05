@@ -48,17 +48,18 @@ Template Name: 求人情報
       endif;
       wp_reset_query(); ?>
     </div>
-
-    <?php
-    $args = array(
-      'mid_size' => 1,
-      'prev_text' => '＜',
-      'next_text' => '＞',
-      'type'  => 'list', // 戻り値の指定 (plain/list)
-      'prev_next'     => true, // 「前へ」「次へ」のリンクを表示する場合はtrue
-    );
-    the_posts_pagination($args);
-    ?>
+    <div class="Pagenation">
+      <?php
+      $args = array(
+        'mid_size' => 1,
+        'prev_text' => '＜',
+        'next_text' => '＞',
+        'type'  => 'list', // 戻り値の指定 (plain/list)
+        'prev_next'     => true, // 「前へ」「次へ」のリンクを表示する場合はtrue
+      );
+      the_posts_pagination($args);
+      ?>
+    </div>
   </section>
 </main>
 

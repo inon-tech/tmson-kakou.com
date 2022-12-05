@@ -44,16 +44,17 @@ Template Name: お知らせ
       wp_reset_query(); ?>
     </div>
 
-    <?php
-    $my_pagenation = get_the_posts_pagination(array(
-      'prev_text' => '',
-      'next_text' => '',
-      'mid_size' => 2,
-      'end_size'     => 1,
-    ));
-
-    echo $my_pagenation;
-    ?>
+    <div class="Pagenation">
+      <?php the_posts_pagination(
+        array(
+          'mid_size'      => 1, // 現在ページの左右に表示するページ番号の数
+          'prev_next'     => true, // 「前へ」「次へ」のリンクを表示する場合はtrue
+          'prev_text'     => '<span class="prev"></span>', // 「前へ」リンクのテキスト
+          'next_text'     => '<span class="next"></span>', // 「次へ」リンクのテキスト
+          'type'          => 'list', // 戻り値の指定 (plain/list)
+        )
+      ); ?>
+    </div>
   </section>
 </main>
 
