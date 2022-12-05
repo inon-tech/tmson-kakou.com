@@ -2,6 +2,10 @@
 
 .p-strengthContent {
   margin-top: 65px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
+  }
 }
 
 .p-strengthContent__wrap {
@@ -12,6 +16,12 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .p-strengthContent__item {
@@ -22,6 +32,10 @@
   background-position: center center;
   background-repeat: no-repeat;
   height: 270px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    height: 225px;
+  }
 
   &:nth-child(1) {
     background-image: url(#{global.$path_img}/normal/1x/strength/strength-content-01.png);
@@ -57,5 +71,11 @@
     color: #ffffff;
     text-align: center;
     padding-top: 120px;
+    font-weight: normal;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 20px;
+      padding-top: 100px;
+    }
   }
 }
