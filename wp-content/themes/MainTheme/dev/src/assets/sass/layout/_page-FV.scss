@@ -15,17 +15,26 @@
 
   @include global.max-screen(global.$breakpoint_pc) {
     padding: 2rem;
+    max-height: 230px;
   }
 
   h1 {
     font-size: 40px;
     color: #ffffff;
     font-weight: normal;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 30px;
+    }
   }
 
   img {
     width: 312px;
     margin-top: 5px;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+
+    }
   }
 
   p {
@@ -35,16 +44,13 @@
 }
 
 .l-page-FV__desc {
-  width: calc(68% - 163px - 64px);
   max-width: 1040px;
   margin-top: 85px;
   margin-left: 4rem;
   line-height: 2;
   font-size: 1rem;
-  margin-right: 10rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    width: calc(68% - 15px - 15px);
     font-size: 12px;
     margin-right: 15px;
     margin-left: 15px;
