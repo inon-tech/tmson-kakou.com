@@ -10,19 +10,22 @@ Template Name: 求人情報
 ?>
 <main class="">
   <section class="l-page-FV">
-    <h1 class="l-page-FV__title">
-      <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/recruit-title.png" alt="">
-      <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/recruit-title.png" alt="">
-    </h1>
-    <div class="l-page-FV__desc">
-      <div class="l-breadcrumb p-newsBreadcrumb">
-        <?php bcn_display(); ?>
+    <div class="l-page-FV__wrap">
+      <div class="l-page-FV__left">
+        <h1>RECRUIT
+          <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/recruit-title.png" alt="">
+        </h1>
       </div>
-      この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
-      文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
-      行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
-      行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
-      行間等を確認するために入れています。
+      <div class="l-page-FV__desc">
+        <div class="l-breadcrumb p-newsBreadcrumb">
+          <?php bcn_display(); ?>
+        </div>
+        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
+        文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
+        行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
+        行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
+        行間等を確認するために入れています。
+      </div>
     </div>
   </section>
 

@@ -1,32 +1,36 @@
 @use "../global" as global;
 
 .l-page-FV {
-  display: flex;
 }
 
-.l-page-FV__title {
-  width: 32%;
-  height: 100%;
-  max-width: 440px;
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.l-page-FV__wrap {
+  display: flex;
 
-    &:nth-child(1){
-      @include global.max-screen(global.$breakpoint_pc) {
-        display: none;
-      }
-    }
-    &:nth-child(2){
-      @include global.min-screen(global.$breakpoint_pc + 1) {
-        display: none;
-      }
-    }
-  }
+
+}
+
+.l-page-FV__left {
+  background: #1e2b35;
+  padding: 4rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    width: 32%;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: normal;
+  }
+
+  img {
+    width: 312px;
+    margin-top: 5px;
+  }
+
+  p {
+    font-weight: normal;
+    width: 312px;
   }
 }
 

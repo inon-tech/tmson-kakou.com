@@ -7,7 +7,7 @@ jQuery(function () {
     fade: true,    // fedeオン
     speed: 1500,   // 画像切り替えにかかる時間（ミリ秒）
     autoplaySpeed: 2000,   // 自動スライド切り替え速度
-    autoplay	: true,
+    autoplay: true,
   });
 });
 
@@ -69,4 +69,8 @@ jQuery('.js-headerSP__wrap').on('click', function () {
   jQuery('.js-headerSP__content').toggleClass('js-active');
 });
 
-new ScrollHint('.js-scrollable');
+new ScrollHint('.js-scrollable', {
+  i18n: {
+    scrollable: 'スクロールできます'
+  }
+});
