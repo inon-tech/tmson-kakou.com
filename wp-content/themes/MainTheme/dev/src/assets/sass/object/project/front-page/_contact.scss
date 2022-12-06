@@ -283,3 +283,13 @@ select::-ms-expand {
     transition: all 1s;
   }
 }
+
+// コンタクトページの記述
+
+.contact-page{
+  margin-bottom: 100px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+   margin-bottom: 300px;
+  }
+}
