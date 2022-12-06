@@ -241,30 +241,31 @@
 
 .p-frontFV__bottom {
   // FV用ボタン
+
+  .stage {
+    height: 50%;
+  }
+
   .cube {
-    height: 86px;
     width: 150px;
     position: relative;
     margin: 0 auto;
+    height: 100%;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      height: 43px;
       width: 75px;
     }
   }
 
   .cube div {
-    height: 86px;
     width: 150px;
     position: absolute;
     color: #fff;
+    height: 100%;
     text-align: center;
-    line-height: 86px;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      height: 43px;
       width: 75px;
-      line-height: 43px;
     }
   }
 
@@ -272,15 +273,17 @@
     background: #282828;
     top: 0px;
     left: 0px;
+    height: 100%;
     transform: translateZ(75px);
     letter-spacing: 0em;
     font-size: 17px;
-    line-height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     @include global.max-screen(global.$breakpoint_pc) {
       transform: translateZ(37.5px);
       font-size: 10px;
-      line-height: 43px;
     }
   }
 
@@ -291,13 +294,15 @@
     transform: translateZ(75px);
     letter-spacing: 0em;
     font-size: 25px;
-    line-height: 86px;
+    height: 100%;
     padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     @include global.max-screen(global.$breakpoint_pc) {
       transform: translateZ(37.5px);
       font-size: 14px;
-      line-height: 14px;
       padding-right: 10px;
     }
 
@@ -326,33 +331,37 @@
   .side_right {
     background: #6b6b6b;
     top: 0px;
+    height: 100%;
     right: -75px;
     transform: rotateY(90deg);
     letter-spacing: 0em;
     font-size: 17px;
-    line-height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     @include global.max-screen(global.$breakpoint_pc) {
       right: -37.5px;
       font-size: 10px;
-      line-height: 43px;
     }
   }
 
   .side_left {
+    height: 100%;
     background: #b5af41;
     top: 0px;
     left: -75px;
     transform: rotateY(-90deg);
     letter-spacing: 0em;
     font-size: 25px;
-    line-height: 86px;
     padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     @include global.max-screen(global.$breakpoint_pc) {
       left: -37.5px;
       font-size: 14px;
-      line-height: 43px;
       padding-right: 10px;
     }
 
@@ -379,7 +388,6 @@
   }
 
   .cube {
-    height: 86px;
     width: 150px;
     position: relative;
     margin: 0 auto;
@@ -387,7 +395,6 @@
     transition: all 0.3s;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      height: 43px;
       width: 75px;
     }
   }
