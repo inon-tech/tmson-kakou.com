@@ -5,11 +5,21 @@
 
 .p-singleRecruit__wrap {
   margin-left: 120px;
-  padding-left: 2rem;
+  padding-left: 32px;
   padding-right: 80px;
   border-left: 1px solid #262120;
   width: 1160px;
   max-width: 100%;
+
+  @include global.max-screen(1300px) {
+    width: calc(100% - 120px);
+  }
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    width: calc(100% - 20px);
+    margin-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .p-singleRecruit__item {
@@ -20,7 +30,7 @@
     background-color: #d9e2e8;
   }
 
-  &:first-child{
+  &:first-child {
     padding-top: 4rem;
   }
 }
@@ -33,6 +43,10 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 2rem;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    width: 100px;
+  }
 }
 
 .p-single__right {
@@ -43,4 +57,9 @@
   padding-left: 2rem;
   padding-right: 2rem;
   width: calc(100% - 200px);
+  max-width: 100%;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    width: calc(100% - 100px);
+  }
 }
