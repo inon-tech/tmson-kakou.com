@@ -1,10 +1,10 @@
 @use "../global" as global;
 
 html {
-	font-size: 62.5%;
+	font-size: 100%;
 
-	@include global.max-screen(global.$breakpoint_sp) {
-		font-size: 50%;
+	@include global.max-screen(global.$breakpoint_pc) {
+		font-size: 87.5%;
 	}
 }
 

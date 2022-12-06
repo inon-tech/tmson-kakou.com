@@ -35,9 +35,9 @@
   background: rgba(0, 0, 0, 0.75);
   height: 100%;
   z-index: 4;
-  padding-top: 64px;
-  padding-left: 64px;
-  padding-right: 64px;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   width: 520px;
 
   @include global.max-screen(global.$breakpoint_pc) {
@@ -141,9 +141,9 @@
 .p-frontFV__news {
   width: 100%;
   line-height: 1;
-  padding-left: 28px;
-  padding-top: 28px;
-  padding-bottom: 28px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
     padding-left: 4vw;
@@ -200,7 +200,7 @@
 .p-frontFVNews__name {
   position: relative;
   letter-spacing: 0.1em;
-  padding-right: 76px;
+  padding-right: 4rem;
   transition: 0.3s all;
 
   @include global.max-screen(global.$breakpoint_pc) {
@@ -223,7 +223,7 @@
     width: 19px;
     transition: 0.3s all;
     @include global.max-screen(global.$breakpoint_pc) {
-      right: 10px;
+      right: 20px;
       height: 15.5px;
       width: 8px;
     }
@@ -233,7 +233,7 @@
     color: #b5af41;
 
     &::before {
-      right: 0px;
+      right: -0px;
       background-image: url(#{global.$path_img}/svg/arrow-yellow.svg);
     }
   }

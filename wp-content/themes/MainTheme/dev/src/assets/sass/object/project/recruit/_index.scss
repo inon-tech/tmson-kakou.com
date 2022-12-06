@@ -5,7 +5,7 @@
 
 .p-singleRecruit__wrap {
   margin-left: 120px;
-  padding-left: 40px;
+  padding-left: 2rem;
   padding-right: 80px;
   border-left: 1px solid #262120;
   width: 1160px;
@@ -21,26 +21,26 @@
   }
 
   &:first-child{
-    padding-top: 65px;
+    padding-top: 4rem;
   }
 }
 
 .p-single__left {
-  font-size: 16px;
+  font-size: 1rem;
   text-align: right;
   width: 200px;
   line-height: 1;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 30px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
 }
 
 .p-single__right {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   border-left: 1px solid #567894;
-  font-size: 16px;
-  padding-left: 30px;
-  padding-right: 30px;
+  font-size: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   width: calc(100% - 200px);
 }

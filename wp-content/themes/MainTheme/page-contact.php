@@ -21,7 +21,7 @@ Template Name: お問い合わせ
     </div>
   </section>
 
-  <section class="p-frontContact">
+  <section class="p-frontContact contact-page">
     <div class="l-inner">
       <h2><span>CONTACT</span>お問い合わせ</h2>
 
