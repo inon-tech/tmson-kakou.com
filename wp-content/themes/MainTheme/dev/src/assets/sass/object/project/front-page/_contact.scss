@@ -1,7 +1,7 @@
 @use "../../../global" as global;
 
 .p-frontContact {
-  height: 665px;
+  height: 550px;
   width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -10,7 +10,6 @@
 
   @include global.max-screen(global.$breakpoint_pc) {
     margin-top: 8vw;
-    height: 800px;
   }
 
   h2 {
