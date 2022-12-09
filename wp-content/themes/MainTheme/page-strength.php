@@ -13,8 +13,8 @@ Template Name:テムソンの強み
   <section class="l-page-FV fadeIn wow">
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
-        <h1>ONE STOP
-          <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/strength-title.png" alt="">
+        <h1 class="font-en">ONE STOP
+          <img class="p-strength-title-img" src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/strength-title.png" alt="">
         </h1>
       </div>
       <div class="l-page-FV__desc">
@@ -277,7 +277,7 @@ Template Name:テムソンの強み
         </div>
         <div class="p-strengthColumn__right">
           <div class="p-strengthColumn__rightTop">
-            <h3>品質保証</h3>
+            <h3>品質保証体制</h3>
           </div>
           <div class="p-strengthColumn__rightBottom">
             <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れ</p>
