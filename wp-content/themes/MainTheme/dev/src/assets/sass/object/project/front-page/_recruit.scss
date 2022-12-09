@@ -1,7 +1,7 @@
 @use "../../../global" as global;
 
 .p-frontRecruit {
-  margin-top: 64px;
+  margin-top: 4rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
     margin-top: 8vw;
@@ -36,8 +36,9 @@
     padding-right: 4vw;
   }
   p {
-    margin-top: 64px;
-    font-size: 16px;
+    margin-top: 4rem;
+    font-size: 1rem;
+    line-height: 2;
 
     @include global.max-screen(global.$breakpoint_pc) {
       margin-top: 8vw;
@@ -58,7 +59,7 @@
 }
 
 .p-frontRecruit__imgWrap {
-  margin-top: 64px;
+  margin-top: 4rem;
   max-width: 100%;
   display: flex;
   width: 1040px;

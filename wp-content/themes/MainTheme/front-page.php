@@ -187,14 +187,14 @@ Template Name:front-page
           <a href="<?php echo esc_url(get_post_type_archive_link('recruit')); ?>" class="stage__wrap">
             <div class="stage">
               <div class="cube">
-                <div class="side_right bold">採用情報はこちら</div>
-                <div class="side_front bold">採用情報はこちら</div>
+                <div class="side_right">採用情報はこちら</div>
+                <div class="side_front">採用情報はこちら</div>
               </div>
             </div>
             <div class="stage">
               <div class="cube">
-                <div class="side_left bold">MORE</div>
-                <div class="side_front2 bold">MORE</div>
+                <div class="side_left font-en">MORE</div>
+                <div class="side_front2 font-en">MORE</div>
               </div>
             </div>
           </a>
