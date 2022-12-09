@@ -39,7 +39,6 @@
 
   li {
     display: block;
-    font-size: 1rem;
     color: #545454;
 
     &:not(:first-child) {
@@ -114,7 +113,6 @@
         top: 0px;
         right: -90px;
         transform: rotateY(90deg);
-        font-size: 1rem;
         letter-spacing: 0em;
       }
 
