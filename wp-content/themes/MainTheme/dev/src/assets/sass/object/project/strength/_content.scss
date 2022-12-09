@@ -1,7 +1,7 @@
 @use "../../../global" as global;
 
 .p-strengthContent {
-  margin-top: 65px;
+  margin-top: 4rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
     margin-top: 8vw;
@@ -9,7 +9,7 @@
 }
 
 .p-strengthContent__wrap {
-  margin-top: 40px;
+  margin-top: 4rem;
   width: 800px;
   display: flex;
   flex-wrap: wrap;
@@ -67,10 +67,11 @@
 
 .p-strengthContent__text {
   h3 {
-    font-size: 30px;
+    font-size: 2rem;
     color: #ffffff;
     text-align: center;
     padding-top: 120px;
+    letter-spacing: 0em;
     font-weight: normal;
 
     @include global.max-screen(global.$breakpoint_pc) {
