@@ -12,7 +12,7 @@ Template Name: お問い合わせ
   <section class="l-page-FV fadeIn wow">
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
-        <h1>CONTACT
+        <h1 class="font-en">CONTACT
           <p>お問い合わせ</p>
         </h1>
       </div>

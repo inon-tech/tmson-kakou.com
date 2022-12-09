@@ -163,7 +163,7 @@ select::-ms-expand {
 }
 
 .contactForm__btn {
-  margin-top: 170px;
+  margin-top: 4rem;
   text-align: center;
 
   .stage {
@@ -275,7 +275,7 @@ select::-ms-expand {
 // コンタクトページの記述
 
 .contact-page {
-  margin-bottom: 100px;
+  margin-bottom: 6rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
     margin-bottom: 300px;
