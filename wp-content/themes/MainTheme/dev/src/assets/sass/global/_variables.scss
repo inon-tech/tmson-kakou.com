@@ -10,7 +10,6 @@ $breakpoint_sp: 414px;
 // 320px (320px)
 $breakpoint_sp_small: 350px;
 
-
 // ==============================================================
 //  path
 // ==============================================================
@@ -29,8 +28,10 @@ $c--white: #ffffff;
 
 $c--text: #333333;
 
-$c--accent: #0091BA;
+$c--accent: #0091ba;
 
-$c--primary: #0F2731;
+$c--primary: #0f2731;
 
-$f--gothic: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+$f--gothic: "游ゴシック体 Medium", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+
+$f--noto: "noto-sans", sans-serif;

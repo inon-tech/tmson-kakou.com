@@ -5,13 +5,12 @@
 
 .l-page-FV__wrap {
   display: flex;
-
-
 }
 
 .l-page-FV__left {
   background: #1e2b35;
   padding: 4rem;
+  width: 440px;
 
   @include global.max-screen(global.$breakpoint_pc) {
     padding: 2rem;
@@ -29,7 +28,7 @@
   }
 
   img {
-    width: 312px;
+    width: 100%;
     margin-top: 5px;
 
     @include global.max-screen(global.$breakpoint_pc) {
@@ -45,10 +44,11 @@
 
 .l-page-FV__desc {
   max-width: 1040px;
-  margin-top: 85px;
+  margin-top: 100px;
   margin-left: 4rem;
   line-height: 2;
   font-size: 1rem;
+  width: 713px;
 
   @include global.max-screen(global.$breakpoint_pc) {
     font-size: 12px;

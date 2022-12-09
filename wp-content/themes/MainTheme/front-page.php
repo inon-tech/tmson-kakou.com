@@ -19,7 +19,7 @@ Template Name:front-page
     </div>
 
     <div class="p-frontFV__right">
-      <h2>CUT and CREATE</h2>
+      <h2 class="font-en">CUT and CREATE</h2>
       <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-title.png" alt="">
       <p>「切る」「削る」という切削加工の本質で
         ある「引く」概念にとらわれず、つねに
@@ -35,14 +35,14 @@ Template Name:front-page
       <a href="<?php echo esc_url(get_post_type_archive_link('post')); ?>" class="stage__wrap">
         <div class="stage">
           <div class="cube">
-            <div class="side_right bold">お知らせ</div>
-            <div class="side_front bold">お知らせ</div>
+            <div class="side_right">お知らせ</div>
+            <div class="side_front">お知らせ</div>
           </div>
         </div>
         <div class="stage">
           <div class="cube">
-            <div class="side_left bold">MORE</div>
-            <div class="side_front2 bold">MORE</div>
+            <div class="side_left font-en">MORE</div>
+            <div class="side_front2 font-en">MORE</div>
           </div>
         </div>
       </a>
