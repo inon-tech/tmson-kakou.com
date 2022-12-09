@@ -60,7 +60,7 @@ function my_static_breadcrumb_adder( $breadcrumb_trail ) {
 
   } elseif (get_post_type() === 'post') { // デフォルトの投稿ページの場合
 
-    $item = new bcn_breadcrumb('お知らせ', null, array('post'), home_url('archives.news/'), null, true);
+    $item = new bcn_breadcrumb('お知らせ', null, array('post'), home_url('news'), null, true);
 
   }
 
