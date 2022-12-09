@@ -293,3 +293,15 @@ select::-ms-expand {
 .wpcf7-spinner{
   display: none;
 }
+
+input:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
