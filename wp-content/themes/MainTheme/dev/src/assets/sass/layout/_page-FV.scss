@@ -18,8 +18,9 @@
   }
 
   h1 {
-    font-size: 2.625rem;
+    font-size: 2.25rem;
     color: #ffffff;
+    letter-spacing: 0em;
   }
 
   img {
@@ -55,5 +56,12 @@
 }
 
 .p-company-title-img{
-  width: 95% !important;
+  max-width: 312px !important;
 }
+.p-strength-title-img{
+  max-width: 240px !important;
+}
+.p-recruit-title-img{
+  max-width: 230px !important;
+}
+

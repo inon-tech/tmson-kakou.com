@@ -12,8 +12,8 @@ Template Name:会社概要
 <section class="l-page-FV fadeIn wow">
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
-        <h1>COMPANY
-        <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/company-title.png" alt="">
+        <h1 class="font-en">COMPANY
+        <img class="p-company-title-img" src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/company-title.png" alt="">
         </h1>
       </div>
       <div class="l-page-FV__desc">
