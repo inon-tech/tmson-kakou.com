@@ -12,7 +12,7 @@ Template Name: お知らせ
   <section class="l-page-FV fadeIn wow">
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
-        <h1>NEWS
+        <h1 class="font-en">NEWS
           <p>お知らせ</p>
         </h1>
       </div>
@@ -20,17 +20,11 @@ Template Name: お知らせ
         <div class="l-breadcrumb p-newsBreadcrumb">
           <?php bcn_display(); ?>
         </div>
-        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
-        文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
-        行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
-        行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
-        行間等を確認するために入れています。
       </div>
     </div>
   </section>
 
   <section class="p-singleNews fadeIn wow">
-    <?php query_posts(array('post_type' => 'post', 'posts_per_page' => 1)); ?>
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <div class="p-singleNews__top">
           <h2><?php the_title(); ?></h2>
@@ -52,14 +46,14 @@ Template Name: お知らせ
       <a href="<?php echo esc_url(get_post_type_archive_link('post')); ?>" class="stage__wrap">
         <div class="stage">
           <div class="cube">
-            <div class="side_right bold">一覧に戻る</div>
-            <div class="side_front bold">一覧に戻る</div>
+            <div class="side_right">一覧に戻る</div>
+            <div class="side_front">一覧に戻る</div>
           </div>
         </div>
         <div class="stage">
           <div class="cube">
-            <div class="side_left bold">BACK</div>
-            <div class="side_front2 bold">BACK</div>
+            <div class="side_left font-en">BACK</div>
+            <div class="side_front2 font-en">BACK</div>
           </div>
         </div>
       </a>

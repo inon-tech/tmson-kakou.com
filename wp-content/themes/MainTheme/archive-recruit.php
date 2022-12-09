@@ -8,12 +8,12 @@ global $IHY_img_2; ?>
 Template Name: 求人情報
 */
 ?>
-<main class="">
+<main class="p-recruit">
   <section class="l-page-FV fadeIn wow">
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
-        <h1>RECRUIT
-          <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/recruit-title.png" alt="">
+        <h1 class="font-en">RECRUIT
+          <img class="p-recruit-title-img" src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/recruit-title.png" alt="">
         </h1>
       </div>
       <div class="l-page-FV__desc">
@@ -31,7 +31,7 @@ Template Name: 求人情報
 
   <section class="p-new__wrap fadeIn wow">
     <div class="l-inner">
-      <?php query_posts(array('post_type' => 'recruit', 'posts_per_page' => 2)); ?>
+      <?php query_posts(array('post_type' => 'recruit', 'posts_per_page' => 8)); ?>
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           <a href="<?php the_permalink(); ?>">
             <div class="p-news__item">

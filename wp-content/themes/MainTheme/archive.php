@@ -12,7 +12,7 @@ Template Name: お知らせ
   <section class="l-page-FV fadeIn wow">
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
-        <h1>NEWS
+        <h1 class="font-en">NEWS
           <p>お知らせ</p>
         </h1>
       </div>
@@ -26,7 +26,7 @@ Template Name: お知らせ
 
   <section class="p-new__wrap fadeIn wow">
     <div class="l-inner">
-      <?php query_posts(array('post_type' => 'post', 'posts_per_page' => 1)); ?>
+      <?php query_posts(array('post_type' => 'post', 'posts_per_page' => 8)); ?>
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           <a href="<?php the_permalink(); ?>">
             <div class="p-news__item">
