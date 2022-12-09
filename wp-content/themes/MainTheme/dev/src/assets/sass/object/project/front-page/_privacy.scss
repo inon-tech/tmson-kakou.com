@@ -1,7 +1,7 @@
 @use "../../../global" as global;
 
 .p-frontPrivacy {
-  margin-top: 85px;
+  margin-top: 4rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
     padding-top: 130px;
@@ -28,7 +28,7 @@
     width: 800px;
     max-width: 100%;
     position: absolute;
-    top: 110px;
+    top: 90px;
     left: -800px;
 
     @include global.max-screen(global.$breakpoint_pc) {
@@ -47,13 +47,13 @@
   display: flex;
   border-bottom: 1px solid #567894;
   h2 {
-    color: #6b6b6b;
     display: inline-block;
-    font-size: 31px;
+    font-size: 2rem;
     letter-spacing: 0;
-    padding-bottom: 32px;
-    padding-left: 32px;
-    padding-top: 32px;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-top: 1.625rem;
+    line-height: 1;
 
     @include global.max-screen(global.$breakpoint_pc) {
       font-size: 16px;
@@ -69,9 +69,10 @@
 
 .p-frontPrivacy__text {
   border-left: 1px solid #567894;
-  padding-top: 32px;
-  padding-left: 32px;
+  padding-left: 2rem;
+  padding-top: 2rem;
   font-size: 12px;
+  line-height: calc(21 / 12);
 
   @include global.max-screen(global.$breakpoint_pc) {
     padding-left: 16px;
@@ -82,13 +83,13 @@
 
 .p-frontPrivacy__btn {
   position: absolute;
-  top: 20px;
+  top: 0px;
   right: 0px;
   text-align: right;
   cursor: pointer;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    top:11px;
+    top:0px;
   }
 
   .btn__wrap {
@@ -155,7 +156,7 @@
     }
   }
 
-  .active.item {
+  .js-active.js-item {
     transform: rotateX(-90deg) translateY(-22.5px);
 
     @include global.max-screen(global.$breakpoint_pc) {
@@ -249,7 +250,7 @@
     }
   }
 
-  .active.item-r {
+  .js-active.js-item-r {
     transform: rotateX(-90deg) translateY(-22.5px);
 
     @include global.max-screen(global.$breakpoint_pc) {
