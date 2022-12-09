@@ -39,7 +39,7 @@
 
   li {
     display: block;
-    font-size: 17px;
+    font-size: 1rem;
     color: #545454;
 
     &:not(:first-child) {
@@ -51,7 +51,6 @@
 
     a {
       padding-right: 20px;
-      letter-spacing: 0;
     }
 
     &:last-child {
@@ -72,6 +71,7 @@
         color: #fff;
         text-align: center;
         line-height: 45px;
+        letter-spacing: 0.01em;
       }
 
       .side_front {
@@ -79,18 +79,18 @@
         top: 0px;
         left: 0px;
         transform: translateZ(90px);
-        letter-spacing: 0em;
-        font-size: 17px;
+        font-size: 1rem;
       }
 
       .side_front2 {
-        background: #4190b7;
+        text-align: left !important;
+        background: #4190B7;
         top: 0px;
         left: 0px;
         transform: translateZ(90px);
-        letter-spacing: 0em;
-        font-size: 20px;
+        font-size: 1.5rem;
         line-height: 20px;
+        padding-left: 20px;
 
         &::before {
           content: "";
@@ -113,7 +113,6 @@
         top: 0px;
         right: -90px;
         transform: rotateY(90deg);
-        letter-spacing: 0em;
         font-size: 17px;
       }
 
@@ -122,8 +121,9 @@
         top: 0px;
         left: -90px;
         transform: rotateY(-90deg);
-        letter-spacing: 0em;
-        font-size: 20px;
+        font-size: 1.5rem;
+        padding-left: 20px;
+        text-align: left !important;
 
         &::before {
           content: "";
