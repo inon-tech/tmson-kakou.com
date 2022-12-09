@@ -30,7 +30,7 @@ Template Name:会社概要
   </section>
 
   <section class="p-companyOverview fadeIn wow">
-    <h2 class="c-section-title">会社概要</h2>
+    <h2 class="c-section-title bold">会社概要</h2>
     <div class="l-inner">
       <div class="p-companyOverview__list">
         <div class="p-companyOverview__item">
