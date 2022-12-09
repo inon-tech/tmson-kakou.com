@@ -71,7 +71,6 @@
         color: #fff;
         text-align: center;
         line-height: 45px;
-        letter-spacing: -0.01em;
       }
 
       .side_front {
@@ -80,6 +79,7 @@
         left: 0px;
         transform: translateZ(90px);
         font-size: 1rem;
+        letter-spacing: 0em;
       }
 
       .side_front2 {
@@ -91,6 +91,7 @@
         font-size: 1.5rem;
         line-height: 20px;
         padding-left: 20px;
+        letter-spacing: -0.01em;
 
         &::before {
           content: "";
@@ -114,6 +115,7 @@
         right: -90px;
         transform: rotateY(90deg);
         font-size: 1rem;
+        letter-spacing: 0em;
       }
 
       .side_left {
@@ -124,6 +126,7 @@
         font-size: 1.5rem;
         padding-left: 20px;
         text-align: left !important;
+        letter-spacing: -0.01em;
 
         &::before {
           content: "";

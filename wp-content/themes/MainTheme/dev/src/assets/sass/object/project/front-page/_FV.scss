@@ -38,7 +38,7 @@
   padding-top: 4rem;
   padding-left: 4rem;
   padding-right: 4rem;
-  width: 520px;
+  width: 540px;
 
   @include global.max-screen(global.$breakpoint_pc) {
     height: 260px;
@@ -64,7 +64,7 @@
       position: relative;
       background-color: global.$c--accent;
       color: global.$c--white;
-      font-size: 24px;
+      font-size: 1.5rem;
       padding-right: 40px;
       padding-left: 22px;
       line-height: 1;
@@ -91,7 +91,8 @@
 
   h2 {
     line-height: 1;
-    font-size: 40px;
+    font-size: 2.5rem;
+    letter-spacing: -0.01em;
 
     @include global.max-screen(global.$breakpoint_pc) {
       font-size: 23px;
@@ -99,7 +100,7 @@
   }
 
   img {
-    height: 190px;
+    width: 345px;
     margin-top: 15px;
 
     @include global.max-screen(global.$breakpoint_pc) {
@@ -109,9 +110,10 @@
   }
 
   p {
-    font-size: 15px;
+    font-size: 1rem;
     margin-top: 16px;
     line-height: 2;
+    letter-spacing: 0.1em;
 
     @include global.max-screen(global.$breakpoint_pc) {
       font-size: 9px;
@@ -164,7 +166,7 @@
 }
 
 .p-frontFV__left {
-  width: 180px;
+  width: 164px;
   display: flex;
   padding-right: 10px;
   white-space: nowrap;
@@ -172,7 +174,7 @@
 
 .p-frontFVNews__item {
   display: flex;
-  font-size: 15px;
+  font-size: 1rem;
   height: 31px;
   line-height: 31px;
   align-items: center;
@@ -199,9 +201,10 @@
 
 .p-frontFVNews__name {
   position: relative;
-  letter-spacing: 0.1em;
+  letter-spacing: 0em;
   padding-right: 4rem;
   transition: 0.3s all;
+  width: 605px;
 
   @include global.max-screen(global.$breakpoint_pc) {
     padding-right: 39px;
@@ -276,7 +279,7 @@
     height: 100%;
     transform: translateZ(75px);
     letter-spacing: 0em;
-    font-size: 17px;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -292,8 +295,8 @@
     top: 0px;
     left: 0px;
     transform: translateZ(75px);
-    letter-spacing: 0em;
-    font-size: 25px;
+    letter-spacing: -0.01em;
+    font-size: 1.5rem;
     height: 100%;
     padding-right: 20px;
     display: flex;
@@ -335,7 +338,7 @@
     right: -75px;
     transform: rotateY(90deg);
     letter-spacing: 0em;
-    font-size: 17px;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -352,8 +355,8 @@
     top: 0px;
     left: -75px;
     transform: rotateY(-90deg);
-    letter-spacing: 0em;
-    font-size: 25px;
+    letter-spacing: -0.01em;
+    font-size: 1.5rem;
     padding-right: 20px;
     display: flex;
     align-items: center;

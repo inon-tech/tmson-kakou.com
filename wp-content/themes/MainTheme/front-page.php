@@ -116,14 +116,14 @@ Template Name:front-page
             <div class="stage__wrap">
               <div class="stage">
                 <div class="cube">
-                  <div class="side_right bold">会社概要</div>
-                  <div class="side_front bold">会社概要</div>
+                  <div class="side_right">会社概要</div>
+                  <div class="side_front">会社概要</div>
                 </div>
               </div>
               <div class="stage">
                 <div class="cube">
-                  <div class="side_left bold">MORE</div>
-                  <div class="side_front2 bold">MORE</div>
+                  <div class="side_left font-en">MORE</div>
+                  <div class="side_front2 font-en">MORE</div>
                 </div>
               </div>
             </div>
@@ -137,14 +137,14 @@ Template Name:front-page
               <divc class="stage__wrap">
                 <div class="stage">
                   <div class="cube">
-                    <div class="side_right bold">事業内容</div>
-                    <div class="side_front bold">事業内容</div>
+                    <div class="side_right">事業内容</div>
+                    <div class="side_front">事業内容</div>
                   </div>
                 </div>
                 <div class="stage">
                   <div class="cube">
-                    <div class="side_left bold">MORE</div>
-                    <div class="side_front2 bold">MORE</div>
+                    <div class="side_left font-en">MORE</div>
+                    <div class="side_front2 font-en">MORE</div>
                   </div>
                 </div>
               </divc>
@@ -157,14 +157,14 @@ Template Name:front-page
               <divc class="stage__wrap">
                 <div class="stage">
                   <div class="cube">
-                    <div class="side_right bold">主要設備一覧</div>
-                    <div class="side_front bold">主要設備一覧</div>
+                    <div class="side_right">主要設備一覧</div>
+                    <div class="side_front">主要設備一覧</div>
                   </div>
                 </div>
                 <div class="stage">
                   <div class="cube">
-                    <div class="side_left bold">MORE</div>
-                    <div class="side_front2 bold">MORE</div>
+                    <div class="side_left font-en">MORE</div>
+                    <div class="side_front2 font-en">MORE</div>
                   </div>
                 </div>
               </divc>
