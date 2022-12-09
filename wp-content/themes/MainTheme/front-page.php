@@ -212,7 +212,7 @@ Template Name:front-page
     <div class="l-inner">
       <h2 class="bold"><span class="font-en">CONTACT</span>お問い合わせ</h2>
 
-      <div class="p-frontContact__wrap">
+      <div class="p-frontContact__wrap fadeIn wow">
       <?php echo apply_shortcodes( '[contact-form-7 id="163" title="コンタクトフォーム"]' ); ?>
       </div>
     </div>
