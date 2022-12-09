@@ -9,7 +9,7 @@ Template Name: お知らせ
 */
 ?>
 <main class="">
-  <section class="l-page-FV fadeIn wow">
+  <section class="l-page-FV animated fadeIn wow">
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
         <h1 class="font-en">NEWS
@@ -24,7 +24,7 @@ Template Name: お知らせ
     </div>
   </section>
 
-  <section class="p-new__wrap fadeIn wow">
+  <section class="p-new__wrap animated fadeIn wow">
     <div class="l-inner">
       <?php query_posts(array('post_type' => 'post', 'posts_per_page' => 8)); ?>
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>

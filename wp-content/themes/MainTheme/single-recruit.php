@@ -9,7 +9,7 @@ Template Name: お知らせ
 */
 ?>
 <main class="p-singleRecruit">
-  <section class="l-page-FV fadeIn wow">
+  <section class="l-page-FV animated fadeIn wow">
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
         <h1 class="font-en">RECRUIT
@@ -24,7 +24,7 @@ Template Name: お知らせ
     </div>
   </section>
 
-  <section class="p-singleNews fadeIn wow">
+  <section class="p-singleNews animated fadeIn wow">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <div class="p-singleNews__top">
           <h2><?php the_title(); ?></h2>

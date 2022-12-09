@@ -9,11 +9,11 @@ Template Name:会社概要
 */
 ?>
 <main class="p-company">
-<section class="l-page-FV fadeIn wow">
+  <section class="l-page-FV animated fadeIn wow">
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
         <h1 class="font-en">COMPANY
-        <img class="p-company-title-img" src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/company-title.png" alt="">
+          <img class="p-company-title-img" src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/company-title.png" alt="">
         </h1>
       </div>
       <div class="l-page-FV__desc">
@@ -29,7 +29,7 @@ Template Name:会社概要
     </div>
   </section>
 
-  <section class="p-companyOverview fadeIn wow">
+  <section class="p-companyOverview animated fadeIn wow">
     <h2 class="c-section-title bold">会社概要</h2>
     <div class="l-inner">
       <div class="p-companyOverview__list">
@@ -78,7 +78,7 @@ Template Name:会社概要
     </div>
   </section>
 
-  <section class="p-companyHistory fadeIn wow">
+  <section class="p-companyHistory animated fadeIn wow">
     <h2 class="c-section-title bold">テムソンの歩み</h2>
     <div class="p-companyHistory__list">
       <div class="p-companyHistory__item">
@@ -154,7 +154,7 @@ Template Name:会社概要
     </div>
   </section>
 
-  <section class="p-companyFactory fadeIn wow">
+  <section class="p-companyFactory animated fadeIn wow">
     <div class="p-companyFactory__list">
       <div class="p-companyFactory__item">
         <div class="p-companyFactory__left"></div>

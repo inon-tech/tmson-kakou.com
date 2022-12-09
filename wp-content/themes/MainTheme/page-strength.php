@@ -10,7 +10,7 @@ Template Name:テムソンの強み
 ?>
 
 <main class="p-strength">
-  <section class="l-page-FV fadeIn wow">
+  <section class="l-page-FV animated fadeIn wow">
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
         <h1 class="font-en">ONE STOP
@@ -30,7 +30,7 @@ Template Name:テムソンの強み
     </div>
   </section>
 
-  <section class="p-strengthMenu fadeIn wow">
+  <section class="p-strengthMenu animated fadeIn wow">
 
     <div class="p-strengthMenu__wrap">
       <a href="" class="p-strengthMenu__item">
@@ -126,7 +126,7 @@ Template Name:テムソンの強み
     </div>
   </section>
 
-  <section class="p-strengthContent fadeIn wow">
+  <section class="p-strengthContent animated fadeIn wow">
     <h2 class="c-section-title">事業内容</h2>
     <div class="l-innner">
       <div class="p-strengthContent__wrap">
@@ -162,7 +162,7 @@ Template Name:テムソンの強み
     </div>
   </section>
 
-  <section class="p-strengthFacility fadeIn wow">
+  <section class="p-strengthFacility animated fadeIn wow">
     <h2 class="c-section-title">主要設備一覧</h2>
     <div class="l-inner js-scrollable">
       <table border="1" class="p-strength__table">
@@ -268,7 +268,7 @@ Template Name:テムソンの強み
     </div>
   </section>
 
-  <section class="p-strengthColumn fadeIn wow">
+  <section class="p-strengthColumn animated fadeIn wow">
     <div class="p-strengthColumn__list">
       <div class="p-strengthColumn__item">
         <div class="p-strengthColumn__left">

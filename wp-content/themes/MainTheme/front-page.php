@@ -21,13 +21,8 @@ Template Name:front-page
     <div class="p-frontFV__right">
       <h2 class="font-en">CUT and CREATE</h2>
       <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-title.png" alt="">
-      <p>「切る」「削る」という切削加工の本質で
-        ある「引く」概念にとらわれず、つねに
-        新しい何かをプラスすること。<br>
-        最新の設備と高度な技術に、経験とセン
-        ス、そして持てる限りのアイデアを駆使す
-        ることで、輝きを放つ優れた製品を生み
-        出すことができると信じています。
+      <p>「切る」「削る」という切削加工の本質である「引く」概念にとらわれず、つねに新しい何かをプラスすること。
+        最新の設備と高度な技術に、経験とセンス、そしてもてる限りのアイデアを駆使することで、輝きを放つ優れた製品を生み出すことができると信じています。
       </p>
     </div>
 
@@ -63,7 +58,7 @@ Template Name:front-page
                     <?php echo esc_html(get_post_type_object(get_post_type())->label); ?>
                   </div>
                 </div>
-                <div class="p-frontFVNews__name line-clamp">
+                <div class="p-frontFVNews__name">
                   <?php echo get_the_title(); ?>
                 </div>
               </div>
@@ -108,7 +103,7 @@ Template Name:front-page
         </div>
   </section>
 
-  <section class="p-frontMenu fadeIn wow">
+  <section class="p-frontMenu animated fadeIn wow">
     <div class="p-frontMenu__wrap">
       <a href="<?php echo esc_url(home_url('company')); ?>" class="p-frontMenu__itemTop">
         <div class="p-frontMenu__dark">
@@ -175,7 +170,7 @@ Template Name:front-page
     </div>
   </section>
 
-  <section class="p-frontRecruit fadeIn wow">
+  <section class="p-frontRecruit animated fadeIn wow">
     <div class="l-inner">
       <div class="p-frontRecruit__topWrap">
         <h2 class="p-frontRecruit__title"><img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-Recruit-title.png" alt=""></h2>
@@ -208,17 +203,17 @@ Template Name:front-page
     </div>
   </section>
 
-  <section class="p-frontContact fadeIn wow">
+  <section class="p-frontContact animated fadeIn wow">
     <div class="l-inner">
       <h2 class="bold"><span class="font-en">CONTACT</span>お問い合わせ</h2>
 
-      <div class="p-frontContact__wrap fadeIn wow">
-      <?php echo apply_shortcodes( '[contact-form-7 id="163" title="コンタクトフォーム"]' ); ?>
+      <div class="p-frontContact__wrap animated fadeIn wow">
+        <?php echo apply_shortcodes('[contact-form-7 id="163" title="コンタクトフォーム"]'); ?>
       </div>
     </div>
   </section>
 
-  <section class="p-frontPrivacy fadeIn wow">
+  <section class="p-frontPrivacy animated fadeIn wow">
     <div class="p-frontPrivacy__wrap">
       <div class="p-frontPrivacy__top">
         <div class="p-frontPrivacy__topWrap">
@@ -297,7 +292,7 @@ Template Name:front-page
       </div>
   </section>
 
-  <section class="p-frontMap fadeIn wow">
+  <section class="p-frontMap animated fadeIn wow">
     <div class="gmap">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.336517116516!2d137.98001831544994!3d35.865269327463764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601cf0dd49639945%3A0x4feeff05fad703ce!2z44OG44Og44K944Oz!5e0!3m2!1sja!2sjp!4v1669913889710!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <div>

@@ -111,7 +111,7 @@
 
   p {
     font-size: 1rem;
-    margin-top: 16px;
+    margin-top: 1rem;
     line-height: 2;
     letter-spacing: 0.1em;
 
@@ -203,7 +203,6 @@
   letter-spacing: 0em;
   padding-right: 4rem;
   transition: 0.3s all;
-  width: 605px;
 
   @include global.max-screen(global.$breakpoint_pc) {
     padding-right: 39px;

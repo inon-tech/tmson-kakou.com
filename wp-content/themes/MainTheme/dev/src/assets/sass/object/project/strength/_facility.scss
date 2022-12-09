@@ -36,6 +36,7 @@
     white-space: nowrap;
   }
 }
+
 tr {
   &:last-child {
     border-bottom: none !important;
@@ -73,5 +74,5 @@ table,
 td,
 th {
   border: none;
-  border-bottom: 1px dashed #262120;
+  border-bottom: 1px dashed #818181;
 }

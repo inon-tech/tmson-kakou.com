@@ -46,7 +46,6 @@
     .p-companyHistory__left {
       width: 420px;
       height: 100%;
-      padding-bottom: 32px;
 
       @include global.max-screen(global.$breakpoint_pc) {
         height: 140px;
@@ -160,7 +159,7 @@
         font-size: 12px;
       }
       p {
-        max-width: 600px;
+        max-width: 602px;
       }
     }
   }
@@ -169,7 +168,6 @@
     .p-companyHistory__left {
       width: 420px;
       height: 100%;
-      padding-bottom: 2rem;
       z-index: 2;
 
       @include global.max-screen(global.$breakpoint_pc) {
@@ -275,9 +273,10 @@
       border-top: 1px solid #567894;
       font-size: 1rem;
       line-height: 2;
+      letter-spacing: 0em;
 
       p {
-        max-width: 600px;
+        max-width: 602px;
       }
       @include global.max-screen(global.$breakpoint_pc) {
         padding-left: 20px;
