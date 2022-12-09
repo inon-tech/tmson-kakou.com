@@ -74,3 +74,5 @@ new ScrollHint('.js-scrollable', {
     scrollable: 'スクロールできます'
   }
 });
+
+new WOW().init();

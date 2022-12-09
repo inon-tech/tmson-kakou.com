@@ -15,6 +15,7 @@ Template Name:front-page
       <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-01.jpg);"></div>
       <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/rectangle.png);"></div>
       <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-01.jpg);"></div>
+      <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/rectangle.png);"></div>
     </div>
 
     <div class="p-frontFV__right">
@@ -75,7 +76,7 @@ Template Name:front-page
 
   </section>
 
-  <section class="p-frontStrength">
+  <section class="p-frontStrength animated fadeIn wow" data-wow-duration="2s">
     <div class="p-frontStrength__wrap">
       <div class="p-frontStrength__top">
         <div class="p-frontStrength__topItem">
@@ -107,7 +108,7 @@ Template Name:front-page
         </div>
   </section>
 
-  <section class="p-frontMenu">
+  <section class="p-frontMenu fadeIn wow" data-wow-duration="2s">
     <div class="p-frontMenu__wrap">
       <a href="<?php echo esc_url(home_url('company')); ?>" class="p-frontMenu__itemTop">
         <div class="p-frontMenu__dark">
@@ -174,7 +175,7 @@ Template Name:front-page
     </div>
   </section>
 
-  <section class="p-frontRecruit">
+  <section class="p-frontRecruit fadeIn wow" data-wow-duration="2s">
     <div class="l-inner">
       <div class="p-frontRecruit__topWrap">
         <h2 class="p-frontRecruit__title"><img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-Recruit-title.png" alt=""></h2>
@@ -207,7 +208,7 @@ Template Name:front-page
     </div>
   </section>
 
-  <section class="p-frontContact">
+  <section class="p-frontContact fadeIn wow" data-wow-duration="2s">
     <div class="l-inner">
       <h2><span>CONTACT</span>お問い合わせ</h2>
 
@@ -217,7 +218,7 @@ Template Name:front-page
     </div>
   </section>
 
-  <section class="p-frontPrivacy">
+  <section class="p-frontPrivacy fadeIn wow" data-wow-duration="2s">
     <div class="p-frontPrivacy__wrap">
       <div class="p-frontPrivacy__top">
         <div class="p-frontPrivacy__topWrap">
@@ -296,7 +297,7 @@ Template Name:front-page
       </div>
   </section>
 
-  <section class="p-frontMap">
+  <section class="p-frontMap fadeIn wow">
     <div class="gmap">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.336517116516!2d137.98001831544994!3d35.865269327463764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601cf0dd49639945%3A0x4feeff05fad703ce!2z44OG44Og44K944Oz!5e0!3m2!1sja!2sjp!4v1669913889710!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <div>

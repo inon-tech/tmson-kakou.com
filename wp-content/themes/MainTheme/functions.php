@@ -2,7 +2,7 @@
 
 function my_script_init()
 {
-  wp_enqueue_style('animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css', array(), '1.0.0', 'all');
+  wp_enqueue_style('animate', get_template_directory_uri() . '/public/css/animate.css', array(), '1.0.0', 'all');
   wp_enqueue_style('reset', get_template_directory_uri() . '/public/css/reset.css', array(), '1.0.0', 'all');
   wp_enqueue_style('slick', get_template_directory_uri() . '/public/css/slick.css', array(), '1.0.0', 'all');
   wp_enqueue_style('slick-theme', get_template_directory_uri() . '/public/css/slick-theme.css', array(), '1.0.0', 'all');
