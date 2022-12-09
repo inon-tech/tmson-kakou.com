@@ -34,12 +34,12 @@
     display: block;
     padding-left: 2rem;
     padding-bottom: 2rem;
-    font-size: 31px;
+    line-height: calc(48 / 32);
+    font-size: 2rem;
     letter-spacing: 0;
     color: #2f3449;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      font-size: 16px;
       padding-left: 4vw;
       padding-bottom: 4vw;
     }
@@ -62,13 +62,13 @@
 
   span {
     display: block;
-    padding-left: 32px;
-    padding-top: 32px;
-    font-size: 16px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+    line-height: 1;
     line-height: 2;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      font-size: 10px;
       padding-left: 4vw;
       padding-top: 4vw;
     }

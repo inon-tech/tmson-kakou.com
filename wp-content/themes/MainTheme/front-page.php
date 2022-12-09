@@ -93,14 +93,14 @@ Template Name:front-page
             <a href="<?php echo esc_url(home_url('strength')); ?>" class="stage__wrap">
               <div class="stage">
                 <div class="cube">
-                  <div class="side_right bold">テムソンの強み</div>
-                  <div class="side_front bold">テムソンの強み</div>
+                  <div class="side_right">テムソンの強み</div>
+                  <div class="side_front">テムソンの強み</div>
                 </div>
               </div>
               <div class="stage">
                 <div class="cube">
-                  <div class="side_left bold">MORE</div>
-                  <div class="side_front2 bold">MORE</div>
+                  <div class="side_left font-en">MORE</div>
+                  <div class="side_front2 font-en">MORE</div>
                 </div>
               </div>
             </a>
