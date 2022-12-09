@@ -16,6 +16,11 @@ body {
 	min-height: calc(100vh - 45px);
 }
 
+.font-en{
+	font-weight: 900;
+	font-family: global.$f--noto;
+}
+
 .bold {
 	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
 	font-weight: bold;
