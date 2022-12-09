@@ -10,49 +10,48 @@
   background-color: #3f4145;
   color: #ffffff;
   text-align: center;
-  padding: 50px 0px;
+  padding-top: 50px;
+  padding-bottom: 40px;
 
   @include global.max-screen(global.$breakpoint_pc) {
     padding: 25px;
   }
 
-  h1 {
-    font-size: 25px;
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      font-size: 18px;
-    }
+  img{
+   margin-left: auto;
+   margin-right: auto;
   }
+}
 
-  a {
-    display: inline-block;
-    font-size: 18px;
-    letter-spacing: 0.1em;
-    margin-top: 20px;
-    padding-left: 40px;
-    position: relative;
+.l-footer-tel{
+  display: inline-block;
+  font-size: 21px;
+  letter-spacing: 0.075em;
+  margin-top: 27px;
+  padding-left: 40px;
+  position: relative;
 
-    &::before {
-      content: "";
-      position: absolute;
-      background-image: url(#{global.$path_img}normal/1x/common/tel.png);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      top: 50%;
-      transform: translateY(-50%);
-      left: 0px;
-      z-index: 15;
-      height: 30px;
-      width: 30px;
-    }
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(#{global.$path_img}normal/1x/common/tel.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    z-index: 15;
+    height: 30px;
+    width: 30px;
   }
 }
 
 .l-footer__access {
-  font-size: 16px;
+  font-size: 1rem;
   margin-top: 20px;
-  line-height: 2;
+  line-height: calc(32 / 16);
+  letter-spacing: 0.075em;
 
   @include global.max-screen(global.$breakpoint_pc) {
     font-size: 12px;
@@ -60,7 +59,7 @@
 }
 
 .l-footer__time {
-  font-size: 10px;
+  font-size: .625rem;
 }
 
 .l-footerTotop {
@@ -97,7 +96,7 @@
   color: #ffffff;
   font-size: 20px;
   letter-spacing: 0em;
-  background: rgba(35, 35, 35, 0.5);
+  background: #282828;
   width: 70px;
   height: 40px;
   text-align: center;
@@ -105,12 +104,12 @@
 }
 
 .footerFixed {
-  padding-bottom: 283px;
+  padding-bottom: 269.5px;
   position: relative;
 	min-height: calc(100vh - 45px);
 
   @include global.max-screen(global.$breakpoint_pc) {
-    padding-bottom: 207px;
+    padding-bottom: 209.56px;
   }
 
   @include global.max-screen(370px) {
