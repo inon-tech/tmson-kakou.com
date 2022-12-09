@@ -1,7 +1,6 @@
 @use "../../../global" as global;
 
 .p-frontContact {
-  height: 550px;
   width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -18,11 +17,13 @@
     flex-direction: column;
     color: #2f3449;
     font-size: 2rem;
+    line-height: calc(48 / 32);
     letter-spacing: 0;
 
     span {
-      margin-bottom: 5px;
       font-size: 1rem;
+      line-height: calc(28 / 16);
+      letter-spacing: 0.1em;
       font-weight: normal;
 
       @include global.max-screen(global.$breakpoint_pc) {
@@ -42,7 +43,6 @@
 
 .contactForm__control {
   display: flex;
-  height: 31px;
   margin-top: 15px;
 
   @include global.max-screen(global.$breakpoint_pc) {
@@ -58,14 +58,14 @@
   display: flex;
   align-items: center;
   text-align: center;
+  height: 33px;
 }
 
 .contactForm__text {
   width: 200px;
   padding-right: 50px;
-  color: #6b6b6b;
   text-align: right;
-  font-size: 16px;
+  font-size: 1rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
     width: auto;
@@ -74,18 +74,16 @@
 }
 
 .contactForm__required {
-  font-size: 16px;
+  font-size: 1rem;
   height: 33px;
   line-height: 33px;
   width: 55px;
-  background-color: #6b6b6b;
+  background-color: #282828;
   color: #ffffff;
 }
 
 .contactForm__blank {
-  font-size: 16px;
   height: 33px;
-  line-height: 33px;
   width: 55px;
 }
 
@@ -96,11 +94,10 @@
     padding-left: 10px;
     padding-right: 10px;
     height: 33px;
-    border: 1px solid #6b6b6b;
+    border: 1px solid #282828;
     width: 100%;
     line-height: 33px;
-    font-size: 16px;
-    margin-top: -1px;
+    font-size: 1rem;
     color: global.$c--text;
   }
 
@@ -108,27 +105,26 @@
     padding-left: 10px;
     padding-right: 10px;
     height: 33px;
-    border: 1px solid #6b6b6b;
+    border: 1px solid #282828;
     width: 100%;
     line-height: 33px;
-    font-size: 16px;
-    margin-top: -1px;
+    font-size: 1rem;
     color: global.$c--text;
 
     .placeholder {
-      color: #6b6b6b;
+      color: #666666;
     }
   }
 
   textarea {
+    border: 1px solid #282828;
     padding-left: 10px;
     padding-right: 10px;
     display: block;
     width: 100%;
     line-height: 33px;
-    font-size: 16px;
+    font-size: 1rem;
     border-radius: 0 !important;
-    margin-top: -1px;
     color: global.$c--text;
     height: 140px;
     resize: none !important;
@@ -152,12 +148,11 @@ select::-ms-expand {
 .contact-select-box::after {
   content: "";
   position: absolute;
-  background-image: url(#{global.$path_img}/svg/arrow-gray.svg);
+  background-image: url(#{global.$path_img}/svg/contact-arrow.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 10px;
   z-index: 0;
   height: 16px;
   width: 25px;
@@ -170,10 +165,6 @@ select::-ms-expand {
 .contactForm__btn {
   margin-top: 170px;
   text-align: center;
-
-  input:active .cube {
-    transform: rotateY(0deg);
-  }
 
   .stage {
     margin-left: auto;
@@ -193,7 +184,7 @@ select::-ms-expand {
     color: #fff;
     background: #b5af41;
     letter-spacing: 0em;
-    font-size: 25px;
+    font-size: 1.5rem;
     border: none !important;
     width: 150px;
     height: 45px;
@@ -206,6 +197,7 @@ select::-ms-expand {
     width: 150px;
     position: relative;
     margin: 0 auto;
+    letter-spacing: -0.01em;
   }
 
   .cube div {
@@ -222,8 +214,8 @@ select::-ms-expand {
     top: 0px;
     left: 0px;
     transform: translateZ(75px);
-    letter-spacing: 0em;
-    font-size: 25px;
+    letter-spacing: -0.01em;
+    font-size: 1.5rem;
     line-height: 45px;
     padding-right: 20px;
 
@@ -248,8 +240,8 @@ select::-ms-expand {
     top: 0px;
     left: -75px;
     transform: rotateY(-90deg);
-    letter-spacing: 0em;
-    font-size: 25px;
+    letter-spacing: -0.01em;
+    font-size: 1.5rem;
     line-height: 86px;
     padding-right: 20px;
 
@@ -276,16 +268,28 @@ select::-ms-expand {
     position: relative;
     margin: 0 auto;
     transform-style: preserve-3d;
-    transition: all 1s;
+    transition: all .3s;
   }
 }
 
 // コンタクトページの記述
 
-.contact-page{
+.contact-page {
   margin-bottom: 100px;
 
   @include global.max-screen(global.$breakpoint_pc) {
-   margin-bottom: 300px;
+    margin-bottom: 300px;
   }
+}
+
+.wpcf7-not-valid-tip{
+ display: block;
+}
+
+// .wpcf7-response-output{
+//   display: none;
+// }
+
+.wpcf7-spinner{
+  display: none;
 }
