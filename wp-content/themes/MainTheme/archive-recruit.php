@@ -9,7 +9,7 @@ Template Name: 求人情報
 */
 ?>
 <main class="">
-  <section class="l-page-FV">
+  <section class="l-page-FV fadeIn wow">
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
         <h1>RECRUIT
@@ -29,7 +29,7 @@ Template Name: 求人情報
     </div>
   </section>
 
-  <section class="p-new__wrap">
+  <section class="p-new__wrap fadeIn wow">
     <div class="l-inner">
       <?php query_posts(array('post_type' => 'recruit', 'posts_per_page' => 2)); ?>
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>

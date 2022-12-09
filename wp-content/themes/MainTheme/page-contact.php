@@ -9,7 +9,7 @@ Template Name: お問い合わせ
 */
 ?>
 <main class="p-contact">
-  <section class="l-page-FV">
+  <section class="l-page-FV fadeIn wow">
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
         <h1>CONTACT
@@ -24,7 +24,7 @@ Template Name: お問い合わせ
     </div>
   </section>
 
-  <section class="p-frontContact contact-page">
+  <section class="p-frontContact contact-page fadeIn wow">
     <div class="l-inner">
       <h2><span>CONTACT</span>お問い合わせ</h2>
 

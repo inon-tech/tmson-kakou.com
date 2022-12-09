@@ -76,7 +76,7 @@ Template Name:front-page
 
   </section>
 
-  <section class="p-frontStrength animated fadeIn wow" data-wow-duration="2s">
+  <section class="p-frontStrength animated fadeIn wow">
     <div class="p-frontStrength__wrap">
       <div class="p-frontStrength__top">
         <div class="p-frontStrength__topItem">
@@ -108,7 +108,7 @@ Template Name:front-page
         </div>
   </section>
 
-  <section class="p-frontMenu fadeIn wow" data-wow-duration="2s">
+  <section class="p-frontMenu fadeIn wow">
     <div class="p-frontMenu__wrap">
       <a href="<?php echo esc_url(home_url('company')); ?>" class="p-frontMenu__itemTop">
         <div class="p-frontMenu__dark">
@@ -175,7 +175,7 @@ Template Name:front-page
     </div>
   </section>
 
-  <section class="p-frontRecruit fadeIn wow" data-wow-duration="2s">
+  <section class="p-frontRecruit fadeIn wow">
     <div class="l-inner">
       <div class="p-frontRecruit__topWrap">
         <h2 class="p-frontRecruit__title"><img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-Recruit-title.png" alt=""></h2>
@@ -208,7 +208,7 @@ Template Name:front-page
     </div>
   </section>
 
-  <section class="p-frontContact fadeIn wow" data-wow-duration="2s">
+  <section class="p-frontContact fadeIn wow">
     <div class="l-inner">
       <h2><span>CONTACT</span>お問い合わせ</h2>
 
@@ -218,7 +218,7 @@ Template Name:front-page
     </div>
   </section>
 
-  <section class="p-frontPrivacy fadeIn wow" data-wow-duration="2s">
+  <section class="p-frontPrivacy fadeIn wow">
     <div class="p-frontPrivacy__wrap">
       <div class="p-frontPrivacy__top">
         <div class="p-frontPrivacy__topWrap">
