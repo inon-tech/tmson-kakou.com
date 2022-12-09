@@ -26,8 +26,6 @@
   margin-top: 4rem;
   font-size: 1rem;
   border-collapse: collapse !important;
-  border-color: #262120;
-  border: 0;
   max-width: 100%;
 
   @include global.max-screen(global.$breakpoint_pc) {
@@ -64,6 +62,10 @@ tr {
   }
 }
 
+tr{
+  border-bottom: 1px dotted #808080;
+}
+
 td,
 th {
   padding-top: 8px;
@@ -74,5 +76,4 @@ table,
 td,
 th {
   border: none;
-  border-bottom: 1px dashed #818181;
 }

@@ -11,8 +11,8 @@
 
 .p-strengthColumn__list {
   margin-top: 4rem;
-  padding-left: 98px;
-  padding-right: 98px;
+  padding-left: 90px;
+  padding-right: 90px;
 
   @include global.max-screen(global.$breakpoint_pc) {
     padding-left: 20px;
@@ -152,7 +152,7 @@
 
       p{
         line-height: 2;
-        max-width: 600px;
+        max-width: 602px;
       }
     }
   }
@@ -259,7 +259,7 @@
 
       p{
         line-height: 2;
-        max-width: 600px;
+        max-width: 602px;
       }
 
       @include global.max-screen(global.$breakpoint_pc) {
