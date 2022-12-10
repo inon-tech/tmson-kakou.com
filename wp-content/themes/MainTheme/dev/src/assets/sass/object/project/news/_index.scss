@@ -211,11 +211,13 @@
       }
 
       &.dots {
-        color: #666666;
-        margin-left: 20px;
+        color: #666;
         font-size: 70px;
-        letter-spacing: 30px;
-        margin-right: -37px;
+        letter-spacing: -0.3em;
+        margin-left: 24px;
+        margin-right: -45px;
+        margin-top: -60px;
+        display: block;
       }
 
       &.current {
