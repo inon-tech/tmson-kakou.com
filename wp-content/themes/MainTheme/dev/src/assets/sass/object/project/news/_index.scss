@@ -16,20 +16,9 @@
   }
 }
 
-.p-news__item {
-}
-
-.p-news__left {
-}
-
-.p-news__time {
-  font-size: 1rem;
-}
-
 .p-news__name {
   line-height: 2;
   position: relative;
-  font-size: 1rem;
   padding-right: 50px;
   &::before {
     content: "";
@@ -121,7 +110,6 @@
 }
 
 .p-singleNews__content {
-  font-size: 1rem;
   margin-top: 1rem;
 }
 

@@ -35,8 +35,7 @@
   }
 }
 
-.p-single__left {
-  font-size: 1rem;
+.p-singleRecruit__left {
   text-align: right;
   width: 200px;
   line-height: 1;
@@ -49,11 +48,10 @@
   }
 }
 
-.p-single__right {
+.p-singleRecruit__right {
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-left: 1px solid #567894;
-  font-size: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
   width: calc(100% - 200px);

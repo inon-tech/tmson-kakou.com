@@ -62,64 +62,64 @@ Template Name: お知らせ
         <?php if (get_post_meta($post->ID, 'recruit-1', true)) : // 入力がある場合 
         ?>
           <div class="p-singleRecruit__item">
-            <div class="p-single__left">職種</div>
-            <div class="p-single__right"><?php echo esc_html($recruit1); ?></div>
+            <div class="p-singleRecruit__left">職種</div>
+            <div class="p-singleRecruit__right"><?php echo esc_html($recruit1); ?></div>
           </div>
         <?php endif; ?>
         <?php if (get_post_meta($post->ID, 'recruit-2', true)) : // 入力がある場合 
         ?>
           <div class="p-singleRecruit__item">
-            <div class="p-single__left">対象</div>
-            <div class="p-single__right"><?php echo esc_html($recruit2); ?></div>
+            <div class="p-singleRecruit__left">対象</div>
+            <div class="p-singleRecruit__right"><?php echo esc_html($recruit2); ?></div>
           </div>
         <?php endif; ?>
         <?php if (get_post_meta($post->ID, 'recruit-3', true)) : // 入力がある場合 
         ?>
           <div class="p-singleRecruit__item">
-            <div class="p-single__left">勤務地</div>
-            <div class="p-single__right"><?php echo esc_html($recruit3); ?></div>
+            <div class="p-singleRecruit__left">勤務地</div>
+            <div class="p-singleRecruit__right"><?php echo esc_html($recruit3); ?></div>
           </div>
         <?php endif; ?>
         <?php if (get_post_meta($post->ID, 'recruit-4', true)) : // 入力がある場合 
         ?>
           <div class="p-singleRecruit__item">
-            <div class="p-single__left">給与</div>
-            <div class="p-single__right"><?php echo esc_html($recruit4); ?></div>
+            <div class="p-singleRecruit__left">給与</div>
+            <div class="p-singleRecruit__right"><?php echo esc_html($recruit4); ?></div>
           </div>
         <?php endif; ?>
         <?php if (get_post_meta($post->ID, 'recruit-5', true)) : // 入力がある場合 
         ?>
           <div class="p-singleRecruit__item">
-            <div class="p-single__left">諸手当</div>
-            <div class="p-single__right"><?php echo esc_html($recruit5); ?></div>
+            <div class="p-singleRecruit__left">諸手当</div>
+            <div class="p-singleRecruit__right"><?php echo esc_html($recruit5); ?></div>
           </div>
         <?php endif; ?>
         <?php if (get_post_meta($post->ID, 'recruit-6', true)) : // 入力がある場合 
         ?>
           <div class="p-singleRecruit__item">
-            <div class="p-single__left">勤務時間</div>
-            <div class="p-single__right"><?php echo esc_html($recruit6); ?></div>
+            <div class="p-singleRecruit__left">勤務時間</div>
+            <div class="p-singleRecruit__right"><?php echo esc_html($recruit6); ?></div>
           </div>
         <?php endif; ?>
         <?php if (get_post_meta($post->ID, 'recruit-7', true)) : // 入力がある場合 
         ?>
           <div class="p-singleRecruit__item">
-            <div class="p-single__left">休日休暇</div>
-            <div class="p-single__right"><?php echo esc_html($recruit7); ?></div>
+            <div class="p-singleRecruit__left">休日休暇</div>
+            <div class="p-singleRecruit__right"><?php echo esc_html($recruit7); ?></div>
           </div>
         <?php endif; ?>
         <?php if (get_post_meta($post->ID, 'recruit-8', true)) : // 入力がある場合 
         ?>
           <div class="p-singleRecruit__item">
-            <div class="p-single__left">福利厚生</div>
-            <div class="p-single__right"><?php echo esc_html($recruit8); ?></div>
+            <div class="p-singleRecruit__left">福利厚生</div>
+            <div class="p-singleRecruit__right"><?php echo esc_html($recruit8); ?></div>
           </div>
         <?php endif; ?>
         <?php if (get_post_meta($post->ID, 'recruit-9', true)) : // 入力がある場合 
         ?>
           <div class="p-singleRecruit__item">
-            <div class="p-single__left">備考</div>
-            <div class="p-single__right"><?php echo esc_html($recruit9); ?></div>
+            <div class="p-singleRecruit__left">備考</div>
+            <div class="p-singleRecruit__right"><?php echo esc_html($recruit9); ?></div>
           </div>
         <?php endif; ?>
       </div>

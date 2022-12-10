@@ -185,7 +185,6 @@
     left: 0px;
     transform: translateZ(75px);
     letter-spacing: 0em;
-    font-size: 1rem;
     line-height: 45px;
 
     @include global.max-screen(global.$breakpoint_pc) {
@@ -240,7 +239,6 @@
     right: -75px;
     transform: rotateY(90deg);
     letter-spacing: 0em;
-    font-size: 1rem;
     line-height: 86px;
 
     @include global.max-screen(global.$breakpoint_pc) {
