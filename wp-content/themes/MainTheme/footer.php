@@ -14,7 +14,7 @@
   <div id="js-topBtn" class="l-footerTotop">
     <div class="l-footerTotop__btn">
       <div class="l-footerTotop__arrow"></div>
-      <div class="l-footerTotop__font bold">TOP</div>
+      <div class="l-footerTotop__font font-en">TOP</div>
     </div>
   </div>
 </footer>
