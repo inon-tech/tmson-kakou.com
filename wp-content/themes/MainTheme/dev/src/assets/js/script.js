@@ -75,4 +75,12 @@ new ScrollHint('.js-scrollable', {
   }
 });
 
+// スクーロール
+jQuery('a[href*="#"]').click(function () {
+  var elmHash = jQuery(this).attr('href'); //ページ内リンクのHTMLタグhrefから、リンクされているエリアidの値を取得
+  var pos = jQuery(elmHash).offset().top-110;//idの上部の距離からHeaderの高さを引いた値を取得
+  jQuery('body,html').animate({scrollTop: pos}, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
+  return false;
+});
+
 new WOW().init();
