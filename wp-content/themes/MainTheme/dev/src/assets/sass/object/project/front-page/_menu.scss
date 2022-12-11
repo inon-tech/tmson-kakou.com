@@ -4,9 +4,7 @@
   margin-top: 4rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 16rem;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    margin-top: 169px;
   }
 }
 
@@ -16,6 +14,7 @@
 
   @include global.max-screen(global.$breakpoint_pc) {
     display: block;
+    height: auto;
   }
 }
 
@@ -30,7 +29,7 @@
   @include global.max-screen(global.$breakpoint_pc) {
     width: 100%;
     background-position: top;
-    height: 48vw;
+    height: 197px;
   }
   background-image: url(#{global.$path_img}/normal/1x/front/front-company-factory-01.jpg);
   position: relative;
@@ -99,7 +98,7 @@
   @include global.max-screen(global.$breakpoint_pc) {
     flex-direction: row;
     width: 100%;
-    height: 24vw;
+    height: 134px;
   }
   .p-frontMenu__item {
     display: block;
@@ -158,11 +157,6 @@
     width: 150px;
     position: relative;
     margin: 0 auto;
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      height: 22.5px;
-      width: 75px;
-    }
   }
 
   .cube div {
@@ -172,11 +166,6 @@
     color: #fff;
     text-align: center;
     line-height: 45px;
-    @include global.max-screen(global.$breakpoint_pc) {
-      height: 22.5px;
-      width: 75px;
-      line-height: 22.5px;
-    }
   }
 
   .side_front {
@@ -186,12 +175,6 @@
     transform: translateZ(75px);
     letter-spacing: 0.01em;
     line-height: 45px;
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      transform: translateZ(37.5px);
-      font-size: 10px;
-      line-height: 22.5px;
-    }
   }
 
   .side_front2 {
@@ -204,13 +187,6 @@
     line-height: 45px;
     padding-right: 20px;
 
-    @include global.max-screen(global.$breakpoint_pc) {
-      transform: translateZ(37.5px);
-      font-size: 14px;
-      line-height: 22.5px;
-      padding-right: 10px;
-    }
-
     &::before {
       content: "";
       position: absolute;
@@ -224,12 +200,6 @@
       z-index: 15;
       height: 32px;
       width: 20px;
-
-      @include global.max-screen(global.$breakpoint_pc) {
-        right: 5px;
-        height: 16px;
-        width: 10px;
-      }
     }
   }
 
@@ -240,11 +210,6 @@
     right: -75px;
     transform: rotateY(90deg);
     line-height: 86px;
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      right: -37.5px;
-      font-size: 10px;
-    }
   }
 
   .side_left {
@@ -257,12 +222,6 @@
     line-height: 86px;
     padding-right: 20px;
 
-    @include global.max-screen(global.$breakpoint_pc) {
-      left: -37.5px;
-      font-size: 14px;
-      padding-right: 10px;
-    }
-
     &::before {
       content: "";
       position: absolute;
@@ -276,12 +235,6 @@
       z-index: 15;
       height: 32px;
       width: 20px;
-
-      @include global.max-screen(global.$breakpoint_pc) {
-        right: 5px;
-        height: 16px;
-        width: 10px;
-      }
     }
   }
 
@@ -292,11 +245,6 @@
     margin: 0 auto;
     transform-style: preserve-3d;
     transition: all 0.3s;
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      height: 22.5px;
-      width: 75px;
-    }
   }
 
   .stage__wrap {
