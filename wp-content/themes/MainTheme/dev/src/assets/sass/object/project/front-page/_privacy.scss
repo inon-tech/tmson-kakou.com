@@ -4,7 +4,6 @@
   margin-top: 4rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    padding-top: 130px;
     margin-top: 8vw;
   }
 }
@@ -17,7 +16,7 @@
   max-width: 100%;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    width: 75%;
+    width: calc(100% - 28px);
   }
 
   &::before {
@@ -32,7 +31,7 @@
     left: -800px;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      top: 56px;
+      top: 168px;
       left: -124px;
       width: 2500px;
     }
@@ -56,10 +55,12 @@
     line-height: 1;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      font-size: 16px;
-      padding-bottom: 16px;
-      padding-left: 16px;
-      padding-top: 16px;
+      padding-right: 113px;
+      padding-left: 38px;
+      padding-top: 0px;
+      font-size: 24px;
+      padding-bottom: 96px;
+      line-height: calc(36 / 24);
     }
   }
 }
@@ -75,8 +76,7 @@
   line-height: calc(21 / 12);
 
   @include global.max-screen(global.$breakpoint_pc) {
-    padding-left: 16px;
-    padding-top: 16px;
+    padding-left: 38px;
     font-size: 10px;
   }
 }
@@ -89,18 +89,13 @@
   cursor: pointer;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    top:0px;
+    top: 78px;
   }
 
   .btn__wrap {
     width: 120px;
     height: 45px;
     display: inline-block;
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      width: 60px;
-      height: 22.5px;
-    }
   }
 
   .item {
@@ -113,10 +108,6 @@
 
     /* articleの高さの1/2だけ奥側(Z軸方向マイナス)に移動 */
     transform: translateZ(22.5px);
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      transform: translateZ(11.25px);
-    }
   }
 
   .item-img,
@@ -140,28 +131,14 @@
     line-height: 45px;
     font-size: 25px;
     letter-spacing: 0em;
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      font-size: 14px;
-      line-height: 22.5px;
-      transform: translateZ(-25px);
-    }
   }
 
   .item-img {
     transform: translateY(-22.5px) rotateX(90deg);
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      transform: translateY(-11.25px) rotateX(90deg);
-    }
   }
 
   .js-active.js-item {
     transform: rotateX(-90deg) translateY(-22.5px);
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      transform: rotateX(-90deg) translateY(-11.25px);
-    }
   }
 
   .item-content {
@@ -171,11 +148,6 @@
     line-height: 45px;
     font-size: 25px;
     letter-spacing: 0em;
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      font-size: 14px;
-      line-height: 22.5px;
-    }
   }
 
   .item-r {
@@ -188,10 +160,6 @@
 
     /* articleの高さの1/2だけ奥側(Z軸方向マイナス)に移動 */
     transform: translateZ(-22.5px);
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      transform: translateZ(-11.25px);
-    }
   }
 
   .item-img-r,
@@ -212,11 +180,6 @@
     background: #b5af41;
     position: relative;
 
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      transform: translateZ(11.25px);
-    }
-
     &::before {
       position: absolute;
       content: "";
@@ -231,31 +194,15 @@
       width: 20px;
       pointer-events: none;
       rotate: -90deg;
-
-      @include global.max-screen(global.$breakpoint_pc) {
-        top: 4px;
-        right: 25px;
-        height: 16px;
-        width: 10px;
-      }
     }
   }
 
   .item-img-r {
     transform: translateY(-22.5px) rotateX(90deg);
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      transform: translateY(-11.25px) rotateX(90deg);
-
-    }
   }
 
   .js-active.js-item-r {
     transform: rotateX(-90deg) translateY(-22.5px);
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      transform: rotateX(-90deg) translateY(-11.25px);
-    }
   }
 
   .item-content-r {
@@ -275,13 +222,6 @@
       width: 20px;
       pointer-events: none;
       rotate: 90deg;
-
-      @include global.max-screen(global.$breakpoint_pc) {
-        top: 4px;
-        right: 25px;
-        height: 16px;
-        width: 10px;
-      }
     }
   }
 }
