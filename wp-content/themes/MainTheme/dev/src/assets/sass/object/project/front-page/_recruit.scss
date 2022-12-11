@@ -67,7 +67,8 @@
   position: relative;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    height: 75px;
+    height: 100%;
+    min-height: 75px;
   }
 
   &:nth-child(1) {
