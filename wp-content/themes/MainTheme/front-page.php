@@ -184,7 +184,7 @@ Template Name:front-page
           文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
           行間等を確認するために入れています。
         </p>
-        <div class="c-btn p-frontStrength__btn">
+        <div class="c-btn p-frontRecruit__btn">
           <a href="<?php echo esc_url(get_post_type_archive_link('recruit')); ?>" class="stage__wrap">
             <div class="stage">
               <div class="cube">

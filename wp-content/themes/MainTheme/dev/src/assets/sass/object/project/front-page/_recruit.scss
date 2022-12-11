@@ -9,18 +9,13 @@
 }
 
 .p-frontRecruit__title {
-  @include global.max-screen(global.$breakpoint_pc) {
-    padding-left: 4vw;
-    padding-right: 4vw;
-  }
-
   img {
     width: 355px;
     margin-left: auto;
     margin-right: auto;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      width: 200px;
+      width: 100%;
     }
   }
 }
@@ -31,30 +26,21 @@
   margin-right: auto;
   max-width: 100%;
 
-  @include global.max-screen(global.$breakpoint_pc) {
-    padding-left: 4vw;
-    padding-right: 4vw;
-  }
   p {
     margin-top: 4rem;
     line-height: 2;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      margin-top: 8vw;
-      font-size: 14px;
+      margin-top: 80px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
   }
 }
 
 .p-frontRecruit__btn {
-  text-align: right;
-}
-
-.p-frontRecruit__btnBlack {
   text-align: center;
-}
-
-.p-frontRecruit__btnBlue {
+  margin-top: 35px;
 }
 
 .p-frontRecruit__imgWrap {
@@ -66,7 +52,9 @@
   margin-right: auto;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 8vw;
+    margin-top: 65px;
+    padding-left: 14px;
+    padding-right: 14px;
   }
 }
 
@@ -79,7 +67,8 @@
   position: relative;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    height: 23vw;
+    height: 75px;
+    width: calc(33.333333% - 28 / 3);
   }
 
   &:nth-child(1) {
