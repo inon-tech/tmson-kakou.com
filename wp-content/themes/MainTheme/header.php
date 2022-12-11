@@ -30,36 +30,36 @@
         <nav class="l-headerPC__nav">
           <ul>
             <li>
-              <a href="<?php echo esc_url(home_url('company')); ?>">
+              <a class="bold" href="<?php echo esc_url(home_url('company')); ?>">
                 会社概要
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url(home_url('strength')); ?>">
+              <a class="bold" href="<?php echo esc_url(home_url('strength')); ?>">
                 テムソンの強み
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url(home_url('strength')); ?>">
+              <a class="bold" href="<?php if ( is_page('strength') ) : ?>#facility<?php else: echo esc_url( home_url( 'strength#facility' ) );?><?php endif;?>">
                 主要設備紹介
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url(get_post_type_archive_link('post')); ?>">
+              <a class="bold" href="<?php echo esc_url(get_post_type_archive_link('post')); ?>">
                 お知らせ
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url(get_post_type_archive_link('recruit')); ?>">
+              <a class="bold" href="<?php echo esc_url(get_post_type_archive_link('recruit')); ?>">
                 採用情報
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url(home_url('contact')); ?>" class="stage__wrap">
+              <a class="bold stage__wrap" href="<?php if ( is_front_page() ) : ?>#contact<?php else: echo esc_url( home_url( '#contact' ) );?><?php endif;?>">
                 <div class="stage">
                   <div class="cube">
-                    <div class="side_right">お問い合わせ</div>
-                    <div class="side_front">お問い合わせ</div>
+                    <div class="side_right bold">お問い合わせ</div>
+                    <div class="side_front bold">お問い合わせ</div>
                   </div>
                 </div>
                 <div class="stage">

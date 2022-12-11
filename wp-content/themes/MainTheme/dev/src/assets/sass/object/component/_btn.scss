@@ -32,9 +32,9 @@
     top: 0px;
     left: 0px;
     transform: translateZ(75px);
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 45px;
-    letter-spacing: 0em;
+    letter-spacing: 0.01em;
 
     @include global.max-screen(global.$breakpoint_pc) {
       font-size: 10px;
@@ -48,7 +48,7 @@
     top: 0px;
     left: 0px;
     transform: translateZ(75px);
-    letter-spacing: -0.01em;
+    letter-spacing: 0em;
     font-size: 1.5rem;
     line-height: 45px;
     padding-right: 20px;
@@ -87,10 +87,9 @@
     top: 0px;
     right: -75px;
     transform: rotateY(90deg);
-    letter-spacing: 0em;
-    font-size: 1rem;
+    letter-spacing: 0.01em;
+    font-size: 16px;
     line-height: 86px;
-    letter-spacing: 0em;
 
     @include global.max-screen(global.$breakpoint_pc) {
       font-size: 10px;

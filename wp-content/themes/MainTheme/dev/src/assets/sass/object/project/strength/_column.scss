@@ -78,7 +78,7 @@
       &::before {
         content: "";
         height: 1px;
-        background: #567894;
+        background: #407897;
         display: block;
         width: 68px;
         max-width: 100%;
@@ -97,7 +97,7 @@
       &::after {
         content: "";
         height: 1px;
-        background: #567894;
+        background: #407897;
         display: block;
         width: 140px;
         max-width: 100%;
@@ -120,11 +120,10 @@
         padding-left: 2rem;
         padding-bottom: 2rem;
         padding-top: 2rem;
-        border-left: 1px solid #567894;
+        border-left: 1px solid #407897;
         font-size: 2rem;
         letter-spacing: 0em;
         line-height: 1;
-        font-weight: normal;
 
         @include global.max-screen(global.$breakpoint_pc) {
           padding-left: 20px;
@@ -138,8 +137,8 @@
     .p-strengthColumn__rightBottom {
       padding-left: 2rem;
       padding-top: 2rem;
-      border-left: 1px solid #567894;
-      border-top: 1px solid #567894;
+      border-left: 1px solid #407897;
+      border-top: 1px solid #407897;
       letter-spacing: 0em;
 
       @include global.max-screen(global.$breakpoint_pc) {
@@ -191,14 +190,14 @@
       &::before {
         content: "";
         height: 1px;
-        background: #567894;
+        background: #407897;
         display: block;
         width: 68px;
         max-width: 100%;
         position: absolute;
         top: 96px;
         left: -1px;
-        z-index: 2;
+        z-index: 1;
 
         @include global.max-screen(global.$breakpoint_pc) {
           top: 36px;
@@ -210,7 +209,7 @@
       &::after {
         content: "";
         height: 1px;
-        background: #567894;
+        background: #407897;
         display: block;
         width: 100px;
         max-width: 100%;
@@ -233,11 +232,10 @@
         padding-left: 2rem;
         padding-bottom: 2rem;
         padding-top: 2rem;
-        border-left: 1px solid #567894;
+        border-left: 1px solid #407897;
         font-size: 2rem;
         letter-spacing: 0em;
         line-height: 1;
-        font-weight: normal;
 
         @include global.max-screen(global.$breakpoint_pc) {
           padding-left: 20px;
@@ -251,8 +249,8 @@
     .p-strengthColumn__rightBottom {
       padding-left: 2rem;
       padding-top: 2rem;
-      border-left: 1px solid #567894;
-      border-top: 1px solid #567894;
+      border-left: 1px solid #407897;
+      border-top: 1px solid #407897;
       font-size: 16px;
       letter-spacing: 0em;
 

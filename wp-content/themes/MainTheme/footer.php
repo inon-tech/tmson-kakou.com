@@ -6,7 +6,7 @@
         FAX 0265-73-7080
       </p>
 
-      <a class="l-footer-tel" href="tel:02657375555">0265-73-7555</a>
+      <a class="l-footer-tel bold" href="tel:02657375555">0265-73-7555</a>
       <p class="l-footer__time">平日 8:00〜17:00</p>
     </div>
   </div>

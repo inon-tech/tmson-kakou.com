@@ -72,7 +72,6 @@
     text-align: center;
     padding-top: 120px;
     letter-spacing: 0em;
-    font-weight: normal;
 
     @include global.max-screen(global.$breakpoint_pc) {
       font-size: 20px;

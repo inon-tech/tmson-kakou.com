@@ -16,14 +16,14 @@
 }
 
 .p-frontStrength__top {
-  border-bottom: 1px solid #567894;
+  border-bottom: 1px solid #407897;
 }
 
 .p-frontStrength__topItem {
   width: 834px;
   margin-left: auto;
   margin-right: auto;
-  border-left: 1px solid #567894;
+  border-left: 1px solid #407897;
   max-width: 100%;
 
   @include global.max-screen(global.$breakpoint_pc) {
@@ -53,7 +53,7 @@
   width: 834px;
   margin-left: auto;
   margin-right: auto;
-  border-left: 1px solid #567894;
+  border-left: 1px solid #407897;
   max-width: 100%;
 
   @include global.max-screen(global.$breakpoint_pc) {

@@ -184,7 +184,7 @@
     top: 0px;
     left: 0px;
     transform: translateZ(75px);
-    letter-spacing: 0em;
+    letter-spacing: 0.01em;
     line-height: 45px;
 
     @include global.max-screen(global.$breakpoint_pc) {
@@ -236,9 +236,9 @@
   .side_right {
     background: #6b6b6b;
     top: 0px;
+    letter-spacing: 0.01em;
     right: -75px;
     transform: rotateY(90deg);
-    letter-spacing: 0em;
     line-height: 86px;
 
     @include global.max-screen(global.$breakpoint_pc) {

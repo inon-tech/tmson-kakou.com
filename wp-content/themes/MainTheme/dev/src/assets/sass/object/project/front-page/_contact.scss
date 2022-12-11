@@ -52,6 +52,12 @@
       margin-top: 55px;
     }
   }
+
+  &:nth-child(4){
+    .contactForm__text{
+      pointer-events: none !important;
+    }
+  }
 }
 
 .contactForm__left {
@@ -264,7 +270,7 @@ select::-ms-expand {
     position: relative;
     margin: 0 auto;
     transform-style: preserve-3d;
-    transition: all .3s;
+    transition: all 0.3s;
   }
 }
 
@@ -278,15 +284,15 @@ select::-ms-expand {
   }
 }
 
-.wpcf7-not-valid-tip{
- display: block;
+.wpcf7-not-valid-tip {
+  display: block;
 }
 
 // .wpcf7-response-output{
 //   display: none;
 // }
 
-.wpcf7-spinner{
+.wpcf7-spinner {
   display: none;
 }
 

@@ -30,8 +30,8 @@ Template Name:front-page
       <a href="<?php echo esc_url(get_post_type_archive_link('post')); ?>" class="stage__wrap">
         <div class="stage">
           <div class="cube">
-            <div class="side_right">お知らせ</div>
-            <div class="side_front">お知らせ</div>
+            <div class="side_right bold">お知らせ</div>
+            <div class="side_front bold">お知らせ</div>
           </div>
         </div>
         <div class="stage">
@@ -88,8 +88,8 @@ Template Name:front-page
             <a href="<?php echo esc_url(home_url('strength')); ?>" class="stage__wrap">
               <div class="stage">
                 <div class="cube">
-                  <div class="side_right">テムソンの強み</div>
-                  <div class="side_front">テムソンの強み</div>
+                  <div class="side_right bold">テムソンの強み</div>
+                  <div class="side_front bold">テムソンの強み</div>
                 </div>
               </div>
               <div class="stage">
@@ -105,67 +105,73 @@ Template Name:front-page
 
   <section class="p-frontMenu animated fadeIn wow">
     <div class="p-frontMenu__wrap">
-      <a href="<?php echo esc_url(home_url('company')); ?>" class="p-frontMenu__itemTop">
-        <div class="p-frontMenu__dark">
-          <div class="p-frontMenu__btn">
-            <div class="stage__wrap">
-              <div class="stage">
-                <div class="cube">
-                  <div class="side_right">会社概要</div>
-                  <div class="side_front">会社概要</div>
+      <div class="p-frontMenu__itemTop">
+        <a href="<?php echo esc_url(home_url('company')); ?>">
+          <div class="p-frontMenu__dark">
+            <div class="p-frontMenu__btn">
+              <div class="stage__wrap">
+                <div class="stage">
+                  <div class="cube">
+                    <div class="side_right bold">会社概要</div>
+                    <div class="side_front bold">会社概要</div>
+                  </div>
                 </div>
-              </div>
-              <div class="stage">
-                <div class="cube">
-                  <div class="side_left font-en">MORE</div>
-                  <div class="side_front2 font-en">MORE</div>
+                <div class="stage">
+                  <div class="cube">
+                    <div class="side_left font-en">MORE</div>
+                    <div class="side_front2 font-en">MORE</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
       <div class="p-frontMenu__itemBottom">
-        <a href="<?php echo esc_url(home_url('strength')); ?>" class="p-frontMenu__item">
-          <div class="p-frontMenu__dark">
-            <div class="p-frontMenu__btn">
-              <divc class="stage__wrap">
-                <div class="stage">
-                  <div class="cube">
-                    <div class="side_right">事業内容</div>
-                    <div class="side_front">事業内容</div>
+        <div class="p-frontMenu__item">
+          <a href="<?php echo esc_url(home_url('strength#content')); ?>">
+            <div class="p-frontMenu__dark">
+              <div class="p-frontMenu__btn">
+                <divc class="stage__wrap">
+                  <div class="stage">
+                    <div class="cube">
+                      <div class="side_right bold">事業内容</div>
+                      <div class="side_front bold">事業内容</div>
+                    </div>
                   </div>
-                </div>
-                <div class="stage">
-                  <div class="cube">
-                    <div class="side_left font-en">MORE</div>
-                    <div class="side_front2 font-en">MORE</div>
+                  <div class="stage">
+                    <div class="cube">
+                      <div class="side_left font-en">MORE</div>
+                      <div class="side_front2 font-en">MORE</div>
+                    </div>
                   </div>
-                </div>
-              </divc>
+                </divc>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="<?php echo esc_url(home_url('strength')); ?>" class="p-frontMenu__item">
-          <div class="p-frontMenu__dark">
-            <div class="p-frontMenu__btn">
-              <divc class="stage__wrap">
-                <div class="stage">
-                  <div class="cube">
-                    <div class="side_right">主要設備一覧</div>
-                    <div class="side_front">主要設備一覧</div>
+          </a>
+        </div>
+        <div class="p-frontMenu__item">
+          <a href="<?php echo esc_url(home_url('strength#facility')); ?>">
+            <div class="p-frontMenu__dark">
+              <div class="p-frontMenu__btn">
+                <divc class="stage__wrap">
+                  <div class="stage">
+                    <div class="cube">
+                      <div class="side_right bold">主要設備一覧</div>
+                      <div class="side_front bold">主要設備一覧</div>
+                    </div>
                   </div>
-                </div>
-                <div class="stage">
-                  <div class="cube">
-                    <div class="side_left font-en">MORE</div>
-                    <div class="side_front2 font-en">MORE</div>
+                  <div class="stage">
+                    <div class="cube">
+                      <div class="side_left font-en">MORE</div>
+                      <div class="side_front2 font-en">MORE</div>
+                    </div>
                   </div>
-                </div>
-              </divc>
+                </divc>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -182,8 +188,8 @@ Template Name:front-page
           <a href="<?php echo esc_url(get_post_type_archive_link('recruit')); ?>" class="stage__wrap">
             <div class="stage">
               <div class="cube">
-                <div class="side_right">採用情報はこちら</div>
-                <div class="side_front">採用情報はこちら</div>
+                <div class="side_right bold">採用情報はこちら</div>
+                <div class="side_front bold">採用情報はこちら</div>
               </div>
             </div>
             <div class="stage">
@@ -203,7 +209,7 @@ Template Name:front-page
     </div>
   </section>
 
-  <section class="p-frontContact animated fadeIn wow">
+  <section class="p-frontContact animated fadeIn wow" id="contact">
     <div class="l-inner">
       <h2 class="bold"><span class="font-en">CONTACT</span>お問い合わせ</h2>
 

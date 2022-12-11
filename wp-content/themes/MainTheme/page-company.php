@@ -158,12 +158,12 @@ Template Name:会社概要
     <div class="p-companyFactory__list">
       <div class="p-companyFactory__item">
         <div class="p-companyFactory__left"></div>
-        <div class="p-companyFactory__right">
+        <div class="p-companyFactory__right bold">
           <p>第１工場</p>
         </div>
       </div>
       <div class="p-companyFactory__item">
-        <div class="p-companyFactory__left">
+        <div class="p-companyFactory__left bold">
           <p>第２工場</p>
         </div>
         <div class="p-companyFactory__right"></div>

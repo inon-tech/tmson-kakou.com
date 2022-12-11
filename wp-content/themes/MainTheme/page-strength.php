@@ -33,136 +33,163 @@ Template Name:テムソンの強み
   <section class="p-strengthMenu animated fadeIn wow">
 
     <div class="p-strengthMenu__wrap">
-      <a href="" class="p-strengthMenu__item">
-        <div class="p-strengthMenu__dark">
-          <div class="p-strengthMenu__text">
-            <h3>マニシング加工</h3>
-            <p>紙図面、2D・3DCADデータから制作可能です。<br>
-              3D加工にも対応いたします。</p>
+      <div class="p-strengthMenu__item">
+        <a href="">
+          <div class="p-strengthMenu__dark">
+            <div class="p-strengthMenu__text">
+              <h3>マニシング加工</h3>
+              <p>紙図面、2D・3DCADデータから制作可能です。<br>
+                3D加工にも対応いたします。</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="" class="p-strengthMenu__item">
-        <div class="p-strengthMenu__dark">
-          <div class="p-strengthMenu__text">
-            <h3>NC旋盤加工</h3>
-            <p>独自の技術や経験を生かした加工に自身があります。<br>
-              どんなことでもまずはご相談ください。</p>
+        </a>
+      </div>
+      <div class="p-strengthMenu__item">
+        <a href="">
+          <div class="p-strengthMenu__dark">
+            <div class="p-strengthMenu__text">
+              <h3>NC 旋盤加工</h3>
+              <p>独自の技術や経験を生かした加工に自身があります。<br>
+                どんなことでもまずはご相談ください。</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="" class="p-strengthMenu__item">
-        <div class="p-strengthMenu__dark">
-          <div class="p-strengthMenu__text">
-            <h3>ワイヤーカット加工</h3>
-            <p>繊細な形状加工や熱処理後の精度加工、<br>
-              ワイヤーのみの追加工などにも対応します。</p>
+        </a>
+      </div>
+      <div class="p-strengthMenu__item">
+        <a href="">
+          <div class="p-strengthMenu__dark">
+            <div class="p-strengthMenu__text">
+              <h3>ワイヤーカット加工</h3>
+              <p>繊細な形状加工や熱処理後の精度加工、
+                ワイヤーのみの追加工などにも対応します。</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="" class="p-strengthMenu__item">
-        <div class="p-strengthMenu__dark">
-          <div class="p-strengthMenu__text">
-            <h3>汎用加工</h3>
-            <p>単品1個から小ロット量産まで大小さまざまな加工に対応いたします。<br class="SP-none">
-              また市販部品の追加工など、ニーズにあわせて受難に対応いたします。</p>
+        </a>
+      </div>
+      <div class="p-strengthMenu__item">
+        <a href="">
+          <div class="p-strengthMenu__dark">
+            <div class="p-strengthMenu__text">
+              <h3>汎用加工</h3>
+              <p>単品1個から小ロット量産まで大小さまざまな加工に対応いたします。<br class="SP-none">
+                また市販部品の追加工など、ニーズにあわせて受難に対応いたします。</p>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
     <div class="p-strengthMenu__BottomWrap">
       <div class="p-strengthMenu__BLWrap">
-        <a href="" class="p-strengthMenu__item">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>フライス<br>
-                加工</h3>
+        <div class="p-strengthMenu__item">
+          <a href="">
+            <div class="p-strengthMenu__dark">
+              <div class="p-strengthMenu__text">
+                <h3>フライス<br>
+                  加工</h3>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="" class="p-strengthMenu__item">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>平面<br>
-                研削</h3>
+          </a>
+        </div>
+        <div class="p-strengthMenu__item">
+          <a href="">
+            <div class="p-strengthMenu__dark">
+              <div class="p-strengthMenu__text">
+                <h3>平面<br>
+                  研削</h3>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="" class="p-strengthMenu__item">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>旋盤<br>
-                加工</h3>
+          </a>
+        </div>
+        <div class="p-strengthMenu__item">
+          <a href="">
+            <div class="p-strengthMenu__dark">
+              <div class="p-strengthMenu__text">
+                <h3>旋盤<br>
+                  加工</h3>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
-
       <div class="p-strengthMenu__BRWrap">
-        <a href="" class="p-strengthMenu__item">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>鋳物<br>
-                加工</h3>
+        <div class="p-strengthMenu__item">
+          <a href="">
+            <div class="p-strengthMenu__dark">
+              <div class="p-strengthMenu__text">
+                <h3>鋳物<br>
+                  加工</h3>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="" class="p-strengthMenu__item">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>治具<br>
-                製作</h3>
+          </a>
+        </div>
+        <div class="p-strengthMenu__item">
+          <a href="">
+            <div class="p-strengthMenu__dark">
+              <div class="p-strengthMenu__text">
+                <h3>治具<br>
+                  製作</h3>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="" class="p-strengthMenu__item">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>組立</h3>
+          </a>
+        </div>
+        <div class="p-strengthMenu__item">
+          <a href="">
+            <div class="p-strengthMenu__dark">
+              <div class="p-strengthMenu__text">
+                <h3>組立</h3>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="p-strengthContent animated fadeIn wow">
+  <section class="p-strengthContent animated fadeIn wow" id="content">
     <h2 class="c-section-title">事業内容</h2>
     <div class="l-innner">
       <div class="p-strengthContent__wrap">
-        <a href="" class="p-strengthContent__item">
-          <div class="p-strengthContent__dark">
-            <div class="p-strengthContent__text">
-              <h3>ロボット産業</h3>
+        <div class="p-strengthContent__item">
+          <a href="">
+            <div class="p-strengthContent__dark">
+              <div class="p-strengthContent__text">
+                <h3>ロボット産業</h3>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="" class="p-strengthContent__item">
-          <div class="p-strengthContent__dark">
-            <div class="p-strengthContent__text">
-              <h3>機械工具</h3>
+          </a>
+        </div>
+        <div class="p-strengthContent__item">
+          <a href="">
+            <div class="p-strengthContent__dark">
+              <div class="p-strengthContent__text">
+                <h3>機械工具</h3>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="" class="p-strengthContent__item">
-          <div class="p-strengthContent__dark">
-            <div class="p-strengthContent__text">
-              <h3>工作機械</h3>
+          </a>
+        </div>
+        <div class="p-strengthContent__item">
+          <a href="">
+            <div class="p-strengthContent__dark">
+              <div class="p-strengthContent__text">
+                <h3>工作機械</h3>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="" class="p-strengthContent__item">
-          <div class="p-strengthContent__dark">
-            <div class="p-strengthContent__text">
-              <h3>半導体</h3>
+          </a>
+        </div>
+        <div class="p-strengthContent__item">
+          <a href="">
+            <div class="p-strengthContent__dark">
+              <div class="p-strengthContent__text">
+                <h3>半導体</h3>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="p-strengthFacility animated fadeIn wow">
+  <section class="p-strengthFacility animated fadeIn wow" id="facility">
     <h2 class="c-section-title">主要設備一覧</h2>
     <div class="l-inner js-scrollable">
       <table border="1" class="p-strength__table">

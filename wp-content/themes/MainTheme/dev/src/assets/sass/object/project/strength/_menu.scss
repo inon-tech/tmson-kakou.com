@@ -60,7 +60,8 @@
   .p-strengthMenu__text {
     display: inline-block;
     padding-top: 2rem;
-    padding-left: 3rem;
+    padding-left: 6rem;
+    padding-right: 5rem;
 
     @include global.max-screen(global.$breakpoint_pc) {
       padding-top: 40px;
@@ -70,7 +71,6 @@
       font-size: 2rem;
       line-height: calc(48 / 32);
       color: #ffffff;
-      font-weight: normal;
       letter-spacing: 0em;
 
       @include global.max-screen(global.$breakpoint_pc) {
@@ -146,7 +146,6 @@
       font-size: 2rem;
       color: #ffffff;
       text-align: center;
-      font-weight: normal;
       @include global.max-screen(global.$breakpoint_pc) {
         font-size: 25px;
       }
@@ -203,7 +202,6 @@
 
   .p-strengthMenu__text {
     h3 {
-      font-weight: normal;
       font-size: 30px;
       color: #ffffff;
       text-align: center;
