@@ -83,4 +83,6 @@ jQuery('a[href*="#"]').click(function () {
   return false;
 });
 
+jQuery("li:has(.dots)").addClass("three");
+
 new WOW().init();

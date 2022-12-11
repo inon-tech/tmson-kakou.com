@@ -65,7 +65,6 @@ Template Name: お知らせ
   <script>
     let pagenationDots = document.getElementsByClassName("page-numbers dots");
     let currentPage = document.getElementsByClassName("page-numbers current");
-    
     pagenationDots[0].innerHTML = "．．．"; //Dotsを変更
 
     if(currentPage[0].innerHTML == "1") {

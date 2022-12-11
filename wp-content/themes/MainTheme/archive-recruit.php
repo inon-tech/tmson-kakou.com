@@ -52,18 +52,31 @@ Template Name: 求人情報
       wp_reset_query(); ?>
     </div>
     <div class="Pagenation">
-      <?php
-      $args = array(
-        'mid_size' => 1,
-        'prev_text' => '＜',
-        'next_text' => '＞',
-        'type'  => 'list', // 戻り値の指定 (plain/list)
-        'prev_next'     => true, // 「前へ」「次へ」のリンクを表示する場合はtrue
-      );
-      the_posts_pagination($args);
-      ?>
+      <?php the_posts_pagination(
+        array(
+          'mid_size'      => 2, // 現在ページの左右に表示するページ番号の数
+          'prev_next'     => true, // 「前へ」「次へ」のリンクを表示する場合はtrue
+          'prev_text'     => '<span class="prev"></span>', // 「前へ」リンクのテキスト
+          'next_text'     => '<span class="next"></span>', // 「次へ」リンクのテキスト
+          'type'          => 'list', // 戻り値の指定 (plain/list)
+        )
+      ); ?>
     </div>
   </section>
+
+  <script>
+    let pagenationDots = document.getElementsByClassName("page-numbers dots");
+    let currentPage = document.getElementsByClassName("page-numbers current");
+    pagenationDots[0].innerHTML = "．．．"; //Dotsを変更
+
+    if (currentPage[0].innerHTML == "1") {
+      let pagenationPrev = document.createElement('li');
+      pagenationPrev.innerHTML = '<div class="prev page-numbers"><span class="prev"></span></div>';
+      let pagenationList = document.querySelectorAll('ul.page-numbers');
+
+      pagenationList[0].prepend(pagenationPrev);
+    }
+  </script>
 </main>
 
 <?php get_footer(); ?>
