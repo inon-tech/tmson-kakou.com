@@ -68,7 +68,6 @@
 
   @include global.max-screen(global.$breakpoint_pc) {
     height: 75px;
-    width: calc(33.333333% - 28 / 3);
   }
 
   &:nth-child(1) {
