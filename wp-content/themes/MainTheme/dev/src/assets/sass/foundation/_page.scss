@@ -33,7 +33,7 @@ body {
 	}
 }
 
-@include global.min-screen(global.$breakpoint_tb) {
+@include global.min-screen(global.$breakpoint_pc) {
 	.PC-none {
 		display: none;
 	}

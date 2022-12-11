@@ -5,6 +5,10 @@
   height: calc(100vh - 45px);
   min-height: 650px;
 
+  .slick-slide {
+    height: calc(100vh - 45px);
+  }
+
   @include global.max-screen(global.$breakpoint_pc) {
     max-height: 979px;
     min-height: initial;
@@ -38,19 +42,21 @@
   padding-top: 3.2rem;
   padding-left: 3.2rem;
   padding-right: 3.2rem;
+  background: rgba(0, 0, 0, 0.65);
   width: 540px;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    height: 260px;
-    top: initial;
-    bottom: 20px;
-    width: calc(100vw - 32px);
+    position: static;
+    height: auto;
+    background: #1e2b35;
+    bottom: auto;
+    width: 100%;
     max-width: 100%;
-    padding-top: 16px;
-    padding-left: 16px;
-    padding-right: 16px;
-    right: 50%;
-    transform: translateX(50%);
+    padding-top: 35px;
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-bottom: 20px;
+    right: auto;
   }
 
   .p-frontFV__btn {
@@ -95,7 +101,9 @@
     letter-spacing: -0.01em;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      font-size: 23px;
+      font-size: 32px;
+      display: inline-block;
+      letter-spacing: 0.001em;
     }
   }
 
@@ -104,8 +112,9 @@
     margin-top: 15px;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      height: 110px;
-      margin-top: 7.5px;
+      height: 165px;
+      width: auto;
+      margin-top: 17px;
     }
   }
 
@@ -115,9 +124,9 @@
     letter-spacing: 0.1em;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      font-size: 9px;
-      margin-top: 7.5px;
-      line-height: 1.8;
+      font-size: 16px;
+      margin-top: 38px;
+      line-height: 2;
     }
   }
 }
@@ -132,24 +141,25 @@
   display: flex;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    position: relative;
-    top: -5px;
+    position: static;
     bottom: initial;
     background: none;
+    display: block;
   }
 }
 
 .p-frontFV__news {
   width: 100%;
-  line-height: 1;
+  line-height: 2;
   padding-left: 2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    padding-left: 4vw;
-    padding-top: 4vw;
-    padding-bottom: 4vw;
+    padding-left: 14px;
+    padding-top: 22px;
+    padding-right: 44px;
+    padding-bottom: 0;
   }
 
   a {
@@ -179,7 +189,6 @@
 
   @include global.max-screen(global.$breakpoint_pc) {
     display: block;
-    font-size: 12px;
   }
 }
 
@@ -192,7 +201,7 @@
 .p-frontFVNews__type {
   padding-left: 10px;
   @include global.max-screen(global.$breakpoint_pc) {
-    padding-left: 5px;
+    padding-left: 15px;
     line-height: 1;
   }
 }
@@ -204,9 +213,9 @@
   transition: 0.3s all;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    padding-right: 39px;
-    line-height: 15.5px;
-    padding-top: 2px;
+    line-height: 1.5;
+    padding-right: 0;
+    padding-top: 5px;
   }
 
   &::before {
@@ -223,9 +232,8 @@
     width: 19px;
     transition: 0.3s all;
     @include global.max-screen(global.$breakpoint_pc) {
-      right: 20px;
-      height: 15.5px;
-      width: 8px;
+      right: -30px;
+      top: 30%;
     }
   }
 
@@ -233,7 +241,7 @@
     color: #b5af41;
 
     &::before {
-      right: -0px;
+      right: -43px;
       background-image: url(#{global.$path_img}/svg/arrow-yellow.svg);
     }
   }
@@ -244,6 +252,9 @@
 
   .stage {
     height: 50%;
+    @include global.max-screen(global.$breakpoint_pc) {
+      height: 86px;
+    }
   }
 
   .cube {
@@ -253,7 +264,8 @@
     height: 100%;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      width: 75px;
+      width: 120px;
+      margin: 0;
     }
   }
 
@@ -265,7 +277,7 @@
     text-align: center;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      width: 75px;
+      width: 120px;
     }
   }
 
@@ -281,8 +293,7 @@
     justify-content: center;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      transform: translateZ(37.5px);
-      font-size: 10px;
+      transform: translateZ(60px);
     }
   }
 
@@ -300,9 +311,8 @@
     justify-content: center;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      transform: translateZ(37.5px);
-      font-size: 14px;
-      padding-right: 10px;
+      transform: translateZ(60px);
+      font-size: 21px;
     }
 
     &::before {
@@ -320,9 +330,8 @@
       width: 20px;
 
       @include global.max-screen(global.$breakpoint_pc) {
-        right: 5px;
-        height: 16px;
-        width: 10px;
+        height: 20px;
+        width: 12px;
       }
     }
   }
@@ -339,8 +348,7 @@
     justify-content: center;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      right: -37.5px;
-      font-size: 10px;
+      right: -30px;
     }
   }
 
@@ -358,9 +366,8 @@
     justify-content: center;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      left: -37.5px;
-      font-size: 14px;
-      padding-right: 10px;
+      left: -30px;
+      font-size: 21px;
     }
 
     &::before {
@@ -378,9 +385,8 @@
       width: 20px;
 
       @include global.max-screen(global.$breakpoint_pc) {
-        right: 5px;
-        height: 16px;
-        width: 10px;
+        height: 20px;
+        width: 12px;
       }
     }
   }
@@ -393,7 +399,7 @@
     transition: all 0.3s;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      width: 75px;
+      width: 120px;
     }
   }
 
