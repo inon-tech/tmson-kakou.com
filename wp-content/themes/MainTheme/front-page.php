@@ -75,7 +75,7 @@ Template Name:front-page
     <div class="p-frontStrength__wrap">
       <div class="p-frontStrength__top">
         <div class="p-frontStrength__topItem">
-          <span class="bold">紙図面、2D・3DCAD データから<br>
+          <span class="bold">紙図面、2D・3DCAD データから<br class="SP-none">
             制作、加工、組立、納品まで一貫生産</span>
         </div>
       </div>
