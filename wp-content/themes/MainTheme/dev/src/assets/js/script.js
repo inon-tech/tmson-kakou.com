@@ -75,12 +75,33 @@ new ScrollHint('.js-scrollable', {
   }
 });
 
-// スクーロール
+// ページ内遷移スクーロール
 jQuery('a[href*="#"]').click(function () {
   var elmHash = jQuery(this).attr('href'); //ページ内リンクのHTMLタグhrefから、リンクされているエリアidの値を取得
-  var pos = jQuery(elmHash).offset().top-110;//idの上部の距離からHeaderの高さを引いた値を取得
-  jQuery('body,html').animate({scrollTop: pos}, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
+  var pos = jQuery(elmHash).offset().top - 109;//idの上部の距離からHeaderの高さを引いた値を取得
+  jQuery('body,html').animate({ scrollTop: pos }, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
   return false;
+});
+
+// ページ外遷移スクーロール
+jQuery(function () {
+  //現在のページURLのハッシュ部分を取得
+  const hash = location.hash;
+
+  //ハッシュ部分がある場合の条件分岐
+  if (hash) {
+    //ページ遷移後のスクロール位置指定
+    jQuery("html, body").stop().scrollTop(0);
+    //処理を遅らせる
+    setTimeout(function () {
+      //リンク先を取得
+      const target = jQuery(hash),
+        //リンク先までの距離を取得
+        position = target.offset().top - 109;
+      //指定の場所までスムーススクロール
+      jQuery("html, body").animate({ scrollTop: position }, 500,);
+    });
+  }
 });
 
 jQuery("li:has(.dots)").addClass("three");
