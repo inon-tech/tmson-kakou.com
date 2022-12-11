@@ -15,9 +15,9 @@
   left: 0;
   z-index: 100;
 
-	@include global.max-screen(global.$breakpoint_pc) {
-		display: none;
-	}
+  @include global.max-screen(global.$breakpoint_pc) {
+    display: none;
+  }
 }
 
 .l-headerPC__logo {
@@ -45,12 +45,20 @@
       a {
         padding-left: 20px;
         border-left: 1px solid #545454;
+
+        @include global.max-screen(1070px) {
+          padding-left: 10px;
+        }
       }
     }
 
     a {
       letter-spacing: 0em;
       padding-right: 20px;
+
+      @include global.max-screen(1070px) {
+        padding-right: 10px;
+      }
     }
 
     &:last-child {
@@ -83,7 +91,7 @@
 
       .side_front2 {
         text-align: left !important;
-        background: #4190B7;
+        background: #4190b7;
         top: 0px;
         left: 0px;
         transform: translateZ(90px);
