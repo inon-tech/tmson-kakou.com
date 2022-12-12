@@ -18,6 +18,59 @@ Template Name:front-page
       <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/rectangle.png);"></div>
     </div>
 
+    <div class="p-frontFV__right SP-none">
+      <h2 class="font-en">CUT and CREATE</h2>
+      <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-title.png" alt="">
+      <p>「切る」「削る」という切削加工の本質である「引く」概念にとらわれず、つねに新しい何かをプラスすること。<br class="PC-none">
+        最新の設備と高度な技術に、経験とセンス、そしてもてる限りのアイデアを駆使することで、輝きを放つ優れた製品を生み出すことができると信じています。
+      </p>
+    </div>
+
+    <div class="p-frontFV__bottom SP-none">
+      <a href="<?php echo esc_url(get_post_type_archive_link('post')); ?>" class="stage__wrap SP-none">
+        <div class="stage">
+          <div class="cube">
+            <div class="side_right bold">お知らせ</div>
+            <div class="side_front bold">お知らせ</div>
+          </div>
+        </div>
+        <div class="stage">
+          <div class="cube">
+            <div class="side_left font-en">MORE</div>
+            <div class="side_front2 font-en">MORE</div>
+          </div>
+        </div>
+      </a>
+
+      <div class="p-frontFV__news SP-none">
+
+        <?php query_posts(array('post_type' => array('post', 'recruit'), 'posts_per_page' => 3)); ?>
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            <a href="<?php the_permalink(); ?>">
+              <div class="p-frontFVNews__item">
+                <div class="p-frontFV__left">
+                  <div class="p-frontFVNews__time">
+                    <time datetime="<?php echo esc_html(get_the_date('Y-m-d')); ?>" class="">
+                      <?php echo get_the_date(); ?>
+                    </time>
+                  </div>
+                  <div class="p-frontFVNews__type">
+                    <?php echo esc_html(get_post_type_object(get_post_type())->label); ?>
+                  </div>
+                </div>
+                <div class="p-frontFVNews__name line-clamp">
+                  <?php echo get_the_title(); ?>
+                </div>
+              </div>
+            </a>
+        <?php endwhile;
+        endif;
+        wp_reset_query(); ?>
+      </div>
+    </div>
+
+  </section>
+  <section class="p-frontFV-SP">
     <div class="p-frontFV__right">
       <h2 class="font-en">CUT and CREATE</h2>
       <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-title.png" alt="">
@@ -68,7 +121,6 @@ Template Name:front-page
         wp_reset_query(); ?>
       </div>
     </div>
-
   </section>
 
   <section class="p-frontStrength animated fadeIn wow">

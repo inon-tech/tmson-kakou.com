@@ -15,7 +15,7 @@
     margin-right: auto;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      width: 100%;
+      width: 347px;
     }
   }
 }
@@ -31,7 +31,7 @@
     line-height: 2;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      margin-top: 80px;
+      margin-top: 8vw;
       padding-left: 30px;
       padding-right: 30px;
     }
@@ -40,7 +40,7 @@
 
 .p-frontRecruit__btn {
   text-align: center;
-  margin-top: 35px;
+  margin-top: 8vw;
 }
 
 .p-frontRecruit__imgWrap {

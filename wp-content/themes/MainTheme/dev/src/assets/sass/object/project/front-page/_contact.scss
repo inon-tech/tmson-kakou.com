@@ -8,7 +8,7 @@
   max-width: 100%;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 65px;
+    margin-top: 8vw;
   }
 
   h2 {

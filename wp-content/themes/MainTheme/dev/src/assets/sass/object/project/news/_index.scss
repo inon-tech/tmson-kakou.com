@@ -111,6 +111,13 @@
 
 .p-singleNews__content {
   margin-top: 1rem;
+
+  .wp-block-image{
+    img{
+      max-width: 600px;
+      max-height: 400px;
+    }
+  }
 }
 
 .p-singleNews__btn {

@@ -29,19 +29,19 @@ body {
 
 @include global.max-screen(global.$breakpoint_tb) {
 	.Tab-none {
-		display: none;
+		display: none !important;
 	}
 }
 
 @include global.min-screen(global.$breakpoint_pc) {
 	.PC-none {
-		display: none;
+		display: none !important;
 	}
 }
 
 @include global.max-screen(global.$breakpoint_pc) {
 	.SP-none {
-		display: none;
+		display: none !important;
 	}
 }
 

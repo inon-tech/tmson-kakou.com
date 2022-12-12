@@ -26,7 +26,7 @@
   <div class="footerFixed">
     <header class="l-header">
       <div class="l-headerPC">
-        <div class="l-headerPC__logo"><a href="<?php echo esc_url(home_url('')); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/public/img/normal/1x/common/header-logo.png" alt=""></a></div>
+        <div class="l-headerPC__logo"><a href="<?php echo esc_url(home_url('')); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/public/img/svg/header-logo.svg" alt=""></a></div>
         <nav class="l-headerPC__nav">
           <ul>
             <li>

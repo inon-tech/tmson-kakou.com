@@ -4,7 +4,8 @@
   margin-top: 4rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 169px;
+    margin-top: 8vw;
+    padding-top: 130px;
   }
 }
 

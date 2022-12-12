@@ -233,7 +233,6 @@
     transition: 0.3s all;
     @include global.max-screen(global.$breakpoint_pc) {
       right: -30px;
-      top: 30%;
     }
   }
 
@@ -421,5 +420,12 @@
         }
       }
     }
+  }
+}
+
+.p-frontFV-SP{
+  display: none;
+  @include global.max-screen(global.$breakpoint_pc) {
+   display: block;
   }
 }
