@@ -7,7 +7,7 @@
   margin-top: 4rem;
   max-width: 100%;
   padding-bottom: 6rem;
-  
+
   a {
     display: block;
     &:not(:first-child) {
@@ -82,7 +82,7 @@
 
     @include global.max-screen(global.$breakpoint_pc) {
       width: calc(100% - 20px);
-     padding-right: 0px;
+      padding-right: 0px;
     }
   }
 
@@ -120,17 +120,16 @@
   margin-top: 16px;
   font-size: 16px;
 
-  .wp-block-image{
-    img{
+  .wp-block-image {
+    img {
       max-width: 600px;
       max-height: 400px;
 
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+      @include global.max-screen(global.$breakpoint_pc) {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
   }
 }
@@ -151,7 +150,7 @@
 
 .Pagenation {
   margin-top: 7rem;
-  
+
   ul {
     display: flex;
     align-items: center;
@@ -214,7 +213,7 @@
           @include global.max-screen(global.$breakpoint_pc) {
             left: -13px;
             width: 5px;
-            height: 5px
+            height: 5px;
           }
         }
       }
@@ -235,7 +234,7 @@
           @include global.max-screen(global.$breakpoint_pc) {
             left: -13px;
             width: 5px;
-            height: 5px
+            height: 5px;
           }
         }
       }
@@ -256,7 +255,7 @@
           @include global.max-screen(global.$breakpoint_pc) {
             left: -13px;
             width: 5px;
-            height: 5px
+            height: 5px;
           }
         }
       }
@@ -277,7 +276,7 @@
           @include global.max-screen(global.$breakpoint_pc) {
             left: -13px;
             width: 5px;
-            height: 5px
+            height: 5px;
           }
         }
       }
@@ -298,7 +297,7 @@
           @include global.max-screen(global.$breakpoint_pc) {
             left: -13px;
             width: 5px;
-            height: 5px
+            height: 5px;
           }
         }
       }
@@ -319,7 +318,7 @@
           @include global.max-screen(global.$breakpoint_pc) {
             left: -13px;
             width: 5px;
-            height: 5px
+            height: 5px;
           }
         }
       }
@@ -340,7 +339,7 @@
           @include global.max-screen(global.$breakpoint_pc) {
             left: -13px;
             width: 5px;
-            height: 5px
+            height: 5px;
           }
         }
       }
@@ -463,13 +462,13 @@
   }
 }
 
-.prev.page-numbers{
+.prev.page-numbers {
   @include global.max-screen(global.$breakpoint_pc) {
     margin-left: 0px !important;
   }
 }
 
-.three + li{
+.three + li {
   a {
     &::before {
       display: none !important;
@@ -477,7 +476,15 @@
   }
 }
 
-.post.post-post.current-item{
+.post.post-post.current-item {
+  @include global.max-screen(1100px) {
+    width: 280px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+  }
+
   @include global.max-screen(global.$breakpoint_pc) {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -491,7 +498,15 @@
   }
 }
 
-.post.post-recruit.current-item{
+.post.post-recruit.current-item {
+  @include global.max-screen(1100px) {
+    width: 280px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+  }
+
   @include global.max-screen(global.$breakpoint_pc) {
     display: -webkit-box;
     -webkit-box-orient: vertical;
