@@ -13,17 +13,13 @@
   padding-top: 50px;
   padding-bottom: 40px;
 
-  @include global.max-screen(global.$breakpoint_pc) {
-    padding: 25px;
-  }
-
-  img{
-   margin-left: auto;
-   margin-right: auto;
+  img {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-.l-footer-tel{
+.l-footer-tel {
   display: inline-block;
   font-size: 21px;
   letter-spacing: 0.075em;
@@ -51,14 +47,10 @@
   margin-top: 20px;
   line-height: calc(32 / 16);
   letter-spacing: 0.075em;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    font-size: 12px;
-  }
 }
 
 .l-footer__time {
-  font-size: .625rem;
+  font-size: 10px;
 }
 
 .l-footerTotop {
@@ -68,7 +60,7 @@
   cursor: pointer;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    right: 20px;
+    right: 0px;
   }
 }
 
@@ -105,13 +97,9 @@
 .footerFixed {
   padding-bottom: 269.5px;
   position: relative;
-	min-height: calc(100vh - 45px);
+  min-height: calc(100vh - 45px);
 
   @include global.max-screen(global.$breakpoint_pc) {
-    padding-bottom: 209.56px;
-  }
-
-  @include global.max-screen(370px) {
-    padding-bottom: 231px;
+    padding-bottom: 289.5px;
   }
 }

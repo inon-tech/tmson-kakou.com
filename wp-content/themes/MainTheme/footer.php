@@ -2,7 +2,7 @@
   <div class="l-footer__wrap">
     <div class="l-inner">
       <a class="l-footer-logo" href="<?php echo esc_url(home_url('')); ?>"><img src="<?php echo esc_url(get_template_directory_uri())?>/public/img/svg/footer-logo.svg" alt=""></a>
-      <p class="l-footer__access">〒399-4511　長野県上伊那郡南箕輪村田畑 6160-14<br>
+      <p class="l-footer__access bold">〒399-4511<br class="PC-none"><span class="SP-none">　</span>長野県上伊那郡南箕輪村田端宇沖河原6160-14<br>
         FAX 0265-73-7080
       </p>
 

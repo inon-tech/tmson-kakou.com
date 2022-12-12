@@ -4,7 +4,7 @@
   margin-top: 4rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 8vw;
+    margin-top: 43px;
   }
 }
 
@@ -17,6 +17,7 @@
   max-height: 350px;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    max-height: 175px;
+    max-height: 180px;
+    aspect-ratio: 25/12;
   }
 }
