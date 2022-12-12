@@ -16,6 +16,7 @@
   max-width: 100%;
 
   @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 8vw;
   }
 }
 
@@ -26,15 +27,11 @@
   padding-bottom: 12px;
 
   &:not(:last-child) {
-    border-bottom: 1px dotted #808080;
+    border-bottom: 1px dotted #818181;
   }
 
   &:last-child {
     align-items: baseline;
-  }
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    font-size: 14px;
   }
 }
 
@@ -42,7 +39,7 @@
   width: 170px;
   text-align: center;
   line-height: 1;
-  text-align-last:justify;
+  text-align-last: justify;
   padding-left: 35px;
   padding-right: 45px;
 
@@ -50,6 +47,7 @@
     width: 100px;
     padding-left: 10px;
     padding-right: 20px;
+    font-size: 12px;
   }
 }
 

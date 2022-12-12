@@ -94,10 +94,10 @@
             <li><a class="bold" href="<?php echo esc_url(home_url('')); ?>">HOME</a></li>
             <li><a class="bold" href="<?php echo esc_url(home_url('company')); ?>">会社概要</a></li>
             <li><a class="bold" href="<?php echo esc_url(home_url('strength')); ?>">テムソンの強み</a></li>
-            <li><a class="bold" href="<?php echo esc_url(home_url('strength')); ?>">主要設備紹介</a></li>
+            <li><a class="bold" href="<?php if ( is_page('strength') ) : ?>#facility<?php else: echo esc_url( home_url( 'strength#facility' ) );?><?php endif;?>">主要設備紹介</a></li>
             <li><a class="bold" href="<?php echo esc_url(get_post_type_archive_link('post')); ?>">お知らせ</a></li>
             <li><a class="bold" href="<?php echo esc_url(get_post_type_archive_link('recruit')); ?>">採用情報</a></li>
-            <li><a class="bold" href="<?php echo esc_url(home_url('contact')); ?>">お問い合わせ</a></li>
+            <li><a class="bold" href="<?php if ( is_front_page() ) : ?>#contact<?php else: echo esc_url( home_url( '#contact' ) );?><?php endif;?>">お問い合わせ</a></li>
           </ul>
 
           <div class="l-headerSP__contentBt">

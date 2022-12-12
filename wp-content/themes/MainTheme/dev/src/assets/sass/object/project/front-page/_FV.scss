@@ -347,7 +347,7 @@
     justify-content: center;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      right: -30px;
+      right: -60px;
     }
   }
 
@@ -365,7 +365,7 @@
     justify-content: center;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      left: -30px;
+      left: -60px;
       font-size: 21px;
     }
 
@@ -406,6 +406,10 @@
     display: block;
     padding-left: 0 !important;
     padding-right: 0 !important;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      width: 120px;
+    }
     &:hover {
       .stage {
         &:nth-child(2) {
@@ -423,9 +427,9 @@
   }
 }
 
-.p-frontFV-SP{
+.p-frontFV-SP {
   display: none;
   @include global.max-screen(global.$breakpoint_pc) {
-   display: block;
+    display: block;
   }
 }

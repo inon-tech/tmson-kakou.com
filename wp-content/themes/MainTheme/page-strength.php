@@ -18,7 +18,7 @@ Template Name:テムソンの強み
         </h1>
       </div>
       <div class="l-page-FV__desc">
-        <div class="l-breadcrumb p-newsBreadcrumb">
+        <div class="l-breadcrumb">
           <?php bcn_display(); ?>
         </div>
         この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。

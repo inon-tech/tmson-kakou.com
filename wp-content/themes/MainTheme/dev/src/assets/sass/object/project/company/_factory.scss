@@ -34,7 +34,7 @@
       background-image: url(#{global.$path_img}/normal/1x/company/company-factory-01.png);
 
       @include global.max-screen(global.$breakpoint_pc) {
-        width: 73%;
+        width: 82.66666666%;
         background-image: url(#{global.$path_img}/normal/1x/company/company-factory-01-sp.png);
       }
     }
@@ -45,7 +45,7 @@
       background: #1e2b35;
 
       @include global.max-screen(global.$breakpoint_pc) {
-        width: 27%;
+        width: 17.333333333%;
       }
 
       p {
@@ -55,8 +55,11 @@
         padding-top: 20px;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          font-size: 20px;
+          font-size: 2rem;
           padding-top: 15px;
+          writing-mode: vertical-rl;
+          margin-left: auto;
+          margin-right: auto;
         }
       }
     }
@@ -69,7 +72,7 @@
       background: #1e2b35;
 
       @include global.max-screen(global.$breakpoint_pc) {
-        width: 27%;
+        width: 17.333333333%;
       }
 
       p {
@@ -79,8 +82,11 @@
         padding-top: 20px;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          font-size: 20px;
+          font-size: 2rem;
           padding-top: 15px;
+          writing-mode: vertical-rl;
+          margin-left: auto;
+          margin-right: auto;
         }
       }
     }
@@ -95,7 +101,7 @@
       background-image: url(#{global.$path_img}/normal/1x/company/company-factory-02.png);
 
       @include global.max-screen(global.$breakpoint_pc) {
-        width: 73%;
+        width: 82.66666666%;
         background-image: url(#{global.$path_img}/normal/1x/company/company-factory-02-sp.png);
       }
     }

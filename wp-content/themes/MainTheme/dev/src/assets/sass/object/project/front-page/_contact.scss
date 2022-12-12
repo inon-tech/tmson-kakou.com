@@ -49,12 +49,24 @@
     display: block;
 
     &:not(:first-child) {
-
     }
   }
 
-  &:nth-child(4){
-    .contactForm__text{
+  @include global.max-screen(global.$breakpoint_pc) {
+    &:nth-child(1) {
+      .contactForm__required {
+        margin-left: 98px;
+      }
+    }
+    &:nth-child(3) {
+      .contactForm__required {
+        margin-left: 84px;
+      }
+    }
+  }
+
+  &:nth-child(4) {
+    .contactForm__text {
       pointer-events: none !important;
     }
   }
@@ -65,6 +77,10 @@
   align-items: center;
   text-align: center;
   height: 33px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    padding-bottom: 5px;
+  }
 }
 
 .contactForm__text {
