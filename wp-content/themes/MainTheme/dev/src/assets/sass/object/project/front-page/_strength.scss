@@ -2,10 +2,6 @@
 
 .p-frontStrength {
   margin-top: 4rem;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 8vw;
-  }
 }
 
 .p-frontStrength__wrap {
@@ -31,13 +27,11 @@
     padding-left: 2rem;
     padding-bottom: 2rem;
     line-height: calc(48 / 32);
-    font-size: 2rem;
+    font-size: 32px;
     letter-spacing: 0;
     color: #2f3449;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      padding-left: 27px;
-      padding-bottom: 10px;
       font-size: 24px;
     }
   }
@@ -52,6 +46,7 @@
   margin-right: auto;
   border-left: 1px solid #407897;
   max-width: 100%;
+  font-size: 16px;
 
   @include global.max-screen(global.$breakpoint_pc) {
     width: calc(100% - 28px);
@@ -64,9 +59,7 @@
     line-height: 2;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      padding-left: 27px;
-      padding-top: 22px;
-      padding-right: 43px;
+      padding-right: 2rem;
     }
   }
 }

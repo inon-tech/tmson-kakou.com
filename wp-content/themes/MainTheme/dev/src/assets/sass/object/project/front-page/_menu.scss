@@ -4,8 +4,8 @@
   margin-top: 4rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 120px;
-    padding-top: 8vw;
+   margin-top: 110px;
+   padding-top: 40px;
   }
 }
 
@@ -29,7 +29,6 @@
 
   @include global.max-screen(global.$breakpoint_pc) {
     width: 100%;
-    background-position: top;
     height: 197px;
   }
   background-image: url(#{global.$path_img}/normal/1x/front/front-company-factory-01.jpg);
@@ -170,6 +169,7 @@
   }
 
   .side_front {
+    font-size: 16px;
     background: #282828;
     top: 0px;
     left: 0px;
@@ -184,7 +184,7 @@
     left: 0px;
     transform: translateZ(75px);
     letter-spacing: 0em;
-    font-size: 1.5rem;
+    font-size: 24px;
     line-height: 45px;
     padding-right: 20px;
 
@@ -205,6 +205,7 @@
   }
 
   .side_right {
+    font-size: 16px;
     background: #6b6b6b;
     top: 0px;
     letter-spacing: 0.01em;
@@ -219,7 +220,7 @@
     left: -75px;
     transform: rotateY(-90deg);
     letter-spacing: 0em;
-    font-size: 1.5rem;
+    font-size: 24px;
     line-height: 86px;
     padding-right: 20px;
 

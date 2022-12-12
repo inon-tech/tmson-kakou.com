@@ -2,10 +2,6 @@
 
 .p-frontRecruit {
   margin-top: 4rem;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 8vw;
-  }
 }
 
 .p-frontRecruit__title {
@@ -27,11 +23,11 @@
   max-width: 100%;
 
   p {
+    font-size: 16px;
     margin-top: 4rem;
     line-height: 2;
 
     @include global.max-screen(global.$breakpoint_pc) {
-      margin-top: 8vw;
       padding-left: 30px;
       padding-right: 30px;
     }
@@ -39,8 +35,12 @@
 }
 
 .p-frontRecruit__btn {
-  text-align: center;
-  margin-top: 8vw;
+  text-align: right;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    text-align: center;
+    margin-top: 30px;
+  }
 }
 
 .p-frontRecruit__imgWrap {

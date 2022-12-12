@@ -7,16 +7,12 @@
   margin-top: 4rem;
   max-width: 100%;
 
-  @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 8vw;
-  }
-
   h2 {
     text-align: center;
     display: flex;
     flex-direction: column;
     color: #2f3449;
-    font-size: 2rem;
+    font-size: 32px;
     line-height: calc(48 / 32);
     letter-spacing: 0;
 
@@ -25,20 +21,12 @@
       letter-spacing: 0.1em;
       font-weight: normal;
       font-size: 16px;
-
-      @include global.max-screen(global.$breakpoint_pc) {
-        margin-bottom: 0px;
-      }
     }
   }
 }
 
 .p-frontContact__wrap {
   margin-top: 4rem;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 8vw;
-  }
 }
 
 .contactForm__control {
@@ -55,12 +43,12 @@
   @include global.max-screen(global.$breakpoint_pc) {
     &:nth-child(1) {
       .contactForm__required {
-        margin-left: 98px;
+        margin-left: 112px;
       }
     }
     &:nth-child(3) {
       .contactForm__required {
-        margin-left: 84px;
+        margin-left: 96px;
       }
     }
   }
@@ -88,6 +76,7 @@
   cursor: pointer;
   padding-right: 50px;
   text-align: right;
+  font-size: 16px;
 
   @include global.max-screen(global.$breakpoint_pc) {
     width: auto;
@@ -101,6 +90,7 @@
   width: 55px;
   background-color: #282828;
   color: #ffffff;
+  font-size: 16px;
 }
 
 .contactForm__blank {
@@ -110,6 +100,7 @@
 
 .contactForm__right {
   width: 100%;
+  font-size: 16px;
 
   input {
     padding-left: 10px;
@@ -202,7 +193,7 @@ select::-ms-expand {
     color: #fff;
     background: #b5af41;
     letter-spacing: 0em;
-    font-size: 1.5rem;
+    font-size: 24px;
     border: none !important;
     width: 150px;
     height: 45px;
@@ -233,7 +224,7 @@ select::-ms-expand {
     left: 0px;
     transform: translateZ(75px);
     letter-spacing: -0.01em;
-    font-size: 1.5rem;
+    font-size: 24px;
     line-height: 45px;
     padding-right: 20px;
 
@@ -259,7 +250,7 @@ select::-ms-expand {
     left: -75px;
     transform: rotateY(-90deg);
     letter-spacing: -0.01em;
-    font-size: 1.5rem;
+    font-size: 24px;
     line-height: 86px;
     padding-right: 20px;
 

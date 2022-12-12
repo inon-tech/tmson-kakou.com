@@ -3,10 +3,6 @@
 .p-strengthColumn {
   margin-top: 4rem;
   margin-bottom: 6rem;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 8vw;
-  }
 }
 
 .p-strengthColumn__list {
@@ -17,7 +13,6 @@
   @include global.max-screen(global.$breakpoint_pc) {
     padding-left: 0px;
     padding-right: 0px;
-    margin-top: 8vw;
   }
 }
 
@@ -28,7 +23,7 @@
   @include global.max-screen(global.$breakpoint_pc) {
     height: 100%;
     flex-direction: column !important;
-    gap: 14px;
+    gap: 25px;
   }
 
   &:not(:first-child) {
@@ -72,7 +67,8 @@
 
       @include global.max-screen(global.$breakpoint_pc) {
         width: 100%;
-        padding-right: 20px;
+        padding-left: 14px;
+        padding-right: 34px;
       }
       &::before {
         content: "";
@@ -87,13 +83,13 @@
         z-index: 2;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          top: 55px;
+          top: 52px;
           width: 60px;
           right: 0px;
         }
 
-        @include global.max-screen(390px) {
-          top: 83px;
+        @include global.max-screen(420px) {
+          top: 84px;
           width: 60px;
           right: 0px;
         }
@@ -108,18 +104,17 @@
         max-width: 100%;
         position: absolute;
         top: 96px;
-        left: -100px;
+        left: -90px;
         z-index: 2;
-        max-width: 100%;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          top: 55px;
+          top: 52px;
           left: 0px;
           width: 40px;
         }
 
-        @include global.max-screen(390px) {
-          top: 83px;
+        @include global.max-screen(420px) {
+          top: 84px;
           width: 60px;
           right: 0px;
         }
@@ -132,14 +127,13 @@
         padding-bottom: 2rem;
         padding-top: 2rem;
         border-left: 1px solid #407897;
-        font-size: 2rem;
+        font-size: 32px;
         letter-spacing: 0em;
         line-height: 1;
         color: #2f3449;
+        font-weight: normal;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          padding-left: 27px;
-          padding-bottom: 27px;
           padding-top: 0px;
         }
       }
@@ -151,17 +145,19 @@
       border-left: 1px solid #407897;
       border-top: 1px solid #407897;
       letter-spacing: 0em;
+      font-size: 16px;
 
       @include global.max-screen(global.$breakpoint_pc) {
-        padding-left: 27px;
         padding-bottom: 0px;
-        padding-top: 27px;
-        padding-right: 41px;
       }
 
       p {
         line-height: 2;
         max-width: 602px;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          max-width: 100%;
+        }
       }
     }
   }
@@ -195,7 +191,8 @@
 
       @include global.max-screen(global.$breakpoint_pc) {
         width: 100%;
-        padding-left: 41px;
+        padding-left: 14px;
+        padding-right: 34px;
       }
 
       &::before {
@@ -211,7 +208,7 @@
         z-index: 1;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          top: 55px;
+          top: 52px;
           width: 80px;
           left: 0px;
         }
@@ -226,12 +223,11 @@
         max-width: 100%;
         position: absolute;
         top: 96px;
-        right: -100px;
+        right: -90px;
         z-index: 2;
-        max-width: 100%;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          top: 55px;
+          top: 52px;
           right: 0px;
           width: 40px;
         }
@@ -244,14 +240,13 @@
         padding-bottom: 2rem;
         padding-top: 2rem;
         border-left: 1px solid #407897;
-        font-size: 2rem;
+        font-size: 32px;
         letter-spacing: 0em;
         line-height: 1;
         color: #2f3449;
+        font-weight: normal;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          padding-left: 27px;
-          padding-bottom: 27px;
           padding-right: 14px;
           padding-top: 0px;
         }
@@ -269,12 +264,13 @@
       p {
         line-height: 2;
         max-width: 602px;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          max-width: 100%;
+        }
       }
 
       @include global.max-screen(global.$breakpoint_pc) {
-        padding-left: 27px;
-        padding-top: 27px;
-        padding-right: 41px;
       }
     }
   }

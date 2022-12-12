@@ -3,12 +3,7 @@
 .c-section-title {
   color: #2f3449;
   text-align: center;
-  font-size: 2rem;
+  font-size: 32px;
   letter-spacing: 0em;
   line-height: 1;
-
-
-  @include global.max-screen(global.$breakpoint_pc) {
-   font-size: 32px;
-  }
 }

@@ -17,12 +17,11 @@
 
   @include global.max-screen(global.$breakpoint_pc) {
     width: calc(100% - 45px);
-    padding: 28px;
     max-height: 240px;
   }
 
   h1 {
-    font-size: 2.25rem;
+    font-size: 36px;
     color: #ffffff;
     letter-spacing: 0em;
     font-weight: bold;
@@ -56,6 +55,7 @@
   line-height: 2;
   width: calc(100% - 440px - 4rem);
   padding-right: 11rem;
+  font-size: 16px;
 
   @include global.max-screen(global.$breakpoint_pc) {
     margin-top: 55px;
@@ -63,21 +63,26 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    padding-right: 11rem;
     padding-left: 44px;
     padding-right: 44px;
   }
 }
 
 .p-company-title-img {
-  max-width: 312px !important;
+  max-width: 250px !important;
 }
 .p-strength-title-img {
   max-width: 240px !important;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    max-width: 200px !important;
+  }
 }
 .p-recruit-title-img {
   max-width: 200px !important;
 }
 
-.news-title{
+.news-title {
   font-weight: normal !important;
 }

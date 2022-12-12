@@ -13,6 +13,11 @@
   padding-top: 50px;
   padding-bottom: 40px;
 
+  @include global.max-screen(global.$breakpoint_pc) {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
   img {
     margin-left: auto;
     margin-right: auto;
@@ -26,6 +31,10 @@
   margin-top: 27px;
   padding-left: 40px;
   position: relative;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    margin-top: 17px;
+  }
 
   &::before {
     content: "";
@@ -95,11 +104,11 @@
 }
 
 .footerFixed {
-  padding-bottom: 269.5px;
+  padding-bottom: 269px;
   position: relative;
   min-height: calc(100vh - 45px);
 
   @include global.max-screen(global.$breakpoint_pc) {
-    padding-bottom: 289.5px;
+    padding-bottom: 225.5px;
   }
 }

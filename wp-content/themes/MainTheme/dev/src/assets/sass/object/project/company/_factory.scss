@@ -6,7 +6,6 @@
   padding-right: 100px;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 8vw;
     padding-left: 0;
     padding-right: 0;
   }
@@ -20,7 +19,7 @@
   height: 350px;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    height: 150px;
+    height: 190px;
   }
 
   &:nth-child(1) {
@@ -51,12 +50,12 @@
       p {
         color: #ffffff;
         text-align: center;
-        font-size: 2.25rem;
+        font-size: 36px;
         padding-top: 20px;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          font-size: 2rem;
-          padding-top: 15px;
+          font-size: 32px;
+          padding-top: 25px;
           writing-mode: vertical-rl;
           margin-left: auto;
           margin-right: auto;
@@ -78,12 +77,12 @@
       p {
         color: #ffffff;
         text-align: center;
-        font-size: 2.25rem;
+        font-size: 36px;
         padding-top: 20px;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          font-size: 2rem;
-          padding-top: 15px;
+          padding-top: 25px;
+          font-size: 32px;
           writing-mode: vertical-rl;
           margin-left: auto;
           margin-right: auto;

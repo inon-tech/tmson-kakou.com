@@ -4,7 +4,7 @@ html {
 	font-size: 100%;
 
 	@include global.max-screen(global.$breakpoint_pc) {
-		font-size: 87.5%;
+		font-size: 62.5%;
 	}
 }
 
@@ -67,5 +67,12 @@ main {
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+
+.line-clamp2 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
 	overflow: hidden;
 }

@@ -2,10 +2,6 @@
 
 .p-frontMap {
   margin-top: 4rem;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 43px;
-  }
 }
 
 .gmap iframe {

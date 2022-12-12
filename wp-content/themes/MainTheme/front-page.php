@@ -111,7 +111,7 @@ Template Name:front-page
                     <?php echo esc_html(get_post_type_object(get_post_type())->label); ?>
                   </div>
                 </div>
-                <div class="p-frontFVNews__name">
+                <div class="p-frontFVNews__name line-clamp2">
                   <?php echo get_the_title(); ?>
                 </div>
               </div>

@@ -22,12 +22,6 @@
 
 .p-news-breadcrumb {
   @include global.max-screen(global.$breakpoint_pc) {
-    top: 225px !important;
-  }
-}
-
-.p-recruit-breadcrumb{
-  @include global.max-screen(global.$breakpoint_pc) {
-    top: 261px !important;
+    top: 247px !important;
   }
 }

@@ -2,10 +2,6 @@
 
 .p-strengthFacility {
   margin-top: 4rem;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 8vw;
-  }
   p {
     text-align: right;
     margin-top: 20px;
@@ -28,7 +24,6 @@
   max-width: 100%;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 8vw;
     font-size: 14px;
     white-space: nowrap;
   }

@@ -7,18 +7,11 @@
   margin-top: 4rem;
   max-width: 100%;
   padding-bottom: 6rem;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    padding-bottom: 3rem;
-  }
   
   a {
     display: block;
     &:not(:first-child) {
       margin-top: 2rem;
-      @include global.max-screen(global.$breakpoint_pc) {
-        margin-top: 1rem;
-      }
     }
   }
 }
@@ -28,6 +21,12 @@
   letter-spacing: 0.2em;
   position: relative;
   padding-right: 110px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    padding-right: 40px;
+    font-size: 16px;
+  }
+
   &::before {
     content: "";
     position: absolute;
@@ -44,7 +43,7 @@
     @include global.max-screen(global.$breakpoint_pc) {
       right: 10px;
       height: 15.5px;
-      width: 8px;
+      width: 9px;
     }
   }
 
@@ -67,7 +66,7 @@
   margin-right: 120px;
   h2 {
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 32px;
     padding-right: 80px;
     padding-left: 2rem;
     border-left: 1px solid #407897;
@@ -118,7 +117,8 @@
 }
 
 .p-singleNews__content {
-  margin-top: 1rem;
+  margin-top: 16px;
+  font-size: 16px;
 
   .wp-block-image{
     img{
@@ -151,10 +151,7 @@
 
 .Pagenation {
   margin-top: 7rem;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 3rem;
-  }
+  
   ul {
     display: flex;
     align-items: center;
@@ -175,6 +172,7 @@
 
     @include global.max-screen(global.$breakpoint_pc) {
       font-size: 25px;
+      line-height: 10px;
     }
 
     &:first-child {

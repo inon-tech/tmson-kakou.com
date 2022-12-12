@@ -2,10 +2,6 @@
 
 .p-strengthMenu {
   margin-top: 4rem;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 8vw;
-  }
 }
 
 .p-strengthMenu__wrap {
@@ -68,13 +64,14 @@
       padding-left: 20px;
     }
     h3 {
-      font-size: 2rem;
+      font-size: 32px;
       line-height: calc(48 / 32);
       color: #ffffff;
       letter-spacing: 0em;
+      font-weight: normal;
 
       @include global.max-screen(global.$breakpoint_pc) {
-        font-size: 25px;
+        font-size: 24px;
       }
     }
 
@@ -115,6 +112,10 @@
     background-repeat: no-repeat;
     height: 175px;
 
+    @include global.max-screen(global.$breakpoint_pc) {
+      height: 125px;
+    }
+
     &:nth-child(1) {
       background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-05.png);
     }
@@ -143,11 +144,13 @@
   .p-strengthMenu__text {
     padding-top: 3rem;
     h3 {
-      font-size: 2rem;
+      font-size: 32px;
       color: #ffffff;
       text-align: center;
+      font-weight: normal;
+
       @include global.max-screen(global.$breakpoint_pc) {
-        font-size: 25px;
+        font-size: 24px;
       }
     }
   }
@@ -169,6 +172,10 @@
     background-repeat: no-repeat;
     height: 175px;
 
+    @include global.max-screen(global.$breakpoint_pc) {
+      height: 125px;
+    }
+
     &:nth-child(1) {
       background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-08.png);
     }
@@ -180,7 +187,12 @@
 
       .p-strengthMenu__text {
         h3 {
-          padding-top: 4.385rem;
+          padding-top: 70px;
+
+
+          @include global.max-screen(global.$breakpoint_pc) {
+            padding-top: 48px;
+          }
         }
       }
     }
@@ -206,9 +218,11 @@
       color: #ffffff;
       text-align: center;
       padding-top: 50px;
+      font-weight: normal;
 
       @include global.max-screen(global.$breakpoint_pc) {
-        font-size: 25px;
+        font-size: 24px;
+        padding-top: 30px;
       }
     }
   }

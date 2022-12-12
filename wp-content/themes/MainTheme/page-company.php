@@ -77,9 +77,9 @@ Template Name:会社概要
         <div class="p-companyOverview__item">
           <div class="p-companyOverview__left">取引先</div>
           <div class="p-companyOverview__right">
-            <p>テキスト</p>
-            <p>テキスト</p>
-            <p>テキスト</p>
+            <p>テキストテキスト</p>
+            <p>テキストテキスト</p>
+            <p>テキストテキスト</p>
           </div>
         </div>
       </div>

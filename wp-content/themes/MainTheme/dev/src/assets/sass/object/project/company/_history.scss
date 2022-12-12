@@ -2,10 +2,6 @@
 
 .p-companyHistory {
   margin-top: 4rem;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 8vw;
-  }
 }
 
 .p-companyHistory__list {
@@ -14,7 +10,6 @@
   padding-right: 100px;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    margin-top: 8vw;
     padding-left: 0;
     padding-right: 0;
   }
@@ -27,37 +22,46 @@
   @include global.max-screen(global.$breakpoint_pc) {
     height: 100%;
     flex-direction: column !important;
-    gap: 14px;
+    gap: 25px;
   }
 
   &:not(:first-child) {
-    margin-top: 3.5rem;
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      margin-top: 30px;
-    }
+    margin-top: 56px;
   }
 
-  @include global.max-screen(473px) {
-    &:nth-child(3){
+  @include global.max-screen(356px) {
+    &:nth-child(2) {
       .p-companyHistory__right {
-        &::before{
-          top: 109px !important;
+        &::before {
+          top: 110px !important;
         }
-        &::after{
-          top: 109px !important;
+        &::after {
+          top: 110px !important;
         }
       }
     }
   }
-  @include global.max-screen(481px) {
-    &:nth-child(5){
+
+  @include global.max-screen(538px) {
+    &:nth-child(3) {
       .p-companyHistory__right {
-        &::before{
-          top: 109px !important;
+        &::before {
+          top: 110px !important;
         }
-        &::after{
-          top: 109px !important;
+        &::after {
+          top: 110px !important;
+        }
+      }
+    }
+  }
+  @include global.max-screen(548px) {
+    &:nth-child(5) {
+      .p-companyHistory__right {
+        &::before {
+          top: 110px !important;
+        }
+        &::after {
+          top: 110px !important;
         }
       }
     }
@@ -92,12 +96,13 @@
     .p-companyHistory__right {
       width: calc(100% - 420px);
       padding-right: 4rem;
-      padding-left: 2.5rem;
+      padding-left: 40px;
       position: relative;
 
       @include global.max-screen(global.$breakpoint_pc) {
         width: 100%;
-        padding-right: 20px;
+        padding-left: 14px;
+        padding-right: 0px;
       }
       &::before {
         content: "";
@@ -112,7 +117,7 @@
         z-index: 2;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          top: 81px;
+          top: 78px;
           width: 60px;
           right: 0px;
         }
@@ -131,7 +136,7 @@
         z-index: 2;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          top: 81px;
+          top: 78px;
           left: 0px;
           width: 40px;
         }
@@ -143,14 +148,12 @@
         padding-left: 2rem;
         padding-bottom: 2rem;
         border-left: 1px solid #407897;
-        font-size: 2rem;
+        font-size: 32px;
         line-height: 1;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          padding-left: 27px;
-          padding-bottom: 27px;
           padding-top: 0px;
-          padding-right: 14px;
+          padding-right: 34px;
         }
       }
 
@@ -172,15 +175,18 @@
       border-top: 1px solid #407897;
       line-height: 2;
       letter-spacing: 0em;
+      font-size: 16px;
 
       @include global.max-screen(global.$breakpoint_pc) {
-        padding-left: 27px;
         padding-bottom: 0px;
-        padding-top: 27px;
-        padding-right: 41px;
+        padding-right: 34px;
       }
       p {
         max-width: 602px;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          max-width: 100%;
+        }
       }
     }
   }
@@ -214,7 +220,7 @@
 
       @include global.max-screen(global.$breakpoint_pc) {
         width: 100%;
-        padding-left: 20px;
+        padding-left: 14px;
       }
 
       &::before {
@@ -230,7 +236,7 @@
         z-index: 2;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          top: 81px;
+          top: 78px;
           width: 60px;
           left: 0px;
         }
@@ -249,7 +255,7 @@
         max-width: 100%;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          top: 81px;
+          top: 78px;
           right: 0px;
           width: 40px;
         }
@@ -261,14 +267,12 @@
         padding-left: 2rem;
         padding-bottom: 2rem;
         border-left: 1px solid #407897;
-        font-size: 2rem;
+        font-size: 32px;
         line-height: 1;
 
         @include global.max-screen(global.$breakpoint_pc) {
-          padding-left: 27px;
-          padding-bottom: 27px;
           padding-top: 0px;
-          padding-right: 14px;
+          padding-right: 34px;
         }
       }
 
@@ -290,15 +294,18 @@
       border-top: 1px solid #407897;
       line-height: 2;
       letter-spacing: 0em;
+      font-size: 16px;
 
       p {
         max-width: 602px;
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          max-width: 100%;
+        }
       }
       @include global.max-screen(global.$breakpoint_pc) {
-        padding-left: 27px;
         padding-bottom: 0px;
-        padding-top: 27px;
-        padding-right: 41px;
+        padding-right: 34px;
       }
     }
   }
