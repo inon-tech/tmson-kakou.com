@@ -41,6 +41,10 @@
     line-height: 1;
     margin-right: -50px;
     transition: 0.3s all;
+
+    @include global.max-screen(374px) {
+      display: none;
+    }
   }
 
   .l-headerSP__CL {
@@ -50,6 +54,10 @@
     line-height: 1;
     margin-right: 15px;
     opacity: 0;
+
+    @include global.max-screen(374px) {
+      display: none;
+    }
   }
 
   .stage {

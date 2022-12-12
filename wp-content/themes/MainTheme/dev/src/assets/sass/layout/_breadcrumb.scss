@@ -24,4 +24,7 @@
   @include global.max-screen(global.$breakpoint_pc) {
     top: 247px !important;
   }
+  @include global.max-screen(374px) {
+    top: 218px !important;
+  }
 }

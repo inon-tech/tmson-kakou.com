@@ -485,6 +485,10 @@
     overflow: hidden;
     width: 200px;
   }
+
+  @include global.max-screen(374px) {
+    width: 150px;
+  }
 }
 
 .post.post-recruit.current-item{
@@ -494,5 +498,9 @@
     -webkit-line-clamp: 1;
     overflow: hidden;
     width: 200px;
+  }
+
+  @include global.max-screen(374px) {
+    width: 150px;
   }
 }

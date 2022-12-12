@@ -67,6 +67,21 @@
     }
   }
 
+  @include global.max-screen(324px) {
+    &:nth-child(5) {
+      .p-companyHistory__right {
+        &::before {
+          top: 142px !important;
+        }
+        &::after {
+          top: 142px !important;
+        }
+      }
+    }
+  }
+
+  
+
   &:nth-child(2n) {
     flex-direction: row-reverse;
 

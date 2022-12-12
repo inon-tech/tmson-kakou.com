@@ -29,6 +29,10 @@
     @include global.max-screen(global.$breakpoint_pc) {
       font-size: 42px;
     }
+
+    @include global.max-screen(374px) {
+      font-size: 30px;
+    }
   }
 
   img {
@@ -44,6 +48,10 @@
     width: 312px;
     font-weight: normal !important;
     margin-top: 20px;
+
+    @include global.max-screen(374px) {
+      width: 100%;
+    }
   }
 }
 
@@ -71,6 +79,10 @@
 
 .p-company-title-img {
   max-width: 250px !important;
+
+  @include global.max-screen(374px) {
+    max-width: 200px !important;
+  }
 }
 .p-strength-title-img {
   max-width: 240px !important;
