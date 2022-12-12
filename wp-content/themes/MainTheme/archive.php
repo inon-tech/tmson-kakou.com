@@ -12,12 +12,12 @@ Template Name: お知らせ
   <section class="l-page-FV animated fadeIn wow">
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
-        <h1 class="font-en">NEWS
+        <h1 class="font-en news-title">NEWS
           <p>お知らせ</p>
         </h1>
       </div>
       <div class="l-page-FV__desc">
-        <div class="l-breadcrumb p-newsBreadcrumb">
+        <div class="l-breadcrumb p-news-breadcrumb">
           <?php bcn_display(); ?>
         </div>
       </div>

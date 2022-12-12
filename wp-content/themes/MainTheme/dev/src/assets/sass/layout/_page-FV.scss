@@ -5,6 +5,9 @@
 
 .l-page-FV__wrap {
   display: flex;
+  @include global.max-screen(global.$breakpoint_pc) {
+    display: block;
+  }
 }
 
 .l-page-FV__left {
@@ -13,15 +16,20 @@
   width: 440px;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    padding: 2rem;
-    max-height: 230px;
+    width: calc(100% - 45px);
+    padding: 28px;
+    max-height: 240px;
   }
 
   h1 {
     font-size: 2.25rem;
     color: #ffffff;
     letter-spacing: 0em;
-    font-weight: bold !important;
+    font-weight: bold;
+
+    @include global.max-screen(global.$breakpoint_pc) {
+      font-size: 42px;
+    }
   }
 
   img {
@@ -29,12 +37,13 @@
     margin-top: 5px;
 
     @include global.max-screen(global.$breakpoint_pc) {
-
+      width: 260px;
     }
   }
 
   p {
     width: 312px;
+    font-weight: normal !important;
     margin-top: 20px;
   }
 }
@@ -49,21 +58,26 @@
   padding-right: 11rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    font-size: 12px;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 50px;
-    line-height: 1.2;
+    margin-top: 55px;
+    line-height: calc(32 / 16);
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 44px;
+    padding-right: 44px;
   }
 }
 
-.p-company-title-img{
+.p-company-title-img {
   max-width: 312px !important;
 }
-.p-strength-title-img{
+.p-strength-title-img {
   max-width: 240px !important;
 }
-.p-recruit-title-img{
-  max-width: 230px !important;
+.p-recruit-title-img {
+  max-width: 200px !important;
 }
 
+.news-title{
+  font-weight: normal !important;
+}

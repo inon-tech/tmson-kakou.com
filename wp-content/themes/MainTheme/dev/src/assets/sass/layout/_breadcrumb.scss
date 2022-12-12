@@ -7,13 +7,27 @@
   top: 55px;
   right: 120px;
   font-size: 12px;
+  color: #555555;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    right: 15px;
-    top: 20px;
+    right: 14px;
+    top: 261px;
     font-size: 10px;
+    letter-spacing: 0em;
   }
   span {
     display: block;
+  }
+}
+
+.p-news-breadcrumb {
+  @include global.max-screen(global.$breakpoint_pc) {
+    top: 225px !important;
+  }
+}
+
+.p-recruit-breadcrumb{
+  @include global.max-screen(global.$breakpoint_pc) {
+    top: 261px !important;
   }
 }

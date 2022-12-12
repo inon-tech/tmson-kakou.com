@@ -17,7 +17,7 @@ Template Name: お知らせ
         </h1>
       </div>
       <div class="l-page-FV__desc">
-        <div class="l-breadcrumb p-newsBreadcrumb">
+        <div class="l-breadcrumb p-recruit-breadcrumb">
           <?php bcn_display(); ?>
         </div>
       </div>

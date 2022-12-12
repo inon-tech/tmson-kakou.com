@@ -69,6 +69,11 @@ jQuery('.js-headerSP__wrap').on('click', function () {
   jQuery('.js-headerSP__content').toggleClass('js-active');
 });
 
+jQuery('a[href*="#"]').on('click', function () {
+  jQuery('.js-headerSP__wrap').removeClass('js-active');
+  jQuery('.js-headerSP__content').removeClass('js-active');
+});
+
 new ScrollHint('.js-scrollable', {
   i18n: {
     scrollable: 'スクロールできます'
