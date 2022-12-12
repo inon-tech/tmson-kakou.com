@@ -488,3 +488,13 @@
     width: 200px;
   }
 }
+
+.post.post-recruit.current-item{
+  @include global.max-screen(global.$breakpoint_pc) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    width: 200px;
+  }
+}
