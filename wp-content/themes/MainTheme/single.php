@@ -13,7 +13,7 @@ Template Name: お知らせ
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
         <h1 class="font-en">NEWS
-          <p>お知らせ</p>
+          <p class="bold">お知らせ</p>
         </h1>
       </div>
       <div class="l-page-FV__desc">

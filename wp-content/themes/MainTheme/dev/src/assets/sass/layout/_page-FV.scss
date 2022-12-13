@@ -49,8 +49,9 @@
     font-weight: normal !important;
     margin-top: 20px;
 
-    @include global.max-screen(374px) {
-      width: 100%;
+    @include global.max-screen(global.$breakpoint_pc) {
+      width: 200px;
+      margin-top: 0;
     }
   }
 }
