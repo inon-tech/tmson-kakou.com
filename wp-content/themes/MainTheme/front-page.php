@@ -275,7 +275,7 @@ Template Name:front-page
     <div class="p-frontPrivacy__wrap">
       <div class="p-frontPrivacy__top">
         <div class="p-frontPrivacy__topWrap">
-          <h2>個人情報保護方針について</h2>
+          <h2 class="bold">個人情報保護方針について</h2>
         </div>
       </div>
       <div class="p-frontPrivacy__btn js-privacyBtn">

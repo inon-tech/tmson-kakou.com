@@ -146,7 +146,7 @@ Template Name:テムソンの強み
   </section>
 
   <section class="p-strengthContent animated fadeIn wow" id="content">
-    <h2 class="c-section-title">事業内容</h2>
+    <h2 class="c-section-title bold">事業内容</h2>
     <div class="l-innner">
       <div class="p-strengthContent__wrap">
         <div class="p-strengthContent__item">
@@ -190,7 +190,7 @@ Template Name:テムソンの強み
   </section>
 
   <section class="p-strengthFacility animated fadeIn wow" id="facility">
-    <h2 class="c-section-title">主要設備一覧</h2>
+    <h2 class="c-section-title bold">主要設備一覧</h2>
     <div class="l-inner js-scrollable">
       <table border="1" class="p-strength__table">
         <tr>
@@ -304,7 +304,7 @@ Template Name:テムソンの強み
         </div>
         <div class="p-strengthColumn__right">
           <div class="p-strengthColumn__rightTop">
-            <h3>品質保証体制</h3>
+            <h3 class="bold">品質保証体制</h3>
           </div>
           <div class="p-strengthColumn__rightBottom">
             <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れ</p>
@@ -318,7 +318,7 @@ Template Name:テムソンの強み
         </div>
         <div class="p-strengthColumn__right">
           <div class="p-strengthColumn__rightTop">
-            <h3>自社開発「楽まきくん」</h3>
+            <h3 class="bold">自社開発「楽まきくん」</h3>
           </div>
           <div class="p-strengthColumn__rightBottom">
             <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れ</p>

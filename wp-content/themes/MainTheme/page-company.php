@@ -96,7 +96,7 @@ Template Name:会社概要
         </div>
         <div class="p-companyHistory__right">
           <div class="p-companyHistory__rightTop">
-            <h3><span class="font-en">episode 01</span>社屋と工場だけ</h3>
+            <h3 class="bold"><span class="font-en">episode 01</span>社屋と工場だけ</h3>
           </div>
           <div class="p-companyHistory__rightBottom">
             <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れ</p>
@@ -110,7 +110,7 @@ Template Name:会社概要
         </div>
         <div class="p-companyHistory__right">
           <div class="p-companyHistory__rightTop">
-            <h3><span class="font-en">episode 02</span>異業種から製造業へ</h3>
+            <h3 class="bold"><span class="font-en">episode 02</span>異業種から製造業へ</h3>
           </div>
           <div class="p-companyHistory__rightBottom">
             <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れ</p>
@@ -124,7 +124,7 @@ Template Name:会社概要
         </div>
         <div class="p-companyHistory__right">
           <div class="p-companyHistory__rightTop">
-            <h3><span class="font-en">episode 03</span>５つの案件 - A社とのお取り引き</h3>
+            <h3 class="bold"><span class="font-en">episode 03</span>５つの案件 - A社とのお取り引き</h3>
           </div>
           <div class="p-companyHistory__rightBottom">
             <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れ</p>
@@ -138,7 +138,7 @@ Template Name:会社概要
         </div>
         <div class="p-companyHistory__right">
           <div class="p-companyHistory__rightTop">
-            <h3><span class="font-en">episode 04</span>修練の日々</h3>
+            <h3 class="bold"><span class="font-en">episode 04</span>修練の日々</h3>
           </div>
           <div class="p-companyHistory__rightBottom">
             <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れ</p>
@@ -152,7 +152,7 @@ Template Name:会社概要
         </div>
         <div class="p-companyHistory__right">
           <div class="p-companyHistory__rightTop">
-            <h3><span class="font-en">episode 05</span>ご担当社様からのご退職のお言葉</h3>
+            <h3 class="bold"><span class="font-en">episode 05</span>ご担当社様からのご退職のお言葉</h3>
           </div>
           <div class="p-companyHistory__rightBottom">
             <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れ</p>
@@ -167,12 +167,12 @@ Template Name:会社概要
       <div class="p-companyFactory__item">
         <div class="p-companyFactory__left"></div>
         <div class="p-companyFactory__right bold">
-          <p>第一工場</p>
+          <p class="bold">第一工場</p>
         </div>
       </div>
       <div class="p-companyFactory__item">
         <div class="p-companyFactory__left bold">
-          <p>第二工場</p>
+          <p class="bold">第二工場</p>
         </div>
         <div class="p-companyFactory__right"></div>
       </div>

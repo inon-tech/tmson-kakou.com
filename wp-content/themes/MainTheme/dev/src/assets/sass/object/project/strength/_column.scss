@@ -131,7 +131,6 @@
         letter-spacing: 0em;
         line-height: 1;
         color: #2f3449;
-        font-weight: normal;
 
         @include global.max-screen(global.$breakpoint_pc) {
           padding-top: 0px;
@@ -244,7 +243,6 @@
         letter-spacing: 0em;
         line-height: 1;
         color: #2f3449;
-        font-weight: normal;
 
         @include global.max-screen(global.$breakpoint_pc) {
           padding-right: 14px;
