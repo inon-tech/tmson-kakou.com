@@ -184,12 +184,43 @@
 
   @include global.max-screen(global.$breakpoint_pc) {
     display: block;
+    position: relative;
+    padding-right: 46px;
+    height: 100%;
+    transition: .3s all;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(#{global.$path_img}/svg/arrow-black.svg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 15px;
+      height: 31px;
+      width: 19px;
+      transition: 0.3s all;
+    }
+
+    &:hover {
+      color: #b5af41;
+
+      &::before {
+        right: 15px;
+        background-image: url(#{global.$path_img}/svg/arrow-yellow.svg);
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          right: 0px;
+        }
+      }
+    }
   }
 }
 
 .p-frontFVNews__time {
   @include global.max-screen(global.$breakpoint_pc) {
-    line-height: 1;
   }
 }
 
@@ -197,7 +228,6 @@
   padding-left: 10px;
   @include global.max-screen(global.$breakpoint_pc) {
     padding-left: 15px;
-    line-height: 1;
   }
 }
 
@@ -208,10 +238,8 @@
   transition: 0.3s all;
 
   @include global.max-screen(global.$breakpoint_pc) {
-    line-height: 1.5;
-    padding-right: 0;
-    padding-right: 44px;
-    padding-top: 5px;
+    line-height: 1.7;
+    padding-right: 0px;
   }
 
   &::before {
@@ -228,7 +256,7 @@
     width: 19px;
     transition: 0.3s all;
     @include global.max-screen(global.$breakpoint_pc) {
-      right: 14px;
+      display: none;
     }
   }
 
