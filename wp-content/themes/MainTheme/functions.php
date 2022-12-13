@@ -105,14 +105,14 @@ add_filter('wpcf7_form_elements', 'my_wpcf7_form_elements');
 
 
 // 画像パス変数
-function IHY_img_path()
+function TMS_img_path()
 {
-  global $IHY_img_1;
-  $IHY_img_1 = "/public/img/normal/1x/";
-  global $IHY_img_2;
-  $IHY_img_2 = "/public/img/normal/2x/";
+  global $TMS_img_1;
+  $TMS_img_1 = "/public/img/normal/1x/";
+  global $TMS_img_2;
+  $TMS_img_2 = "/public/img/normal/2x/";
 }
-add_action('after_setup_theme', 'IHY_img_path');
+add_action('after_setup_theme', 'TMS_img_path');
 
 // ファーストビューカスタムフィールド
 function add_scf_fv($settings, $type, $id, $meta_type)

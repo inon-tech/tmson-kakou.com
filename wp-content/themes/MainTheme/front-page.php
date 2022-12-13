@@ -1,5 +1,5 @@
-<?php global $IHY_img_1;
-global $IHY_img_2; ?>
+<?php global $TMS_img_1;
+global $TMS_img_2; ?>
 
 <?php get_header(); ?>
 
@@ -12,15 +12,15 @@ Template Name:front-page
 <main class="p-front">
   <section class="p-frontFV">
     <div class="js-FVSlide">
-      <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-01.jpg);"></div>
-      <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/rectangle.png);"></div>
-      <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-01.jpg);"></div>
-      <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/rectangle.png);"></div>
+      <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $TMS_img_1 ?>front/front-FV-01.jpg);"></div>
+      <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $TMS_img_1 ?>common/rectangle.png);"></div>
+      <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $TMS_img_1 ?>front/front-FV-01.jpg);"></div>
+      <div class="p-FV__wrap" style="background-image: url(<?php echo esc_url(get_template_directory_uri()) . $TMS_img_1 ?>common/rectangle.png);"></div>
     </div>
 
     <div class="p-frontFV__right SP-none">
       <h2 class="font-en">CUT and CREATE</h2>
-      <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-title.png" alt="">
+      <img src="<?php echo esc_url(get_template_directory_uri()) . $TMS_img_1 ?>front/front-FV-title.png" alt="">
       <p>「切る」「削る」という切削加工の本質である「引く」概念にとらわれず、つねに新しい何かをプラスすること。<br class="PC-none">
         最新の設備と高度な技術に、経験とセンス、そしてもてる限りのアイデアを駆使することで、輝きを放つ優れた製品を生み出すことができると信じています。
       </p>
@@ -73,7 +73,7 @@ Template Name:front-page
   <section class="p-frontFV-SP">
     <div class="p-frontFV__right">
       <h2 class="font-en">CUT and CREATE</h2>
-      <img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-FV-title.png" alt="">
+      <img src="<?php echo esc_url(get_template_directory_uri()) . $TMS_img_1 ?>front/front-FV-title.png" alt="">
       <p>「切る」「削る」という切削加工の本質である「引く」概念にとらわれず、つねに新しい何かをプラスすること。<br class="PC-none">
         最新の設備と高度な技術に、経験とセンス、そしてもてる限りのアイデアを駆使することで、輝きを放つ優れた製品を生み出すことができると信じています。
       </p>
@@ -231,7 +231,7 @@ Template Name:front-page
   <section class="p-frontRecruit animated fadeIn wow">
     <div class="l-inner">
       <div class="p-frontRecruit__topWrap">
-        <h2 class="p-frontRecruit__title"><img src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>front/front-Recruit-title.png" alt=""></h2>
+        <h2 class="p-frontRecruit__title"><img src="<?php echo esc_url(get_template_directory_uri()) . $TMS_img_1 ?>front/front-Recruit-title.png" alt=""></h2>
         <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
           文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
           行間等を確認するために入れています。

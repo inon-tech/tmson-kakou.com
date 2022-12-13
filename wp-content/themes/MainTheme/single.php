@@ -1,5 +1,5 @@
-<?php global $IHY_img_1;
-global $IHY_img_2; ?>
+<?php global $TMS_img_1;
+global $TMS_img_2; ?>
 
 <?php get_header(); ?>
 

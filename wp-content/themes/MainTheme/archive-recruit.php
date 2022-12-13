@@ -1,5 +1,5 @@
-<?php global $IHY_img_1;
-global $IHY_img_2; ?>
+<?php global $TMS_img_1;
+global $TMS_img_2; ?>
 
 <?php get_header(); ?>
 
@@ -13,7 +13,7 @@ Template Name: 求人情報
     <div class="l-page-FV__wrap">
       <div class="l-page-FV__left">
         <h1 class="font-en">RECRUIT
-          <img class="p-recruit-title-img" src="<?php echo esc_url(get_template_directory_uri()) . $IHY_img_1 ?>common/recruit-title.png" alt="">
+          <img class="p-recruit-title-img" src="<?php echo esc_url(get_template_directory_uri()) . $TMS_img_1 ?>common/recruit-title.png" alt="">
         </h1>
       </div>
       <div class="l-page-FV__desc">
