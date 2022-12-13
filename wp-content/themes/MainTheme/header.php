@@ -40,7 +40,7 @@
               </a>
             </li>
             <li>
-              <a class="bold" href="<?php if ( is_page('strength') ) : ?>#facility<?php else: echo esc_url( home_url( 'strength#facility' ) );?><?php endif;?>">
+              <a class="bold" href="<?php if (is_page('strength')) : ?>#facility<?php else : echo esc_url(home_url('strength#facility')); ?><?php endif; ?>">
                 主要設備紹介
               </a>
             </li>
@@ -55,7 +55,7 @@
               </a>
             </li>
             <li>
-              <a class="bold stage__wrap" href="<?php if ( is_front_page() ) : ?>#contact<?php else: echo esc_url( home_url( '#contact' ) );?><?php endif;?>">
+              <a class="bold stage__wrap" href="<?php if (is_front_page()) : ?>#contact<?php else : echo esc_url(home_url('#contact')); ?><?php endif; ?>">
                 <div class="stage">
                   <div class="cube">
                     <div class="side_right bold">お問い合わせ</div>
@@ -94,18 +94,18 @@
             <li><a class="bold" href="<?php echo esc_url(home_url('')); ?>">HOME</a></li>
             <li><a class="bold" href="<?php echo esc_url(home_url('company')); ?>">会社概要</a></li>
             <li><a class="bold" href="<?php echo esc_url(home_url('strength')); ?>">テムソンの強み</a></li>
-            <li><a class="bold" href="<?php if ( is_page('strength') ) : ?>#facility<?php else: echo esc_url( home_url( 'strength#facility' ) );?><?php endif;?>">主要設備紹介</a></li>
+            <li><a class="bold" href="<?php if (is_page('strength')) : ?>#facility<?php else : echo esc_url(home_url('strength#facility')); ?><?php endif; ?>">主要設備紹介</a></li>
             <li><a class="bold" href="<?php echo esc_url(get_post_type_archive_link('post')); ?>">お知らせ</a></li>
             <li><a class="bold" href="<?php echo esc_url(get_post_type_archive_link('recruit')); ?>">採用情報</a></li>
-            <li><a class="bold" href="<?php if ( is_front_page() ) : ?>#contact<?php else: echo esc_url( home_url( '#contact' ) );?><?php endif;?>">お問い合わせ</a></li>
+            <li><a class="bold" href="<?php if (is_front_page()) : ?>#contact<?php else : echo esc_url(home_url('#contact')); ?><?php endif; ?>">お問い合わせ</a></li>
           </ul>
 
           <div class="l-headerSP__contentBt">
-          <a class="l-headerSP__logo" href="<?php echo esc_url(home_url('')); ?>"><img src="<?php echo esc_url(get_template_directory_uri())?>/public/img/svg/footer-logo.svg" alt=""></a>
-            <p class="">〒399-4511　長野県上伊那郡南箕輪村田畑 6160-14<br>
+            <a class="l-headerSP__logo" href="<?php echo esc_url(home_url('')); ?>"><img src="<?php echo esc_url(get_template_directory_uri()) ?>/public/img/svg/footer-logo.svg" alt=""></a>
+            <p class="bold">〒399-4511<br>長野県上伊那郡南箕輪村田端宇沖河原6160-14<br>
               FAX 0265-73-7080
             </p>
-            <a class="l-headerSP__tel" href="tel:02657375555">0265-73-7555</a>
+            <a class="l-headerSP__tel bold" href="tel:02657375555">0265-73-7555</a>
           </div>
         </div>
       </div>

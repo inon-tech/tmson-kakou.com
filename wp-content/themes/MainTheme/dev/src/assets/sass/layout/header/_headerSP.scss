@@ -175,43 +175,43 @@
 
 .l-headerSP__contentBt {
   color: #ffffff;
-  margin-top: 32px;
+  padding-bottom: 20px;
+  padding-top: 40px;
   text-align: center;
   .l-headerSP__logo {
     text-align: center;
     img {
       margin-left: auto;
       margin-right: auto;
-      width: 60px;
-      height: 13px;
+      width: 114px;
     }
   }
   p {
-    font-size: 5px;
-    margin-top: 10px;
+    letter-spacing: 0.075em;
     line-height: 2;
+    margin-top: 20px;
   }
   .l-headerSP__tel {
     display: inline-block;
-    font-size: 20px;
-    letter-spacing: 0.1em;
-    margin-top: 10px;
-    padding-left: 25px;
+    font-size: 21px;
+    letter-spacing: 0.075em;
+    margin-top: 27px;
+    padding-left: 40px;
     position: relative;
 
     &::before {
-      content: "";
-      position: absolute;
-      background-image: url(#{global.$path_img}normal/1x/common/tel.png);
-      background-size: cover;
+      background-image: url(/wp-content/themes/MainTheme/public/img/normal/1x/common/tel.png);
       background-position: center;
       background-repeat: no-repeat;
+      background-size: cover;
+      content: "";
+      height: 30px;
+      left: 0;
+      position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      left: 0px;
+      width: 30px;
       z-index: 15;
-      height: 15px;
-      width: 15px;
     }
   }
 }
