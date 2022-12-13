@@ -519,3 +519,9 @@
     width: 150px;
   }
 }
+
+.p-news__time {
+  @include global.max-screen(global.$breakpoint_pc) {
+    font-size: 14px;
+  }
+}
