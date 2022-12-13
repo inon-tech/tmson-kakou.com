@@ -36,12 +36,12 @@
     background-repeat: no-repeat;
     top: 50%;
     transform: translateY(-50%);
-    right: 20px;
+    right: 0px;
     height: 31px;
     width: 19px;
     transition: 0.3s all;
     @include global.max-screen(global.$breakpoint_pc) {
-      right: 10px;
+      right: 0px;
       height: 15.5px;
       width: 9px;
     }
