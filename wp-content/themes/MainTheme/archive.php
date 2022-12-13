@@ -49,7 +49,7 @@ Template Name: お知らせ
 
 
 
-    <div class="Pagenation">
+    <div class="Pagenation font-en">
       <?php the_posts_pagination(
         array(
           'mid_size'      => 2, // 現在ページの左右に表示するページ番号の数
