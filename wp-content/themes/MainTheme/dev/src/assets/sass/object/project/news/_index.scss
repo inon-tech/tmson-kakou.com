@@ -126,7 +126,7 @@
       max-height: 400px;
 
       @include global.max-screen(global.$breakpoint_pc) {
-        max-width: 80%;
+        max-width: 100%;
         margin-left: auto;
         margin-right: auto;
       }
