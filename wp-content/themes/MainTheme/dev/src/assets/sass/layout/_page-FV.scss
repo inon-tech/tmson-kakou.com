@@ -24,7 +24,6 @@
     font-size: 36px;
     color: #ffffff;
     letter-spacing: 0em;
-    font-weight: bold;
     line-height: 1;
 
     @include global.max-screen(global.$breakpoint_pc) {
@@ -48,7 +47,6 @@
 
   p {
     width: 312px;
-    font-weight: normal !important;
     margin-top: 20px;
 
     @include global.max-screen(global.$breakpoint_pc) {
@@ -96,8 +94,4 @@
 }
 .p-recruit-title-img {
   max-width: 200px !important;
-}
-
-.news-title {
-  font-weight: normal !important;
 }

@@ -29,7 +29,7 @@
     margin-top: 56px;
   }
 
-  @include global.max-screen(356px) {
+  @include global.max-screen(408px) {
     &:nth-child(2) {
       .p-companyHistory__right {
         &::before {
@@ -42,7 +42,7 @@
     }
   }
 
-  @include global.max-screen(538px) {
+  @include global.max-screen(636px) {
     &:nth-child(3) {
       .p-companyHistory__right {
         &::before {
@@ -67,7 +67,20 @@
     }
   }
 
-  @include global.max-screen(324px) {
+  @include global.max-screen(635px) {
+    &:nth-child(5) {
+      .p-companyHistory__right {
+        &::before {
+          top: 110px !important;
+        }
+        &::after {
+          top: 110px !important;
+        }
+      }
+    }
+  }
+
+  @include global.max-screen(371px) {
     &:nth-child(5) {
       .p-companyHistory__right {
         &::before {

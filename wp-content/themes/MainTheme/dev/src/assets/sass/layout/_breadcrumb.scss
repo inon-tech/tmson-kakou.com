@@ -22,9 +22,9 @@
 
 .p-news-breadcrumb {
   @include global.max-screen(global.$breakpoint_pc) {
-    top: 247px !important;
+    top: 200px !important;
   }
   @include global.max-screen(374px) {
-    top: 218px !important;
+    top: 175px !important;
   }
 }
