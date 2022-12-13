@@ -91,6 +91,13 @@
   background-color: #282828;
   color: #ffffff;
   font-size: 16px;
+
+  @include global.max-screen(global.$breakpoint_pc) {
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    width: 50px;
+  }
 }
 
 .contactForm__blank {
