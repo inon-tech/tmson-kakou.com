@@ -1,5 +1,8 @@
-<?php global $TMS_img_1;
-global $TMS_img_2; ?>
+<?php global $img_path_normal_1;
+global $img_path_normal_2;
+global $img_path_webp_1;
+global $img_path_webp_2;
+?>
 
 <?php get_header(); ?>
 

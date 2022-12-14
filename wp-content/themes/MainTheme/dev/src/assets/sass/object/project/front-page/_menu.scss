@@ -4,8 +4,8 @@
   margin-top: 4rem;
 
   @include global.max-screen(global.$breakpoint_pc) {
-   margin-top: 110px;
-   padding-top: 40px;
+    margin-top: 110px;
+    padding-top: 40px;
   }
 }
 
@@ -89,6 +89,34 @@
   }
 }
 
+.webp {
+  .p-frontMenu__itemTop {
+    background-image: url(#{global.$path_img}webp/1x/front/front-company-factory-01.webp);
+    background-image: image-set(
+      url(#{global.$path_img}webp/1x/front/front-company-factory-01.webp) 1x,
+      url(#{global.$path_img}webp/2x/front/front-company-factory-01@2x.webp) 2x
+    );
+    background-image: -webkit-image-set(
+      url(#{global.$path_img}webp/1x/front/front-company-factory-01.webp) 1x,
+      url(#{global.$path_img}webp/2x/front/front-company-factory-01@2x.webp) 2x
+    );
+  }
+}
+
+.no-webp {
+  .p-frontMenu__itemTop {
+    background-image: url(#{global.$path_img}normal/1x/front/front-company-factory-01.jpg);
+    background-image: image-set(
+      url(#{global.$path_img}normal/1x/front/front-company-factory-01.jpg) 1x,
+      url(#{global.$path_img}normal/2x/front/front-company-factory-01@2x.jpg) 2x
+    );
+    background-image: -webkit-image-set(
+      url(#{global.$path_img}normal/1x/front/front-company-factory-01.jpg) 1x,
+      url(#{global.$path_img}normal/2x/front/front-company-factory-01@2x.jpg) 2x
+    );
+  }
+}
+
 .p-frontMenu__itemBottom {
   display: flex;
   flex-direction: column;
@@ -140,12 +168,63 @@
         }
       }
     }
+  }
+}
 
-    &:nth-child(1) {
-      background-image: url(#{global.$path_img}/normal/1x/front/front-menu-02.png);
+.webp {
+  .p-frontMenu__itemBottom {
+    .p-frontMenu__item {
+      &:nth-child(1) {
+        background-image: url(#{global.$path_img}webp/1x/front/front-menu-02.webp);
+        background-image: image-set(
+          url(#{global.$path_img}webp/1x/front/front-menu-02.webp) 1x,
+          url(#{global.$path_img}webp/2x/front/front-menu-02@2x.webp) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}webp/1x/front/front-menu-02.webp) 1x,
+          url(#{global.$path_img}webp/2x/front/front-menu-02@2x.webp) 2x
+        );
+      }
+      &:nth-child(2) {
+        background-image: url(#{global.$path_img}webp/1x/front/front-menu-03.webp);
+        background-image: image-set(
+          url(#{global.$path_img}webp/1x/front/front-menu-03.webp) 1x,
+          url(#{global.$path_img}webp/2x/front/front-menu-03@2x.webp) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}webp/1x/front/front-menu-03.webp) 1x,
+          url(#{global.$path_img}webp/2x/front/front-menu-03@2x.webp) 2x
+        );
+      }
     }
-    &:nth-child(2) {
-      background-image: url(#{global.$path_img}/normal/1x/front/front-menu-03.png);
+  }
+}
+
+.no-webp {
+  .p-frontMenu__itemBottom {
+    .p-frontMenu__item {
+      &:nth-child(1) {
+        background-image: url(#{global.$path_img}normal/1x/front/front-menu-02.png);
+        background-image: image-set(
+          url(#{global.$path_img}normal/1x/front/front-menu-02.png) 1x,
+          url(#{global.$path_img}normal/2x/front/front-menu-02@2x.png) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}normal/1x/front/front-menu-02.png) 1x,
+          url(#{global.$path_img}normal/2x/front/front-menu-02@2x.png) 2x
+        );
+      }
+      &:nth-child(2) {
+        background-image: url(#{global.$path_img}normal/1x/front/front-menu-03.png);
+        background-image: image-set(
+          url(#{global.$path_img}normal/1x/front/front-menu-03.png) 1x,
+          url(#{global.$path_img}normal/2x/front/front-menu-03@2x.png) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}normal/1x/front/front-menu-03.png) 1x,
+          url(#{global.$path_img}normal/2x/front/front-menu-03@2x.png) 2x
+        );
+      }
     }
   }
 }

@@ -105,14 +105,19 @@ add_filter('wpcf7_form_elements', 'my_wpcf7_form_elements');
 
 
 // 画像パス変数
-function TMS_img_path()
+function img_path()
 {
-  global $TMS_img_1;
-  $TMS_img_1 = "/public/img/normal/1x/";
-  global $TMS_img_2;
-  $TMS_img_2 = "/public/img/normal/2x/";
+  global $img_path_normal_1;
+  $img_path_normal_1 = "/public/img/normal/1x/";
+  global $img_path_normal_2;
+  $img_path_normal_2 = "/public/img/normal/2x/";
+
+  global $img_path_webp_1;
+  $img_path_webp_1 = "/public/img/webp/1x/";
+  global $img_path_webp_2;
+  $img_path_webp_2 = "/public/img/webp/2x/";
 }
-add_action('after_setup_theme', 'TMS_img_path');
+add_action('after_setup_theme', 'img_path');
 
 // ファーストビューカスタムフィールド
 function add_scf_fv($settings, $type, $id, $meta_type)

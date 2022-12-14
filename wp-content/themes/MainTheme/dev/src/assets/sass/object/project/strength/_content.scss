@@ -31,18 +31,103 @@
   @include global.max-screen(global.$breakpoint_pc) {
     height: 150px;
   }
+}
 
-  &:nth-child(1) {
-    background-image: url(#{global.$path_img}/normal/1x/strength/strength-content-01.png);
+.webp {
+  .p-strengthContent__item {
+    &:nth-child(1) {
+      background-image: url(#{global.$path_img}webp/1x/strength/strength-content-01.webp);
+      background-image: image-set(
+        url(#{global.$path_img}webp/1x/strength/strength-content-01.webp) 1x,
+        url(#{global.$path_img}webp/2x/strength/strength-content-01@2x.webp) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}webp/1x/strength/sstrength-content-01.webp) 1x,
+        url(#{global.$path_img}webp/2x/strength/strength-content-01@2x.webp) 2x
+      );
+    }
+    &:nth-child(2) {
+      background-image: url(#{global.$path_img}webp/1x/strength/strength-content-02.webp);
+      background-image: image-set(
+        url(#{global.$path_img}webp/1x/strength/strength-content-02.webp) 1x,
+        url(#{global.$path_img}webp/2x/strength/strength-content-02@2x.webp) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}webp/1x/strength/sstrength-content-02.webp) 1x,
+        url(#{global.$path_img}webp/2x/strength/strength-content-02@2x.webp) 2x
+      );
+    }
+    &:nth-child(3) {
+      background-image: url(#{global.$path_img}webp/1x/strength/strength-content-03.webp);
+      background-image: image-set(
+        url(#{global.$path_img}webp/1x/strength/strength-content-03.webp) 1x,
+        url(#{global.$path_img}webp/2x/strength/strength-content-03@2x.webp) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}webp/1x/strength/sstrength-content-03.webp) 1x,
+        url(#{global.$path_img}webp/2x/strength/strength-content-03@2x.webp) 2x
+      );
+    }
+    &:nth-child(4) {
+      background-image: url(#{global.$path_img}webp/1x/strength/strength-content-04.webp);
+      background-image: image-set(
+        url(#{global.$path_img}webp/1x/strength/strength-content-04.webp) 1x,
+        url(#{global.$path_img}webp/2x/strength/strength-content-04@2x.webp) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}webp/1x/strength/sstrength-content-04.webp) 1x,
+        url(#{global.$path_img}webp/2x/strength/strength-content-04@2x.webp) 2x
+      );
+    }
   }
-  &:nth-child(2) {
-    background-image: url(#{global.$path_img}/normal/1x/strength/strength-content-02.png);
-  }
-  &:nth-child(3) {
-    background-image: url(#{global.$path_img}/normal/1x/strength/strength-content-03.png);
-  }
-  &:nth-child(4) {
-    background-image: url(#{global.$path_img}/normal/1x/strength/strength-content-04.png);
+}
+
+.no-webp {
+  .p-strengthContent__item {
+    &:nth-child(1) {
+      background-image: url(#{global.$path_img}normal/1x/strength/strength-content-01.png);
+      background-image: image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-content-01.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-content-01@2x.png) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-content-01.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-content-01@2x.png) 2x
+      );
+    }
+    &:nth-child(2) {
+      background-image: url(#{global.$path_img}normal/1x/strength/strength-content-02.png);
+      background-image: image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-content-02.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-content-02@2x.png) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-content-02.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-content-02@2x.png) 2x
+      );
+    }
+    &:nth-child(3) {
+      background-image: url(#{global.$path_img}normal/1x/strength/strength-content-03.png);
+      background-image: image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-content-03.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-content-03@2x.png) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-content-03.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-content-03@2x.png) 2x
+      );
+    }
+    &:nth-child(4) {
+      background-image: url(#{global.$path_img}normal/1x/strength/strength-content-04.png);
+      background-image: image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-content-04.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-content-04@2x.png) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-content-04.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-content-04@2x.png) 2x
+      );
+    }
   }
 }
 
@@ -67,6 +152,7 @@
     text-align: center;
     padding-top: 120px;
     letter-spacing: 0em;
+    font-weight: normal;
 
     @include global.max-screen(global.$breakpoint_pc) {
       padding-top: 60px;

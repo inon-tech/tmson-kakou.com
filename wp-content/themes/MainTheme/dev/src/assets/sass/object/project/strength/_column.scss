@@ -272,16 +272,66 @@
       }
     }
   }
+}
 
-  &:nth-child(1) {
-    .p-strengthColumn__leftImg {
-      background-image: url(#{global.$path_img}/normal/1x/strength/strength-2column-01.png);
+.webp {
+  .p-strengthColumn__item {
+    &:nth-child(1) {
+      .p-strengthColumn__leftImg {
+        background-image: url(#{global.$path_img}webp/1x/strength/strength-2column-01.webp);
+        background-image: image-set(
+          url(#{global.$path_img}webp/1x/strength/strength-2column-01.webp) 1x,
+          url(#{global.$path_img}webp/2x/strength/strength-2column-01@2x.webp) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}webp/1x/strength/strength-2column-01.webp) 1x,
+          url(#{global.$path_img}webp/2x/strength/strength-2column-01@2x.webp) 2x
+        );
+      }
+    }
+    &:nth-child(2) {
+      .p-strengthColumn__leftImg {
+        background-image: url(#{global.$path_img}webp/1x/strength/strength-2column-02.webp);
+        background-image: image-set(
+          url(#{global.$path_img}webp/1x/strength/strength-2column-02.webp) 1x,
+          url(#{global.$path_img}webp/2x/strength/strength-2column-02@2x.webp) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}webp/1x/strength/strength-2column-02.webp) 1x,
+          url(#{global.$path_img}webp/2x/strength/strength-2column-02@2x.webp) 2x
+        );
+      }
     }
   }
+}
 
-  &:nth-child(2) {
-    .p-strengthColumn__leftImg {
-      background-image: url(#{global.$path_img}/normal/1x/strength/strength-2column-02.png);
+.no-webp {
+  .p-strengthColumn__item {
+    &:nth-child(1) {
+      .p-strengthColumn__leftImg {
+        background-image: url(#{global.$path_img}normal/1x/strength/strength-2column-01.png);
+        background-image: image-set(
+          url(#{global.$path_img}normal/1x/strength/strength-2column-01.png) 1x,
+          url(#{global.$path_img}normal/2x/strength/strength-2column-01@2x.png) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}normal/1x/strength/strength-2column-01.png) 1x,
+          url(#{global.$path_img}normal/2x/strength/strength-2column-01@2x.png) 2x
+        );
+      }
+    }
+    &:nth-child(2) {
+      .p-strengthColumn__leftImg {
+        background-image: url(#{global.$path_img}normal/1x/strength/strength-2column-02.png);
+        background-image: image-set(
+          url(#{global.$path_img}normal/1x/strength/strength-2column-02.png) 1x,
+          url(#{global.$path_img}normal/2x/strength/strength-2column-02@2x.png) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}normal/1x/strength/strength-2column-02.png) 1x,
+          url(#{global.$path_img}normal/2x/strength/strength-2column-02@2x.png) 2x
+        );
+      }
     }
   }
 }

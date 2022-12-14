@@ -42,6 +42,45 @@
     }
   }
 
+  @include global.max-screen(1284px) {
+    &:nth-child(3) {
+      .p-companyHistory__right {
+        &::before {
+          top: 122px !important;
+        }
+        &::after {
+          top: 122px !important;
+        }
+      }
+    }
+  }
+
+  @include global.max-screen(1019px) {
+    &:nth-child(3) {
+      .p-companyHistory__right {
+        &::before {
+          top: 154px !important;
+        }
+        &::after {
+          top: 154px !important;
+        }
+      }
+    }
+  }
+
+  @include global.max-screen(999px) {
+    &:nth-child(3) {
+      .p-companyHistory__right {
+        &::before {
+          top: 78px !important;
+        }
+        &::after {
+          top: 78px !important;
+        }
+      }
+    }
+  }
+
   @include global.max-screen(636px) {
     &:nth-child(3) {
       .p-companyHistory__right {
@@ -54,6 +93,46 @@
       }
     }
   }
+
+  @include global.max-screen(999px) {
+    &:nth-child(5) {
+      .p-companyHistory__right {
+        &::before {
+          top: 78px !important;
+        }
+        &::after {
+          top: 78px !important;
+        }
+      }
+    }
+  }
+
+  @include global.max-screen(1283px) {
+    &:nth-child(5) {
+      .p-companyHistory__right {
+        &::before {
+          top: 122px !important;
+        }
+        &::after {
+          top: 122px !important;
+        }
+      }
+    }
+  }
+
+  @include global.max-screen(1019px) {
+    &:nth-child(5) {
+      .p-companyHistory__right {
+        &::before {
+          top: 154px !important;
+        }
+        &::after {
+          top: 154px !important;
+        }
+      }
+    }
+  }
+  
   @include global.max-screen(548px) {
     &:nth-child(5) {
       .p-companyHistory__right {
@@ -92,8 +171,6 @@
       }
     }
   }
-
-  
 
   &:nth-child(2n) {
     flex-direction: row-reverse;
@@ -365,6 +442,146 @@
   &:nth-child(5) {
     .p-companyHistory__leftImg {
       background-image: url(#{global.$path_img}/normal/1x/company/company-history-05.png);
+    }
+  }
+}
+
+.webp {
+  .p-companyHistory__item {
+    &:nth-child(1) {
+      .p-companyHistory__leftImg {
+        background-image: url(#{global.$path_img}webp/1x/company/company-history-01.webp);
+        background-image: image-set(
+          url(#{global.$path_img}webp/1x/company/company-history-01.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-history-01@2x.webp) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}webp/1x/company/company-history-01.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-history-01@2x.webp) 2x
+        );
+      }
+    }
+    &:nth-child(2) {
+      .p-companyHistory__leftImg {
+        background-image: url(#{global.$path_img}webp/1x/company/company-history-02.webp);
+        background-image: image-set(
+          url(#{global.$path_img}webp/1x/company/company-history-02.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-history-02@2x.webp) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}webp/1x/company/company-history-02.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-history-02@2x.webp) 2x
+        );
+      }
+    }
+    &:nth-child(3) {
+      .p-companyHistory__leftImg {
+        background-image: url(#{global.$path_img}webp/1x/company/company-history-03.webp);
+        background-image: image-set(
+          url(#{global.$path_img}webp/1x/company/company-history-03.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-history-03@2x.webp) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}webp/1x/company/company-history-03.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-history-03@2x.webp) 2x
+        );
+      }
+    }
+    &:nth-child(4) {
+      .p-companyHistory__leftImg {
+        background-image: url(#{global.$path_img}webp/1x/company/company-history-04.webp);
+        background-image: image-set(
+          url(#{global.$path_img}webp/1x/company/company-history-04.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-history-04@2x.webp) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}webp/1x/company/company-history-04.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-history-04@2x.webp) 2x
+        );
+      }
+    }
+    &:nth-child(5) {
+      .p-companyHistory__leftImg {
+        background-image: url(#{global.$path_img}webp/1x/company/company-history-05.webp);
+        background-image: image-set(
+          url(#{global.$path_img}webp/1x/company/company-history-05.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-history-05@2x.webp) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}webp/1x/company/company-history-05.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-history-05@2x.webp) 2x
+        );
+      }
+    }
+  }
+}
+
+.no-webp {
+  .p-companyHistory__item {
+    &:nth-child(1) {
+      .p-companyHistory__leftImg {
+        background-image: url(#{global.$path_img}normal/1x/company-history-01.png);
+        background-image: image-set(
+          url(#{global.$path_img}normal/1x/company-history-01.png) 1x,
+          url(#{global.$path_img}normal/2x/company-history-01@2x.png) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}normal/1x/company-history-01.png) 1x,
+          url(#{global.$path_img}normal/2x/company-history-01@2x.png) 2x
+        );
+      }
+    }
+    &:nth-child(2) {
+      .p-companyHistory__leftImg {
+        background-image: url(#{global.$path_img}normal/1x/company-history-02.png);
+        background-image: image-set(
+          url(#{global.$path_img}normal/1x/company-history-02.png) 1x,
+          url(#{global.$path_img}normal/2x/company-history-02@2x.png) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}normal/1x/company-history-02.png) 1x,
+          url(#{global.$path_img}normal/2x/company-history-02@2x.png) 2x
+        );
+      }
+    }
+    &:nth-child(3) {
+      .p-companyHistory__leftImg {
+        background-image: url(#{global.$path_img}normal/1x/company-history-03.png);
+        background-image: image-set(
+          url(#{global.$path_img}normal/1x/company-history-03.png) 1x,
+          url(#{global.$path_img}normal/2x/company-history-03@2x.png) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}normal/1x/company-history-03.png) 1x,
+          url(#{global.$path_img}normal/2x/company-history-03@2x.png) 2x
+        );
+      }
+    }
+    &:nth-child(4) {
+      .p-companyHistory__leftImg {
+        background-image: url(#{global.$path_img}normal/1x/company-history-04.png);
+        background-image: image-set(
+          url(#{global.$path_img}normal/1x/company-history-04.png) 1x,
+          url(#{global.$path_img}normal/2x/company-history-04@2x.png) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}normal/1x/company-history-04.png) 1x,
+          url(#{global.$path_img}normal/2x/company-history-04@2x.png) 2x
+        );
+      }
+    }
+    &:nth-child(5) {
+      .p-companyHistory__leftImg {
+        background-image: url(#{global.$path_img}normal/1x/company-history-05.png);
+        background-image: image-set(
+          url(#{global.$path_img}normal/1x/company-history-05.png) 1x,
+          url(#{global.$path_img}normal/2x/company-history-05@2x.png) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}normal/1x/company-history-05.png) 1x,
+          url(#{global.$path_img}normal/2x/company-history-05@2x.png) 2x
+        );
+      }
     }
   }
 }

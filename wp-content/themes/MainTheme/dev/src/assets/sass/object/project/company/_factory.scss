@@ -30,11 +30,9 @@
       height: 100%;
       width: calc(100% - 200px);
       z-index: 1;
-      background-image: url(#{global.$path_img}/normal/1x/company/company-factory-01.png);
 
       @include global.max-screen(global.$breakpoint_pc) {
         width: 82.66666666%;
-        background-image: url(#{global.$path_img}/normal/1x/company/company-factory-01-sp.png);
       }
     }
 
@@ -97,11 +95,129 @@
       height: 100%;
       width: calc(100% - 200px);
       z-index: 1;
-      background-image: url(#{global.$path_img}/normal/1x/company/company-factory-02.png);
 
       @include global.max-screen(global.$breakpoint_pc) {
         width: 82.66666666%;
-        background-image: url(#{global.$path_img}/normal/1x/company/company-factory-02-sp.png);
+      }
+    }
+  }
+}
+
+.webp {
+  .p-companyFactory__item {
+    &:nth-child(1) {
+      .p-companyFactory__left {
+        background-image: url(#{global.$path_img}webp/1x/company/company-factory-01.webp);
+        background-image: image-set(
+          url(#{global.$path_img}webp/1x/company/company-factory-01.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-factory-01@2x.webp) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}webp/1x/company/company-factory-01.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-factory-01@2x.webp) 2x
+        );
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          background-image: url(#{global.$path_img}webp/1x/company/company-factory-01-sp.webp);
+          background-image: image-set(
+            url(#{global.$path_img}webp/1x/company/company-factory-01-sp.webp) 1x,
+            url(#{global.$path_img}webp/2x/company/company-factory-01-sp@2x.webp) 2x
+          );
+          background-image: -webkit-image-set(
+            url(#{global.$path_img}webp/1x/company/company-factory-01-sp.webp) 1x,
+            url(#{global.$path_img}webp/2x/company/company-factory-01-sp@2x.webp) 2x
+          );
+        }
+      }
+    }
+  }
+}
+
+.no-webp {
+  .p-companyFactory__item {
+    &:nth-child(1) {
+      .p-companyFactory__left {
+        background-image: url(#{global.$path_img}normal/1x/company-factory-01.png);
+        background-image: image-set(
+          url(#{global.$path_img}normal/1x/company-factory-01.png) 1x,
+          url(#{global.$path_img}normal/2x/company-factory-01@2x.png) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}normal/1x/company-factory-01.png) 1x,
+          url(#{global.$path_img}normal/2x/company-factory-01@2x.png) 2x
+        );
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          background-image: url(#{global.$path_img}normal/1x/company/company-factory-01-sp.png);
+          background-image: image-set(
+            url(#{global.$path_img}normal/1x/company/company-factory-01-sp.png) 1x,
+            url(#{global.$path_img}normal/2x/company/company-factory-01-sp@2x.png) 2x
+          );
+          background-image: -webkit-image-set(
+            url(#{global.$path_img}normal/1x/company/company-factory-01-sp.png) 1x,
+            url(#{global.$path_img}normal/2x/company/company-factory-01-sp@2x.png) 2x
+          );
+        }
+      }
+    }
+  }
+}
+
+.webp {
+  .p-companyFactory__item {
+    &:nth-child(2) {
+      .p-companyFactory__right {
+        background-image: url(#{global.$path_img}webp/1x/company/company-factory-02.webp);
+        background-image: image-set(
+          url(#{global.$path_img}webp/1x/company/company-factory-02.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-factory-02@2x.webp) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}webp/1x/company/company-factory-02.webp) 1x,
+          url(#{global.$path_img}webp/2x/company/company-factory-02@2x.webp) 2x
+        );
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          background-image: url(#{global.$path_img}webp/1x/company/company-factory-02-sp.webp);
+          background-image: image-set(
+            url(#{global.$path_img}webp/1x/company/company-factory-02-sp.webp) 1x,
+            url(#{global.$path_img}webp/2x/company/company-factory-02-sp@2x.webp) 2x
+          );
+          background-image: -webkit-image-set(
+            url(#{global.$path_img}webp/1x/company/company-factory-02-sp.webp) 1x,
+            url(#{global.$path_img}webp/2x/company/company-factory-02-sp@2x.webp) 2x
+          );
+        }
+      }
+    }
+  }
+}
+
+.no-webp {
+  .p-companyFactory__item {
+    &:nth-child(2) {
+      .p-companyFactory__right {
+        background-image: url(#{global.$path_img}normal/1x/company-factory-02.png);
+        background-image: image-set(
+          url(#{global.$path_img}normal/1x/company-factory-02.png) 1x,
+          url(#{global.$path_img}normal/2x/company-factory-02@2x.png) 2x
+        );
+        background-image: -webkit-image-set(
+          url(#{global.$path_img}normal/1x/company-factory-02.png) 1x,
+          url(#{global.$path_img}normal/2x/company-factory-02@2x.png) 2x
+        );
+
+        @include global.max-screen(global.$breakpoint_pc) {
+          background-image: url(#{global.$path_img}normal/1x/company/company-factory-02-sp.png);
+          background-image: image-set(
+            url(#{global.$path_img}normal/1x/company/company-factory-02-sp.png) 1x,
+            url(#{global.$path_img}normal/2x/company/company-factory-02-sp@2x.png) 2x
+          );
+          background-image: -webkit-image-set(
+            url(#{global.$path_img}normal/1x/company/company-factory-02-sp.png) 1x,
+            url(#{global.$path_img}normal/2x/company/company-factory-02-sp@2x.png) 2x
+          );
+        }
       }
     }
   }

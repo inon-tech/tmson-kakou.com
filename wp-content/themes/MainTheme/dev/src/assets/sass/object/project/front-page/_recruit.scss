@@ -70,14 +70,80 @@
     height: 100%;
     min-height: 75px;
   }
+}
 
-  &:nth-child(1) {
-    background-image: url(#{global.$path_img}/normal/1x/front/front-recruit-01.png);
+.webp {
+  .p-frontRecruit__item {
+    &:nth-child(1) {
+      background-image: url(#{global.$path_img}webp/1x/front/front-recruit-01.webp);
+      background-image: image-set(
+        url(#{global.$path_img}webp/1x/front/front-recruit-01.webp) 1x,
+        url(#{global.$path_img}webp/2x/front/front-recruit-01@2x.webp) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}webp/1x/front/front-recruit-01.webp) 1x,
+        url(#{global.$path_img}webp/2x/front/front-recruit-01@2x.webp) 2x
+      );
+    }
+    &:nth-child(2) {
+      background-image: url(#{global.$path_img}webp/1x/front/front-recruit-02.webp);
+      background-image: image-set(
+        url(#{global.$path_img}webp/1x/front/front-recruit-02.webp) 1x,
+        url(#{global.$path_img}webp/2x/front/front-recruit-02@2x.webp) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}webp/1x/front/front-recruit-02.webp) 1x,
+        url(#{global.$path_img}webp/2x/front/front-recruit-02@2x.webp) 2x
+      );
+    }
+    &:nth-child(3) {
+      background-image: url(#{global.$path_img}webp/1x/front/front-recruit-03.webp);
+      background-image: image-set(
+        url(#{global.$path_img}webp/1x/front/front-recruit-03.webp) 1x,
+        url(#{global.$path_img}webp/2x/front/front-recruit-03@2x.webp) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}webp/1x/front/front-recruit-03.webp) 1x,
+        url(#{global.$path_img}webp/2x/front/front-recruit-03@2x.webp) 2x
+      );
+    }
   }
-  &:nth-child(2) {
-    background-image: url(#{global.$path_img}/normal/1x/front/front-recruit-02.png);
-  }
-  &:nth-child(3) {
-    background-image: url(#{global.$path_img}/normal/1x/front/front-recruit-03.png);
+}
+
+.no-webp {
+  .p-frontRecruit__item {
+    &:nth-child(1) {
+      background-image: url(#{global.$path_img}normal/1x/front/front-recruit-01.png);
+      background-image: image-set(
+        url(#{global.$path_img}normal/1x/front/front-recruit-01.png) 1x,
+        url(#{global.$path_img}normal/2x/front/front-recruit-01@2x.png) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}normal/1x/front/front-recruit-01.png) 1x,
+        url(#{global.$path_img}normal/2x/front/front-recruit-01@2x.png) 2x
+      );
+    }
+    &:nth-child(2) {
+      background-image: url(#{global.$path_img}normal/1x/front/front-recruit-02.png);
+      background-image: image-set(
+        url(#{global.$path_img}normal/1x/front/front-recruit-02.png) 1x,
+        url(#{global.$path_img}normal/2x/front/front-recruit-02@2x.png) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}normal/1x/front/front-recruit-02.png) 1x,
+        url(#{global.$path_img}normal/2x/front/front-recruit-02@2x.png) 2x
+      );
+    }
+    &:nth-child(3) {
+      background-image: url(#{global.$path_img}normal/1x/front/front-recruit-03.png);
+      background-image: image-set(
+        url(#{global.$path_img}normal/1x/front/front-recruit-03.png) 1x,
+        url(#{global.$path_img}normal/2x/front/front-recruit-03@2x.png) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}normal/1x/front/front-recruit-03.png) 1x,
+        url(#{global.$path_img}normal/2x/front/front-recruit-03@2x.png) 2x
+      );
+    }
   }
 }
