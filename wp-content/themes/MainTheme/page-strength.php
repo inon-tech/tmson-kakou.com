@@ -37,7 +37,7 @@ Template Name:テムソンの強み
         <a href="">
           <div class="p-strengthMenu__dark">
             <div class="p-strengthMenu__text">
-              <h3>マニシング加工</h3>
+              <h3 class="bold">マニシング加工</h3>
               <p>紙図面、2D・3DCADデータから制作可能です。<br>
                 3D加工にも対応いたします。</p>
             </div>
@@ -48,7 +48,7 @@ Template Name:テムソンの強み
         <a href="">
           <div class="p-strengthMenu__dark">
             <div class="p-strengthMenu__text">
-              <h3>NC 旋盤加工</h3>
+              <h3 class="bold">NC 旋盤加工</h3>
               <p>独自の技術や経験を生かした加工に自身があります。<br>
                 どんなことでもまずはご相談ください。</p>
             </div>
@@ -59,7 +59,7 @@ Template Name:テムソンの強み
         <a href="">
           <div class="p-strengthMenu__dark">
             <div class="p-strengthMenu__text">
-              <h3>ワイヤーカット加工</h3>
+              <h3 class="bold">ワイヤーカット加工</h3>
               <p>繊細な形状加工や熱処理後の精度加工、
                 ワイヤーのみの追加工などにも対応します。</p>
             </div>
@@ -70,7 +70,7 @@ Template Name:テムソンの強み
         <a href="">
           <div class="p-strengthMenu__dark">
             <div class="p-strengthMenu__text">
-              <h3>汎用加工</h3>
+              <h3 class="bold">汎用加工</h3>
               <p>単品1個から小ロット量産まで大小さまざまな加工に対応いたします。<br class="SP-none">
                 また市販部品の追加工など、ニーズにあわせて受難に対応いたします。</p>
             </div>
@@ -84,7 +84,7 @@ Template Name:テムソンの強み
           <a href="">
             <div class="p-strengthMenu__dark">
               <div class="p-strengthMenu__text">
-                <h3>フライス<br>
+                <h3 class="bold">フライス<br>
                   加工</h3>
               </div>
             </div>
@@ -94,7 +94,7 @@ Template Name:テムソンの強み
           <a href="">
             <div class="p-strengthMenu__dark">
               <div class="p-strengthMenu__text">
-                <h3>平面<br>
+                <h3 class="bold">平面<br>
                   研削</h3>
               </div>
             </div>
@@ -104,7 +104,7 @@ Template Name:テムソンの強み
           <a href="">
             <div class="p-strengthMenu__dark">
               <div class="p-strengthMenu__text">
-                <h3>旋盤<br>
+                <h3 class="bold">旋盤<br>
                   加工</h3>
               </div>
             </div>
@@ -116,7 +116,7 @@ Template Name:テムソンの強み
           <a href="">
             <div class="p-strengthMenu__dark">
               <div class="p-strengthMenu__text">
-                <h3>鋳物<br>
+                <h3 class="bold">鋳物<br>
                   加工</h3>
               </div>
             </div>
@@ -126,7 +126,7 @@ Template Name:テムソンの強み
           <a href="">
             <div class="p-strengthMenu__dark">
               <div class="p-strengthMenu__text">
-                <h3>治具<br>
+                <h3 class="bold">治具<br>
                   製作</h3>
               </div>
             </div>
@@ -136,7 +136,7 @@ Template Name:テムソンの強み
           <a href="">
             <div class="p-strengthMenu__dark">
               <div class="p-strengthMenu__text">
-                <h3>組立</h3>
+                <h3 class="bold">組立</h3>
               </div>
             </div>
           </a>

@@ -68,7 +68,6 @@
       line-height: calc(48 / 32);
       color: #ffffff;
       letter-spacing: 0em;
-      font-weight: normal;
 
       @include global.max-screen(global.$breakpoint_pc) {
         font-size: 24px;
@@ -147,7 +146,6 @@
       font-size: 32px;
       color: #ffffff;
       text-align: center;
-      font-weight: normal;
 
       @include global.max-screen(global.$breakpoint_pc) {
         font-size: 24px;
@@ -218,7 +216,6 @@
       color: #ffffff;
       text-align: center;
       padding-top: 50px;
-      font-weight: normal;
 
       @include global.max-screen(global.$breakpoint_pc) {
         font-size: 24px;
