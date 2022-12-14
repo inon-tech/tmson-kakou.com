@@ -192,3 +192,124 @@ remove_action('wp_head', 'rel_canonical'); // カノニカル
 remove_action('wp_print_styles', 'print_emoji_styles'); //絵文字に関するCSS
 remove_action('admin_print_scripts', 'print_emoji_detection_script'); // 絵文字に関するJavaScript
 remove_action('admin_print_styles', 'print_emoji_styles'); //絵文字に関するCSS
+
+// JSON-LD構造化
+function json_breadcrumb()
+{
+
+  if (is_admin() || is_home() || is_front_page()) {
+    return;
+  }
+
+  $position  = 1;
+  $query_obj = get_queried_object();
+  $permalink = (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
+  $description = "株式会社テムソンは長野県上伊那郡南箕輪村にある金属加工の会社です。治工具製作・精密機械加工を行っております。また「楽まきくん」という種まき機を販売しております。 ";
+  $json_breadcrumb = array(
+    "@context"        => "http://schema.org",
+    "@type"           => "BreadcrumbList",
+    "itemListElement" => array(
+      array(
+        "@type"    => "ListItem",
+        "position" => $position++,
+        "item"     => array(
+          "@type" => "Thing",
+          "@id"  => esc_url(home_url('/')),
+          "name" => "株式会社テムソン｜長野県上伊那郡南箕輪村にある金属加工の会社です。治工具製作・精密機械加工を行っております。また「楽まきくん」という種まき機を販売しております。 ",
+          "description" => $description,
+          "url" => esc_url(home_url('/')),
+        )
+      ),
+    ),
+  );
+
+  if (is_page()) {
+
+    $ancestors   = get_ancestors($query_obj->ID, 'page');
+    $ancestors_r = array_reverse($ancestors);
+    if (count($ancestors_r) != 0) {
+      foreach ($ancestors_r as $key => $ancestor_id) {
+        $ancestor_obj = get_post($ancestor_id);
+        $json_breadcrumb['itemListElement'][] = array(
+          "@type"    => "ListItem",
+          "position" => $position++,
+          "item"     => array(
+            "@type" => "Thing",
+            "@id"  => esc_url(get_the_permalink($ancestor_obj->ID)),
+            "name" => esc_html($ancestor_obj->post_title),
+            "description" => $description,
+            "url" => esc_url(get_the_permalink($ancestor_obj->ID))
+
+          )
+        );
+      }
+    }
+    $json_breadcrumb['itemListElement'][] = array(
+      "@type"    => "ListItem",
+      "position" => $position++,
+      "item"     => array(
+        "@type" => "Thing",
+        "@id"  => $permalink,
+        "name" => esc_html($query_obj->post_title),
+        "description" => $description
+      )
+    );
+  } elseif (is_post_type_archive()) {
+
+    $json_breadcrumb['itemListElement'][] = array(
+      "@type"    => "ListItem",
+      "position" => $position++,
+      "item"     => array(
+        "@type" => "Thing",
+        "@id"  => esc_url(get_post_type_archive_link($query_obj->name)),
+        "name" => $query_obj->label,
+        "description" => $description,
+        "url" => esc_url(get_post_type_archive_link($query_obj->name))
+      )
+    );
+  } elseif (is_single()) {
+
+    if (!is_single('post')) {
+      $pt_obj = get_post_type_object($query_obj->post_type);
+      $json_breadcrumb['itemListElement'][] = array(
+        "@type"    => "ListItem",
+        "position" => $position++,
+        "item"     => array(
+          "@type" => "Thing",
+          "@id"  => esc_url(get_post_type_archive_link($pt_obj->name)),
+          "name" => $pt_obj->label,
+          "description" => $description,
+          "url" => esc_url(get_post_type_archive_link($pt_obj->name))
+        )
+      );
+    }
+
+    $json_breadcrumb['itemListElement'][] = array(
+      "@type"    => "ListItem",
+      "position" => $position++,
+      "item"     => array(
+        "@type" => "Thing",
+        "@id"  => $permalink,
+        "name" => esc_html($query_obj->post_title),
+        "description" => $description,
+        "url" => esc_html($query_obj->post_title)
+      )
+    );
+  } elseif (is_404()) {
+
+    $json_breadcrumb['itemListElement'][] = array(
+      "@type"    => "ListItem",
+      "position" => $position++,
+      "item"     => array(
+        "@type" => "Thing",
+        "@id"  => $permalink,
+        "name" => "404｜このページは存在しません。",
+        "url" => "$permalink"
+      )
+    );
+  }
+
+  echo '<script type="application/ld+json">' . json_encode($json_breadcrumb) . '</script>';
+}
+
+add_action('wp_head', 'json_breadcrumb');

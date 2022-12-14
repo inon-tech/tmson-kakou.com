@@ -13,10 +13,10 @@
   <meta property="og:site_name" content="">
   <meta property="og:description" content="">
 
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="株式会社テムソンは長野県上伊那郡南箕輪村にある金属加工の会社です。治工具製作・精密機械加工を行っております。また「楽まきくん」という種まき機を販売しております。">
+  <meta name="keywords" content="TMSON, 南箕輪，金属加工, 楽まきくん, マシニングセンタ, NC旋盤, 一貫加工, ワイヤーカット, 特急対応, 切削加工, 大明精機, アルミ加工">
 
-  <title>優れた製品を作り出す アイデアを活かす 切削技術</title>
+  <title>株式会社テムソン｜優れた製品を作り出す アイデアを活かす 切削技術</title>
   <link rel="icon" href="<?php echo esc_url(get_template_directory_uri()); ?>">
 
   <?php wp_head(); ?>
