@@ -71,74 +71,62 @@
   }
 }
 
-  .p-strengthMenu__wrap {
-    .p-strengthMenu__item {
-      &:nth-child(1) {
-        background-image: url(#{global.$path_img}normal/1x/strength/strength-menu-01.png);
-        background-image: image-set(
-          url(#{global.$path_img}normal/1x/strength/strength-menu-01.png) 1x,
-          url(#{global.$path_img}normal/2x/strength/strength-menu-01@2x.png) 2x
-        );
-        background-image: -webkit-image-set(
-          url(#{global.$path_img}normal/1x/strength/strength-menu-01.png) 1x,
-          url(#{global.$path_img}normal/2x/strength/strength-menu-01@2x.png) 2x
-        );
-      }
-      &:nth-child(2) {
-        background-image: url(#{global.$path_img}normal/1x/strength/strength-menu-02.png);
-        background-image: image-set(
-          url(#{global.$path_img}normal/1x/strength/strength-menu-02.png) 1x,
-          url(#{global.$path_img}normal/2x/strength/strength-menu-02@2x.png) 2x
-        );
-        background-image: -webkit-image-set(
-          url(#{global.$path_img}normal/1x/strength/strength-menu-02.png) 1x,
-          url(#{global.$path_img}normal/2x/strength/strength-menu-02@2x.png) 2x
-        );
-      }
-      &:nth-child(3) {
-        background-image: url(#{global.$path_img}normal/1x/strength/strength-menu-03.png);
-        background-image: image-set(
-          url(#{global.$path_img}normal/1x/strength/strength-menu-03.png) 1x,
-          url(#{global.$path_img}normal/2x/strength/strength-menu-03@2x.png) 2x
-        );
-        background-image: -webkit-image-set(
-          url(#{global.$path_img}normal/1x/strength/strength-menu-03.png) 1x,
-          url(#{global.$path_img}normal/2x/strength/strength-menu-03@2x.png) 2x
-        );
-      }
-      &:nth-child(4) {
-        background-image: url(#{global.$path_img}normal/1x/strength/strength-menu-04.png);
-        background-image: image-set(
-          url(#{global.$path_img}normal/1x/strength/strength-menu-04.png) 1x,
-          url(#{global.$path_img}normal/2x/strength/strength-menu-04@2x.png) 2x
-        );
-        background-image: -webkit-image-set(
-          url(#{global.$path_img}normal/1x/strength/strength-menu-04.png) 1x,
-          url(#{global.$path_img}normal/2x/strength/strength-menu-04@2x.png) 2x
-        );
-      }
+.p-strengthMenu__wrap {
+  .p-strengthMenu__item {
+    &:nth-child(1) {
+      background-image: url(#{global.$path_img}normal/1x/strength/strength-menu-01.png);
+      background-image: image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-menu-01.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-menu-01@2x.png) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-menu-01.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-menu-01@2x.png) 2x
+      );
     }
-  }
-
-.p-strengthMenu__BottomWrap {
-  display: flex;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    display: block;
+    &:nth-child(2) {
+      background-image: url(#{global.$path_img}normal/1x/strength/strength-menu-02.png);
+      background-image: image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-menu-02.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-menu-02@2x.png) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-menu-02.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-menu-02@2x.png) 2x
+      );
+    }
+    &:nth-child(3) {
+      background-image: url(#{global.$path_img}normal/1x/strength/strength-menu-03.png);
+      background-image: image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-menu-03.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-menu-03@2x.png) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-menu-03.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-menu-03@2x.png) 2x
+      );
+    }
+    &:nth-child(4) {
+      background-image: url(#{global.$path_img}normal/1x/strength/strength-menu-04.png);
+      background-image: image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-menu-04.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-menu-04@2x.png) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}normal/1x/strength/strength-menu-04.png) 1x,
+        url(#{global.$path_img}normal/2x/strength/strength-menu-04@2x.png) 2x
+      );
+    }
   }
 }
 
-.p-strengthMenu__BLWrap {
+.p-strengthMenu__BottomWrap {
   display: flex;
-  width: 50.01%;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    width: 100%;
-  }
+  flex-wrap: wrap;
   .p-strengthMenu__item {
     position: relative;
     display: block;
-    width: calc(100% / 3);
+    width: calc(100% / 6);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,6 +134,7 @@
 
     @include global.max-screen(global.$breakpoint_pc) {
       height: 125px;
+      width: calc(100% / 3);
     }
 
     &:nth-child(1) {
@@ -181,54 +170,7 @@
         url(#{global.$path_img}normal/2x/strength/strength-menu-07@2x.png) 2x
       );
     }
-  }
-
-  .p-strengthMenu__dark {
-    background: rgba(0, 0, 0, 0.5);
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    transition: 0.3s ease-in-out;
-    width: 100%;
-  }
-
-  .p-strengthMenu__text {
-    padding-top: 3rem;
-    h3 {
-      font-size: 32px;
-      color: #ffffff;
-      text-align: center;
-      font-weight: normal;
-
-      @include global.max-screen(global.$breakpoint_pc) {
-        font-size: 24px;
-      }
-    }
-  }
-}
-
-.p-strengthMenu__BRWrap {
-  display: flex;
-  width: 49.99%;
-
-  @include global.max-screen(global.$breakpoint_pc) {
-    width: 100%;
-  }
-  .p-strengthMenu__item {
-    position: relative;
-    display: block;
-    width: calc(100% / 3);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 175px;
-
-    @include global.max-screen(global.$breakpoint_pc) {
-      height: 125px;
-    }
-
-    &:nth-child(1) {
+    &:nth-child(4) {
       background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-08.png);
       background-image: image-set(
         url(#{global.$path_img}normal/1x/strength/strength-menu-08.png) 1x,
@@ -239,7 +181,7 @@
         url(#{global.$path_img}normal/2x/strength/strength-menu-08@2x.png) 2x
       );
     }
-    &:nth-child(2) {
+    &:nth-child(5) {
       background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-09.png);
       background-image: image-set(
         url(#{global.$path_img}normal/1x/strength/strength-menu-09.png) 1x,
@@ -250,7 +192,7 @@
         url(#{global.$path_img}normal/2x/strength/strength-menu-09@2x.png) 2x
       );
     }
-    &:nth-child(3) {
+    &:nth-child(6) {
       background-image: url(#{global.$path_img}/normal/1x/strength/strength-menu-10.png);
       background-image: image-set(
         url(#{global.$path_img}normal/1x/strength/strength-menu-10.png) 1x,

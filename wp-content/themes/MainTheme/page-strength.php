@@ -75,54 +75,50 @@ Template Name:テムソンの強み
       </div>
     </div>
     <div class="p-strengthMenu__BottomWrap">
-      <div class="p-strengthMenu__BLWrap">
-        <div class="p-strengthMenu__item">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>フライス<br>
-                加工</h3>
-            </div>
-          </div>
-        </div>
-        <div class="p-strengthMenu__item">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>平面<br>
-                研削</h3>
-            </div>
-          </div>
-        </div>
-        <div class="p-strengthMenu__item">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>旋盤<br>
-                加工</h3>
-            </div>
+      <div class="p-strengthMenu__item">
+        <div class="p-strengthMenu__dark">
+          <div class="p-strengthMenu__text">
+            <h3>フライス<br>
+              加工</h3>
           </div>
         </div>
       </div>
-      <div class="p-strengthMenu__BRWrap">
-        <div class="p-strengthMenu__item">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>鋳物<br>
-                加工</h3>
-            </div>
+      <div class="p-strengthMenu__item">
+        <div class="p-strengthMenu__dark">
+          <div class="p-strengthMenu__text">
+            <h3>平面<br>
+              研削</h3>
           </div>
         </div>
-        <div class="p-strengthMenu__item">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>治具<br>
-                製作</h3>
-            </div>
+      </div>
+      <div class="p-strengthMenu__item">
+        <div class="p-strengthMenu__dark">
+          <div class="p-strengthMenu__text">
+            <h3>旋盤<br>
+              加工</h3>
           </div>
         </div>
-        <div class="p-strengthMenu__item">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>組立</h3>
-            </div>
+      </div>
+      <div class="p-strengthMenu__item">
+        <div class="p-strengthMenu__dark">
+          <div class="p-strengthMenu__text">
+            <h3>鋳物<br>
+              加工</h3>
+          </div>
+        </div>
+      </div>
+      <div class="p-strengthMenu__item">
+        <div class="p-strengthMenu__dark">
+          <div class="p-strengthMenu__text">
+            <h3>治具<br>
+              製作</h3>
+          </div>
+        </div>
+      </div>
+      <div class="p-strengthMenu__item">
+        <div class="p-strengthMenu__dark">
+          <div class="p-strengthMenu__text">
+            <h3>組立</h3>
           </div>
         </div>
       </div>
