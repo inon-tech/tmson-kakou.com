@@ -11,7 +11,6 @@ function my_script_init()
   // JS
   wp_enqueue_script('slick', get_template_directory_uri() . '/public/js/slick.min.js', array('jquery'), '1.0.0', true);
   wp_enqueue_script('wow', get_template_directory_uri() . '/public/js/wow.min.js', array('jquery'), '1.0.0', true);
-  wp_enqueue_script('modernizr-custom', get_template_directory_uri() . '/public/js/modernizr-custom.min.js', array('jquery'), '1.0.0', true);
   wp_enqueue_script('scroll-hint', get_template_directory_uri() . '/public/js/scroll-hint.min.js', array('jquery'), '1.0.0', true);
   wp_enqueue_script('my-script', get_template_directory_uri() . '/public/js/script.min.js', array('jquery'), '1.0.0', true);
 }
@@ -111,11 +110,6 @@ function img_path()
   $img_path_normal_1 = "/public/img/normal/1x/";
   global $img_path_normal_2;
   $img_path_normal_2 = "/public/img/normal/2x/";
-
-  global $img_path_webp_1;
-  $img_path_webp_1 = "/public/img/webp/1x/";
-  global $img_path_webp_2;
-  $img_path_webp_2 = "/public/img/webp/2x/";
 }
 add_action('after_setup_theme', 'img_path');
 

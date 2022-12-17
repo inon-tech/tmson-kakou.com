@@ -1,7 +1,5 @@
 <?php global $img_path_normal_1;
 global $img_path_normal_2;
-global $img_path_webp_1;
-global $img_path_webp_2;
 ?>
 
 <?php get_header(); ?>
@@ -17,7 +15,6 @@ Template Name:会社概要
       <div class="l-page-FV__left">
         <h1 class="font-en">COMPANY
           <picture>
-            <source type="image/webp" srcset="<?php echo esc_url(get_template_directory_uri()) . $img_path_webp_1 ?>common/company-title.webp, <?php echo esc_url(get_template_directory_uri()) . $img_path_webp_2 ?>common/company-title@2x.webp 2x">
             <source srcset="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>common/company-title.png, <?php echo esc_url(get_template_directory_uri()) . $img_path_normal_2 ?>common/company-title@2x.png 2x">
             <img class="p-company-title-img" src="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>common/company-title.png" alt="">
           </picture>

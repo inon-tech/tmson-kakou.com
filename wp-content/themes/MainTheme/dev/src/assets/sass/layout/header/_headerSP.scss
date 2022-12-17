@@ -201,7 +201,15 @@
     position: relative;
 
     &::before {
-      background-image: url(/wp-content/themes/MainTheme/public/img/normal/1x/common/tel.png);
+      background-image: url(#{global.$path_img}normal/1x/common/tel.png);
+      background-image: image-set(
+        url(#{global.$path_img}normal/1x/common/tel.png) 1x,
+        url(#{global.$path_img}normal/2x/common/tel@2x.png) 2x
+      );
+      background-image: -webkit-image-set(
+        url(#{global.$path_img}normal/1x/common/tel.png) 1x,
+        url(#{global.$path_img}normal/2x/common/tel@2x.png) 2x
+      );
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -213,38 +221,6 @@
       transform: translateY(-50%);
       width: 30px;
       z-index: 15;
-    }
-  }
-}
-
-.webp {
-  .l-headerSP__tel {
-    &::before {
-      background-image: url(#{global.$path_img}webp/1x/common/tel.webp);
-      background-image: image-set(
-        url(#{global.$path_img}webp/1x/common/tel.webp) 1x,
-        url(#{global.$path_img}webp/2x/common/tel@2x.webp) 2x
-      );
-      background-image: -webkit-image-set(
-        url(#{global.$path_img}webp/1x/common/tel.webp) 1x,
-        url(#{global.$path_img}webp/2x/common/tel@2x.webp) 2x
-      );
-    }
-  }
-}
-
-.no-webp {
-  .l-headerSP__tel {
-    &::before {
-      background-image: url(#{global.$path_img}normal/1x/common/tel.jpg);
-      background-image: image-set(
-        url(#{global.$path_img}normal/1x/common/tel.jpg) 1x,
-        url(#{global.$path_img}normal/2x/common/tel@2x.jpg) 2x
-      );
-      background-image: -webkit-image-set(
-        url(#{global.$path_img}normal/1x/common/tel.jpg) 1x,
-        url(#{global.$path_img}normal/2x/common/tel@2x.jpg) 2x
-      );
     }
   }
 }

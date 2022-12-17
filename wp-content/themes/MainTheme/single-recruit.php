@@ -1,7 +1,5 @@
 <?php global $img_path_normal_1;
 global $img_path_normal_2;
-global $img_path_webp_1;
-global $img_path_webp_2;
 ?>
 <?php get_header(); ?>
 
@@ -16,7 +14,6 @@ Template Name: お知らせ
       <div class="l-page-FV__left">
         <h1 class="font-en">RECRUIT
           <picture>
-            <source type="image/webp" srcset="<?php echo esc_url(get_template_directory_uri()) . $img_path_webp_1 ?>common/recruit-title.webp, <?php echo esc_url(get_template_directory_uri()) . $img_path_webp_2 ?>common/recruit-title@2x.webp 2x">
             <source srcset="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>common/recruit-title.png, <?php echo esc_url(get_template_directory_uri()) . $img_path_normal_2 ?>common/recruit-title@2x.png 2x">
             <img class="p-recruit-title-img" src="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>common/recruit-title.png" alt="">
           </picture>

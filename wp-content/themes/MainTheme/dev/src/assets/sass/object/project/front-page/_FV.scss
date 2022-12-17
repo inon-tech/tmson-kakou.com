@@ -27,23 +27,6 @@
   }
 }
 
-.webp {
-  .p-FV__wrap {
-    &:nth-child(1) {
-      background-image: url(#{global.$path_img}webp/1x/front/front-FV-01.webp);
-      background-image: image-set(
-        url(#{global.$path_img}webp/1x/front/front-FV-01.webp) 1x,
-        url(#{global.$path_img}webp/2x/front/front-FV-01@2x.webp) 2x
-      );
-      background-image: -webkit-image-set(
-        url(#{global.$path_img}webp/1x/front/front-FV-01.webp) 1x,
-        url(#{global.$path_img}webp/2x/front/front-FV-01@2x.webp) 2x
-      );
-    }
-  }
-}
-
-.no-webp {
   .p-FV__wrap {
     &:nth-child(1) {
       background-image: url(#{global.$path_img}normal/1x/front/front-FV-01.jpg);
@@ -57,7 +40,6 @@
       );
     }
   }
-}
 
 .p-frontFV__right {
   position: absolute;

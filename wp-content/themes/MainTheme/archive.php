@@ -1,7 +1,5 @@
 <?php global $img_path_normal_1;
 global $img_path_normal_2;
-global $img_path_webp_1;
-global $img_path_webp_2;
 ?>
 
 <?php get_header(); ?>

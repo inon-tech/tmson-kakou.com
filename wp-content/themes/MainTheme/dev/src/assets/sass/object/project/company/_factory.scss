@@ -11,9 +11,6 @@
   }
 }
 
-.p-companyFactory__list {
-}
-
 .p-companyFactory__item {
   display: flex;
   height: 350px;
@@ -103,48 +100,17 @@
   }
 }
 
-.webp {
   .p-companyFactory__item {
     &:nth-child(1) {
       .p-companyFactory__left {
-        background-image: url(#{global.$path_img}webp/1x/company/company-factory-01.webp);
+        background-image: url(#{global.$path_img}normal/1x/company/company-factory-01.png);
         background-image: image-set(
-          url(#{global.$path_img}webp/1x/company/company-factory-01.webp) 1x,
-          url(#{global.$path_img}webp/2x/company/company-factory-01@2x.webp) 2x
+          url(#{global.$path_img}normal/1x/company/company-factory-01.png) 1x,
+          url(#{global.$path_img}normal/2x/company/company-factory-01@2x.png) 2x
         );
         background-image: -webkit-image-set(
-          url(#{global.$path_img}webp/1x/company/company-factory-01.webp) 1x,
-          url(#{global.$path_img}webp/2x/company/company-factory-01@2x.webp) 2x
-        );
-
-        @include global.max-screen(global.$breakpoint_pc) {
-          background-image: url(#{global.$path_img}webp/1x/company/company-factory-01-sp.webp);
-          background-image: image-set(
-            url(#{global.$path_img}webp/1x/company/company-factory-01-sp.webp) 1x,
-            url(#{global.$path_img}webp/2x/company/company-factory-01-sp@2x.webp) 2x
-          );
-          background-image: -webkit-image-set(
-            url(#{global.$path_img}webp/1x/company/company-factory-01-sp.webp) 1x,
-            url(#{global.$path_img}webp/2x/company/company-factory-01-sp@2x.webp) 2x
-          );
-        }
-      }
-    }
-  }
-}
-
-.no-webp {
-  .p-companyFactory__item {
-    &:nth-child(1) {
-      .p-companyFactory__left {
-        background-image: url(#{global.$path_img}normal/1x/company-factory-01.png);
-        background-image: image-set(
-          url(#{global.$path_img}normal/1x/company-factory-01.png) 1x,
-          url(#{global.$path_img}normal/2x/company-factory-01@2x.png) 2x
-        );
-        background-image: -webkit-image-set(
-          url(#{global.$path_img}normal/1x/company-factory-01.png) 1x,
-          url(#{global.$path_img}normal/2x/company-factory-01@2x.png) 2x
+          url(#{global.$path_img}normal/1x/company/company-factory-01.png) 1x,
+          url(#{global.$path_img}normal/2x/company/company-factory-01@2x.png) 2x
         );
 
         @include global.max-screen(global.$breakpoint_pc) {
@@ -161,50 +127,18 @@
       }
     }
   }
-}
 
-.webp {
   .p-companyFactory__item {
     &:nth-child(2) {
       .p-companyFactory__right {
-        background-image: url(#{global.$path_img}webp/1x/company/company-factory-02.webp);
+        background-image: url(#{global.$path_img}normal/1x/company/company-factory-02.png);
         background-image: image-set(
-          url(#{global.$path_img}webp/1x/company/company-factory-02.webp) 1x,
-          url(#{global.$path_img}webp/2x/company/company-factory-02@2x.webp) 2x
+          url(#{global.$path_img}normal/1x/company/company-factory-02.png) 1x,
+          url(#{global.$path_img}normal/2x/company/company-factory-02@2x.png) 2x
         );
         background-image: -webkit-image-set(
-          url(#{global.$path_img}webp/1x/company/company-factory-02.webp) 1x,
-          url(#{global.$path_img}webp/2x/company/company-factory-02@2x.webp) 2x
-        );
-
-        @include global.max-screen(global.$breakpoint_pc) {
-          background-image: url(#{global.$path_img}webp/1x/company/company-factory-02-sp.webp);
-          background-image: image-set(
-            url(#{global.$path_img}webp/1x/company/company-factory-02-sp.webp) 1x,
-            url(#{global.$path_img}webp/2x/company/company-factory-02-sp@2x.webp) 2x
-          );
-          background-image: -webkit-image-set(
-            url(#{global.$path_img}webp/1x/company/company-factory-02-sp.webp) 1x,
-            url(#{global.$path_img}webp/2x/company/company-factory-02-sp@2x.webp) 2x
-          );
-        }
-      }
-    }
-  }
-}
-
-.no-webp {
-  .p-companyFactory__item {
-    &:nth-child(2) {
-      .p-companyFactory__right {
-        background-image: url(#{global.$path_img}normal/1x/company-factory-02.png);
-        background-image: image-set(
-          url(#{global.$path_img}normal/1x/company-factory-02.png) 1x,
-          url(#{global.$path_img}normal/2x/company-factory-02@2x.png) 2x
-        );
-        background-image: -webkit-image-set(
-          url(#{global.$path_img}normal/1x/company-factory-02.png) 1x,
-          url(#{global.$path_img}normal/2x/company-factory-02@2x.png) 2x
+          url(#{global.$path_img}normal/1x/company/company-factory-02.png) 1x,
+          url(#{global.$path_img}normal/2x/company/company-factory-02@2x.png) 2x
         );
 
         @include global.max-screen(global.$breakpoint_pc) {
@@ -221,4 +155,3 @@
       }
     }
   }
-}

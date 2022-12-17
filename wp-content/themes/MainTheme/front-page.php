@@ -1,7 +1,5 @@
 <?php global $img_path_normal_1;
 global $img_path_normal_2;
-global $img_path_webp_1;
-global $img_path_webp_2;
 ?>
 
 <?php get_header(); ?>
@@ -24,7 +22,6 @@ Template Name:front-page
     <div class="p-frontFV__right SP-none">
       <h2 class="font-en">CUT and CREATE</h2>
       <picture>
-        <source type="image/webp" srcset="<?php echo esc_url(get_template_directory_uri()) . $img_path_webp_1 ?>front/front-FV-title.webp, <?php echo esc_url(get_template_directory_uri()) . $img_path_webp_2 ?>front/front-FV-title@2x.webp 2x">
         <source srcset="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>front/front-FV-title.png, <?php echo esc_url(get_template_directory_uri()) . $img_path_normal_2 ?>front/front-FV-title@2x.png 2x">
         <img src="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>front/front-FV-title.png" alt="">
       </picture>
@@ -88,7 +85,6 @@ Template Name:front-page
     <div class="p-frontFV__right">
       <h2 class="font-en">CUT and CREATE</h2>
       <picture>
-        <source type="image/webp" srcset="<?php echo esc_url(get_template_directory_uri()) . $img_path_webp_1 ?>front/front-FV-title.webp, <?php echo esc_url(get_template_directory_uri()) . $img_path_webp_2 ?>front/front-FV-title@2x.webp 2x">
         <source srcset="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>front/front-FV-title.png, <?php echo esc_url(get_template_directory_uri()) . $img_path_normal_2 ?>front/front-FV-title@2x.png 2x">
         <img src="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>front/front-FV-title.png" alt="">
       </picture>
@@ -251,7 +247,6 @@ Template Name:front-page
       <div class="p-frontRecruit__topWrap">
         <h2 class="p-frontRecruit__title">
           <picture>
-            <source type="image/webp" srcset="<?php echo esc_url(get_template_directory_uri()) . $img_path_webp_1 ?>front/front-Recruit-title.webp, <?php echo esc_url(get_template_directory_uri()) . $img_path_webp_2 ?>front/front-Recruit-title@2x.webp 2x">
             <source srcset="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>front/front-Recruit-title.png, <?php echo esc_url(get_template_directory_uri()) . $img_path_normal_2 ?>front/front-Recruit-title@2x.png 2x">
             <img src="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>front/front-Recruit-title.png" alt="">
           </picture>
