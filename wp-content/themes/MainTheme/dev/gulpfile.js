@@ -64,11 +64,11 @@ function copyImage() {
 		.pipe(gulp.dest('../public/img/'))
 }
 
-function webpImg() {
-	return gulp.src('./src/assets/img/normal/**/*')
-		.pipe(webp())
-		.pipe(gulp.dest('../public/img/webp/'))
-}
+// function webpImg() {
+// 	return gulp.src('./src/assets/img/normal/**/*')
+// 		.pipe(webp())
+// 		.pipe(gulp.dest('../public/img/webp/'))
+// }
 
 exports.compileSass = compileSass;
 exports.watch = watch;
@@ -76,4 +76,4 @@ exports.browserInit = browserInit;
 exports.minImg = minImg
 exports.dev = gulp.parallel(browserInit, watch);
 exports.minJS = minJS;
-exports.build = gulp.parallel(minJS, compileSass, minImg, webpImg);
+exports.build = gulp.parallel(minJS, compileSass, minImg);
