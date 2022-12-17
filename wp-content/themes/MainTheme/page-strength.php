@@ -41,112 +41,92 @@ Template Name:テムソンの強み
 
     <div class="p-strengthMenu__wrap">
       <div class="p-strengthMenu__item">
-        <a href="">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>マニシング加工</h3>
-              <p>紙図面、2D・3DCADデータから制作可能です。<br>
-                3D加工にも対応いたします。</p>
-            </div>
+        <div class="p-strengthMenu__dark">
+          <div class="p-strengthMenu__text">
+            <h3>マニシング加工</h3>
+            <p>紙図面、2D・3DCADデータから制作可能です。<br>
+              3D加工にも対応いたします。</p>
           </div>
-        </a>
+        </div>
       </div>
       <div class="p-strengthMenu__item">
-        <a href="">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>NC 旋盤加工</h3>
-              <p>独自の技術や経験を生かした加工に自身があります。<br>
-                どんなことでもまずはご相談ください。</p>
-            </div>
+        <div class="p-strengthMenu__dark">
+          <div class="p-strengthMenu__text">
+            <h3>NC 旋盤加工</h3>
+            <p>独自の技術や経験を生かした加工に自身があります。<br>
+              どんなことでもまずはご相談ください。</p>
           </div>
-        </a>
+        </div>
       </div>
       <div class="p-strengthMenu__item">
-        <a href="">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>ワイヤーカット加工</h3>
-              <p>繊細な形状加工や熱処理後の精度加工、
-                ワイヤーのみの追加工などにも対応します。</p>
-            </div>
+        <div class="p-strengthMenu__dark">
+          <div class="p-strengthMenu__text">
+            <h3>ワイヤーカット加工</h3>
+            <p>繊細な形状加工や熱処理後の精度加工、
+              ワイヤーのみの追加工などにも対応します。</p>
           </div>
-        </a>
+        </div>
       </div>
       <div class="p-strengthMenu__item">
-        <a href="">
-          <div class="p-strengthMenu__dark">
-            <div class="p-strengthMenu__text">
-              <h3>汎用加工</h3>
-              <p>単品1個から小ロット量産まで大小さまざまな加工に対応いたします。<br class="SP-none">
-                また市販部品の追加工など、ニーズにあわせて受難に対応いたします。</p>
-            </div>
+        <div class="p-strengthMenu__dark">
+          <div class="p-strengthMenu__text">
+            <h3>汎用加工</h3>
+            <p>単品1個から小ロット量産まで大小さまざまな加工に対応いたします。<br class="SP-none">
+              また市販部品の追加工など、ニーズにあわせて受難に対応いたします。</p>
           </div>
-        </a>
+        </div>
       </div>
     </div>
     <div class="p-strengthMenu__BottomWrap">
       <div class="p-strengthMenu__BLWrap">
         <div class="p-strengthMenu__item">
-          <a href="">
-            <div class="p-strengthMenu__dark">
-              <div class="p-strengthMenu__text">
-                <h3>フライス<br>
-                  加工</h3>
-              </div>
+          <div class="p-strengthMenu__dark">
+            <div class="p-strengthMenu__text">
+              <h3>フライス<br>
+                加工</h3>
             </div>
-          </a>
+          </div>
         </div>
         <div class="p-strengthMenu__item">
-          <a href="">
-            <div class="p-strengthMenu__dark">
-              <div class="p-strengthMenu__text">
-                <h3>平面<br>
-                  研削</h3>
-              </div>
+          <div class="p-strengthMenu__dark">
+            <div class="p-strengthMenu__text">
+              <h3>平面<br>
+                研削</h3>
             </div>
-          </a>
+          </div>
         </div>
         <div class="p-strengthMenu__item">
-          <a href="">
-            <div class="p-strengthMenu__dark">
-              <div class="p-strengthMenu__text">
-                <h3>旋盤<br>
-                  加工</h3>
-              </div>
+          <div class="p-strengthMenu__dark">
+            <div class="p-strengthMenu__text">
+              <h3>旋盤<br>
+                加工</h3>
             </div>
-          </a>
+          </div>
         </div>
       </div>
       <div class="p-strengthMenu__BRWrap">
         <div class="p-strengthMenu__item">
-          <a href="">
-            <div class="p-strengthMenu__dark">
-              <div class="p-strengthMenu__text">
-                <h3>鋳物<br>
-                  加工</h3>
-              </div>
+          <div class="p-strengthMenu__dark">
+            <div class="p-strengthMenu__text">
+              <h3>鋳物<br>
+                加工</h3>
             </div>
-          </a>
+          </div>
         </div>
         <div class="p-strengthMenu__item">
-          <a href="">
-            <div class="p-strengthMenu__dark">
-              <div class="p-strengthMenu__text">
-                <h3>治具<br>
-                  製作</h3>
-              </div>
+          <div class="p-strengthMenu__dark">
+            <div class="p-strengthMenu__text">
+              <h3>治具<br>
+                製作</h3>
             </div>
-          </a>
+          </div>
         </div>
         <div class="p-strengthMenu__item">
-          <a href="">
-            <div class="p-strengthMenu__dark">
-              <div class="p-strengthMenu__text">
-                <h3>組立</h3>
-              </div>
+          <div class="p-strengthMenu__dark">
+            <div class="p-strengthMenu__text">
+              <h3>組立</h3>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </div>
@@ -157,40 +137,32 @@ Template Name:テムソンの強み
     <div class="l-innner">
       <div class="p-strengthContent__wrap">
         <div class="p-strengthContent__item">
-          <a href="">
-            <div class="p-strengthContent__dark">
-              <div class="p-strengthContent__text">
-                <h3>ロボット産業</h3>
-              </div>
+          <div class="p-strengthContent__dark">
+            <div class="p-strengthContent__text">
+              <h3>ロボット産業</h3>
             </div>
-          </a>
+          </div>
         </div>
         <div class="p-strengthContent__item">
-          <a href="">
-            <div class="p-strengthContent__dark">
-              <div class="p-strengthContent__text">
-                <h3>機械工具</h3>
-              </div>
+          <div class="p-strengthContent__dark">
+            <div class="p-strengthContent__text">
+              <h3>機械工具</h3>
             </div>
-          </a>
+          </div>
         </div>
         <div class="p-strengthContent__item">
-          <a href="">
-            <div class="p-strengthContent__dark">
-              <div class="p-strengthContent__text">
-                <h3>工作機械</h3>
-              </div>
+          <div class="p-strengthContent__dark">
+            <div class="p-strengthContent__text">
+              <h3>工作機械</h3>
             </div>
-          </a>
+          </div>
         </div>
         <div class="p-strengthContent__item">
-          <a href="">
-            <div class="p-strengthContent__dark">
-              <div class="p-strengthContent__text">
-                <h3>半導体</h3>
-              </div>
+          <div class="p-strengthContent__dark">
+            <div class="p-strengthContent__text">
+              <h3>半導体</h3>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </div>
