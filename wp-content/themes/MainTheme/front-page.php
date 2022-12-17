@@ -65,8 +65,15 @@ Template Name:front-page
                     <?php echo esc_html(get_post_type_object(get_post_type())->label); ?>
                   </div>
                 </div>
-                <div class="p-frontFVNews__name line-clamp">
-                  <?php echo get_the_title(); ?>
+                <div class="p-frontFVNews__name">
+                  <?php
+                  if (mb_strlen($post->post_title, 'UTF-8') > 32) {
+                    $title = mb_substr($post->post_title, 0, 32, 'UTF-8');
+                    echo $title . '…';
+                  } else {
+                    echo $post->post_title;
+                  }
+                  ?>
                 </div>
               </div>
             </a>
