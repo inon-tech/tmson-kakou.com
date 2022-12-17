@@ -17,7 +17,7 @@
     display: block;
     width: 50%;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     height: 175px;
 
@@ -130,7 +130,7 @@
 
 .p-strengthMenu__BLWrap {
   display: flex;
-  width: 50%;
+  width: 50.01%;
 
   @include global.max-screen(global.$breakpoint_pc) {
     width: 100%;
@@ -138,9 +138,9 @@
   .p-strengthMenu__item {
     position: relative;
     display: block;
-    width: 33.3333333%;
+    width: calc(100% / 3);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     height: 175px;
 
@@ -210,7 +210,7 @@
 
 .p-strengthMenu__BRWrap {
   display: flex;
-  width: 50%;
+  width: 49.99%;
 
   @include global.max-screen(global.$breakpoint_pc) {
     width: 100%;
@@ -218,9 +218,9 @@
   .p-strengthMenu__item {
     position: relative;
     display: block;
-    width: 33.3333333%;
+    width: calc(100% / 3);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     height: 175px;
 
