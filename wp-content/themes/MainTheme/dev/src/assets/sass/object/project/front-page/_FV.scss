@@ -185,7 +185,7 @@
   }
 
   a {
-    display: inline-block;
+    display: block;
     &:not(:nth-child(1)) {
       padding-top: 11px;
 
@@ -279,10 +279,11 @@
     background-repeat: no-repeat;
     top: 50%;
     transform: translateY(-50%);
-    right: 20px;
+    left: 557px;
     height: 31px;
     width: 19px;
     transition: 0.3s all;
+
     @include global.max-screen(global.$breakpoint_pc) {
       display: none;
     }
@@ -290,14 +291,9 @@
 
   &:hover {
     color: #b5af41;
-
     &::before {
-      right: -43px;
+      left: 577px;
       background-image: url(#{global.$path_img}/svg/arrow-yellow.svg);
-
-      @include global.max-screen(global.$breakpoint_pc) {
-        right: 0px;
-      }
     }
   }
 }
