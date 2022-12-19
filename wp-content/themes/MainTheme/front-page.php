@@ -247,8 +247,8 @@ Template Name:front-page
       <div class="p-frontRecruit__topWrap">
         <h2 class="p-frontRecruit__title">
           <picture>
-            <source srcset="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>front/front-Recruit-title.png, <?php echo esc_url(get_template_directory_uri()) . $img_path_normal_2 ?>front/front-Recruit-title@2x.png 2x">
-            <img src="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>front/front-Recruit-title.png" alt="">
+            <source srcset="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>front/front-recruit-title.png, <?php echo esc_url(get_template_directory_uri()) . $img_path_normal_2 ?>front/front-recruit-title@2x.png 2x">
+            <img src="<?php echo esc_url(get_template_directory_uri()) . $img_path_normal_1 ?>front/front-recruit-title.png" alt="">
           </picture>
         </h2>
         <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
